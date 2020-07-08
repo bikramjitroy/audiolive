@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WaveSurfer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <main role="main" class="container">
+    <h1 class="mt-5">WaveSurfer Edit Audio</h1>
+    <div class="demo">
+        <script src="https://unpkg.com/wavesurfer.js"></script>
+        <div id="waveform"></div>
+        <script>
+            var wavesurfer = WaveSurfer.create({
+                container: '#waveform',
+                waveColor: 'violet',
+                progressColor: 'purple'
+            });
+            var startTime=0;
+            var endTime=0;
+            var filename= 'ttsTextFile_1594128454.wav'
+            wavesurfer.load(filename);
+            wavesurfer.on('ready', function () {
+		endTime = wavesurfer.getDuration();
+		$('#StartTimeValue').val(0);
+		$('#EndTimeValue').val(wavesurfer.getDuration());
+
+            });
+        </script>
+	<button id="PlayPause" type="button" class="btn btn-primary">PlayPause</button>
+	<button id="PlaySelected" type="button" class="btn btn-success">PlaySelected</button>
+
+	<button id="StartTime" type="button" class="btn btn-info">StartTime</button>
+	<button id="EndTime" type="button" class="btn btn-info">EndTime</button>
+
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="aa">Start and End Time</span>
+          </div>
+          <input id="StartTimeValue" type="text" class="form-control">
+          <input id="EndTimeValue" type="text" class="form-control">
+	</div>
+
+	<button id="ProcessAndReload" type="button" class="btn btn-success">ProcessAndReload</button>
+	<script>
+            $('#PlayPause').on('click', function (e) {
+                wavesurfer.playPause();
+            });
+            $('#StartTime').on('click', function (e) {
+                startTime=wavesurfer.getCurrentTime();
+		startTime=startTime.toFixed(2);
+		$('#StartTimeValue').val(startTime)
+            });
+            $('#EndTime').on('click', function (e) {
+                endTime=wavesurfer.getCurrentTime();
+		endTime = endTime.toFixed(2);
+		$('#EndTimeValue').val(endTime)
+            });
+            $('#PlaySelected').on('click', function (e) {
+		startTime=parseFloat($('#StartTimeValue').val());
+		endTime=parseFloat($('#EndTimeValue').val());
+                wavesurfer.play(startTime, endTime);
+            });
+            $('#ProcessAndReload').on('click', function (e) {
+                $.post("/process",
+                {
+                  srcAudioName: filename,
+                  dstAudioName: "trim-"+filename,
+                  startTime: startTime,
+		  endTime: endTime,
+		  duration: (endTime-startTime).toFixed(2)
+                },
+                function(data, status){
+                   alert("Data: " + data + "\nStatus: " + status);
+                });
+	    });
+        </script>
+    </div>
+    </main>
+
+</body>
+</html>
