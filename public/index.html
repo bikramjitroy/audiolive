@@ -4,85 +4,394 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WaveSurfer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <style>
+        .mt-20 {
+            padding-top: 20px;
+        }
+        .mb-20 {
+            padding-bottom: 20px;
+        }
+        .fixed-height-scroll {
+            flex: 1 1 0; /* flex: 1, which you had before, is equivalent but doesn't work */
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            height: 700px;
+        }
+    </style>
+
+    <script src="audiorecord.js"></script>
+
+    <script>
+        //Set the parameter value based from URL
+        let url = new URL(window.location.href);
+        var userName = 'sonam'
+        var language = 'en'
+        var botID = 'default'
+        var recordingToWavFilePath;
+        var trimWavFilePath;
+
+        //File path for current displaying prompt
+        var currentDisplayPrompt;
+
+        function setvariables() {
+            let languageCode = url.searchParams.get("languageCode");
+            if (languageCode) {
+                language = languageCode;
+            }
+
+            let recorderName = url.searchParams.get("recorderName");
+            if (recorderName) {
+                userName = recorderName;
+            }
+
+            var botIDParam = url.searchParams.get("botID");
+            if (botIDParam) {
+                botID = botIDParam;
+            }
+        }
+    </script>
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        $(window).on('load',function(){
+            setvariables()
+            homePage()
+        });
 
+        function populateData(elementId, typeOfPrompt, jsonResponseData) {
+
+            let promptList = document.getElementById(elementId);
+            promptList.innerHTML = '';
+
+            for (promptId in jsonResponseData) {
+                let promptDetails = jsonResponseData[promptId];
+                let fileName = promptDetails.filename
+                let text = promptDetails.text
+                let fileExist = promptDetails.fileExist
+
+                var li = document.createElement("li");
+                if (fileExist) {
+                    li.setAttribute('class',"list-group-item list-group-item-action list-group-item-success");
+                } else {
+                    li.setAttribute('class',"list-group-item list-group-item-action list-group-item-danger");
+                }
+
+                li.setAttribute('data-toggle',"list");
+                li.setAttribute('data-idkey',promptId);
+                li.setAttribute('data-filename',fileName);
+                li.setAttribute('data-text',text);
+                li.setAttribute('data-fileExist',fileExist);
+                li.innerText = promptId
+                promptList.appendChild(li);
+            }
+
+            promptList.onclick = function(event) {
+                let target = event.target; // where was the click?
+                if (target.tagName != 'LI') return; // not on LI? Then we're not interested
+                let fileUrl = 'recordings/' + userName + '/' + language + '/' + typeOfPrompt + '/' + target.dataset.filename
+                //Load the file 
+                currentDisplayPrompt = {"idkey":target.dataset.idkey, "filename":target.dataset.filename, "text":target.dataset.text, "username":userName, "language":language, "typeOfPrompt":typeOfPrompt, "fullPath": fileUrl, "fileExist":target.dataset.fileExist}
+
+                wavesurferPrompt.load(currentDisplayPrompt.fullPath)
+                $('#promptNameDisplayId').text(currentDisplayPrompt.text)
+                //TODO:Set value  for upload
+            };
+        }
+
+        function populateDate() {
+            $('#scrollPanelListName').text('Date Tokens')
+            let jsonReqData = {"language":language, "user":userName}
+            $.ajax({
+                url: "/dates",
+                type: "POST",
+                data: JSON.stringify(jsonReqData),
+                contentType: "application/json",
+            }).done(function(jsonResponseData){
+                populateData("prompt-names-list", "date", jsonResponseData);
+            });
+        }
+        function populateNumbers() {
+            $('#scrollPanelListName').text('Number Tokens')
+            let jsonReqData = {"language":language, "user":userName}
+            $.ajax({
+                url: "/numbers",
+                type: "POST",
+                data: JSON.stringify(jsonReqData),
+                contentType: "application/json",
+            }).done(function(jsonResponseData){
+                populateData("prompt-names-list", "numbers", jsonResponseData);
+            });
+        }
+        function populateNames() {
+            $('#scrollPanelListName').text('Name Tokens')
+            let jsonReqData = {"language":language, "user":userName}
+            $.ajax({
+                url: "/names",
+                type: "POST",
+                data: JSON.stringify(jsonReqData),
+                contentType: "application/json",
+            }).done(function(jsonResponseData){
+                populateData("prompt-names-list", "names", jsonResponseData);
+            });
+        }
+        function homePage() {
+            $('#scrollPanelListName').text('BOT: ' + botID)   
+            let jsonReqData = {"language":language, "user":userName, "botId":botID}
+            $.ajax({
+                url: "/botData",
+                type: "POST",
+                data: JSON.stringify(jsonReqData),
+                contentType: "application/json",
+            }).done(function(jsonResponseData){
+                populateData("prompt-names-list", botID, jsonResponseData);
+            });       
+        }
+    </script>
+
+    <!---TOP NAVIGATION PANEL-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#home" onclick="homePage()">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Common Recordings
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#date" onclick="populateDate()">Date</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#numbers" onclick="populateNumbers()">Numbers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#names" onclick="populateNames()">People's Names</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="download">Download Raw Recordig</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!---BOTTOM PANEL-->
     <main role="main" class="container">
-    <h1 class="mt-5">WaveSurfer Edit Audio</h1>
-    <div class="demo">
-        <script src="https://unpkg.com/wavesurfer.js"></script>
-        <div id="waveform"></div>
-        <script>
-            var wavesurfer = WaveSurfer.create({
-                container: '#waveform',
-                waveColor: 'violet',
-                progressColor: 'purple'
-            });
-            var startTime=0;
-            var endTime=0;
-            var filename= 'ttsTextFile_1594128454.wav'
-            wavesurfer.load(filename);
-            wavesurfer.on('ready', function () {
-		endTime = wavesurfer.getDuration();
-		$('#StartTimeValue').val(0);
-		$('#EndTimeValue').val(wavesurfer.getDuration());
+        <div class="row">
+            <!---LEFT LIST PANEL OF PROMPTS-->
+            <div class="col-md-3"> 
+                <h3 ><span class="badge badge-info"  id="scrollPanelListName">Prompt Names</span></h3>
+                <div id='prompt-names-list' class="list-group fixed-height-scroll"></div>
+            </div>
+            <!---RECORD EDIT SAVE AND DISPLAY PANEL-->
+            <div class="col-md-9">
+                <!---RECORD AND EDITING PANEL-->
+                <div class="row mb-20 mt-20">
+                    <div class="col-md-12">
 
-            });
-        </script>
-	<button id="PlayPause" type="button" class="btn btn-primary">PlayPause</button>
-	<button id="PlaySelected" type="button" class="btn btn-success">PlaySelected</button>
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <button id="startStopRecording" class="btn btn-primary">StartStopRecording</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-secondary" id="PlayPause" type="button">PlayPauseFull</button>
+                                </div>
+                            </div>
+    
+                            <div class="card-body">
 
-	<button id="StartTime" type="button" class="btn btn-info">StartTime</button>
-	<button id="EndTime" type="button" class="btn btn-info">EndTime</button>
+                                <div id="waveform"></div>
 
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="aa">Start and End Time</span>
-          </div>
-          <input id="StartTimeValue" type="text" class="form-control">
-          <input id="EndTimeValue" type="text" class="form-control">
-	</div>
+                                <div class="row mt-20">
+                                    <div class="row">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-3"><button id="StartTime" type="button" class="btn btn-info">Start</button></div>
+                                        <div class="col-md-3"><input id="StartTimeValue" type="text" class="form-control"></input> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-3"><button id="EndTime" type="button" class="btn btn-info">End</button></div>
+                                        <div class="col-md-3"><input id="EndTimeValue" type="text" class="form-control"></input></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button id="PlaySelected" type="button" class="btn btn-primary">PlaySelected</button>
+                                        </div>
+                                    </div>
+                                </div>
 
-	<button id="ProcessAndReload" type="button" class="btn btn-success">ProcessAndReload</button>
-	<script>
-            $('#PlayPause').on('click', function (e) {
-                wavesurfer.playPause();
-            });
-            $('#StartTime').on('click', function (e) {
-                startTime=wavesurfer.getCurrentTime();
-		startTime=startTime.toFixed(2);
-		$('#StartTimeValue').val(startTime)
-            });
-            $('#EndTime').on('click', function (e) {
-                endTime=wavesurfer.getCurrentTime();
-		endTime = endTime.toFixed(2);
-		$('#EndTimeValue').val(endTime)
-            });
-            $('#PlaySelected').on('click', function (e) {
-		startTime=parseFloat($('#StartTimeValue').val());
-		endTime=parseFloat($('#EndTimeValue').val());
-                wavesurfer.play(startTime, endTime);
-            });
-            $('#ProcessAndReload').on('click', function (e) {
-                $.post("/process",
-                {
-                  srcAudioName: filename,
-                  dstAudioName: "trim-"+filename,
-                  startTime: startTime,
-		  endTime: endTime,
-		  duration: (endTime-startTime).toFixed(2)
-                },
-                function(data, status){
-                   alert("Data: " + data + "\nStatus: " + status);
-                });
-	    });
-        </script>
-    </div>
+                                <div id="waveform-trim"></div>
+                                <div class="row">
+                                    <div class="col-md-4"><button id="playPauseCopy" type="button" class="btn btn-secondary">PlayPause</button></div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4"><button id="currentSelectedCopy" type="button" class="btn btn-primary">ExtractSelected</button></div>
+                                </div>
+                
+                                <script>
+                                    var wavesurfer = WaveSurfer.create({
+                                        container: '#waveform',
+                                        waveColor: 'violet',
+                                        progressColor: 'purple'
+                                        });
+
+                                    var wavesurferTrim = WaveSurfer.create({
+                                        container: '#waveform-trim',
+                                        waveColor: 'violet',
+                                        progressColor: 'purple'
+                                    });    
+
+                                    //Recorder script to control start stop recording
+                                    const downloadLink = document.getElementById('download');
+                                    const startStopRecordingButton = document.getElementById('startStopRecording');
+
+                                    //Recording script initiate
+                                    function callbackWithBlobAfterRecording(soundBlob) {
+                                        let recordedSoundBlob = soundBlob;
+                                        let currentRecordingBlobURL = URL.createObjectURL(soundBlob);
+                                        downloadLink.href = currentRecordingBlobURL
+                                        downloadLink.download = 'current_record.wav';
+                                        fromBlobToWav(recordedSoundBlob, wavesurfer, 0, -1)
+                                    }
+                                    startStopRecording(startStopRecordingButton, callbackWithBlobAfterRecording);
+                
+                                    wavesurfer.on('ready', function () {
+                                        endTime = wavesurfer.getDuration();
+                                        $('#StartTimeValue').val(0.0);
+                                        $('#EndTimeValue').val(wavesurfer.getDuration().toFixed(2));
+                                    });
+                
+                                    $('#PlayPause').on('click', function (e) {
+                                        wavesurfer.playPause();
+                                    });
+                                    $('#StartTime').on('click', function (e) {
+                                        let startTime=wavesurfer.getCurrentTime().toFixed(2);
+                                        //startTime=startTime.toFixed(2);
+                                        $('#StartTimeValue').val(startTime)
+                                    });
+                                    $('#EndTime').on('click', function (e) {
+                                        let endTime=wavesurfer.getCurrentTime().toFixed(2);
+                                        //endTime = endTime.toFixed(2);
+                                        $('#EndTimeValue').val(endTime)
+                                    });
+                                    $('#PlaySelected').on('click', function (e) {
+                                        let startTime=parseFloat($('#StartTimeValue').val());
+                                        let endTime=parseFloat($('#EndTimeValue').val());
+                                        wavesurfer.play(startTime, endTime);
+                                    });
+
+                                    $('#currentSelectedCopy').on('click', function (e) {
+                                        let startTime=parseFloat($('#StartTimeValue').val());
+                                        let endTime=parseFloat($('#EndTimeValue').val());
+                                        trimRecording(recordingToWavFilePath, startTime, endTime, wavesurferTrim, userName)
+                                    });
+                                    $('#playPauseCopy').on('click', function (e) {
+                                        wavesurferTrim.playPause();
+                                    });   
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---PROMPT DISPLAY AND SAVE PANEL-->
+                <div class='row mt-20 '>
+                    <div class="col-md-12">
+
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <h3 ><span class="badge badge-info"  id="promptNameDisplayId">Prompt Name</span></h3>
+                                </div>
+                                <div class="col-md-4"></div>
+                            </div>
+
+                            <div class="card-body">
+                                <div id="waveformPrompt"></div>
+        
+                                <script>
+                                    var wavesurferPrompt = WaveSurfer.create({
+                                        container: '#waveformPrompt',
+                                        waveColor: 'violet',
+                                        progressColor: 'purple'
+                                    });
+                                    //wavesurferPrompt.load("ttsTextFile_1594128454.wav");
+                                </script>
+        
+                                <div class="row mt-20">
+                                    <div class="col-md-4">
+                                        <button id="playLoadedPrompt" type="button" class="btn btn-secondary">PlayPause</button>   
+                                        <script>
+                                            $('#playLoadedPrompt').on('click', function(e) {
+                                                wavesurferPrompt.playPause();
+                                            });
+                                        </script>             
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button id="editCurrent" type="button" class="btn btn-info">EditCurrent</button>
+                                        <script>
+                                            $('#editCurrent').on('click', function (e) {
+                                                if (currentDisplayPrompt && currentDisplayPrompt.fileExist == true) {
+                                                    recordingToWavFilePath = currentDisplayPrompt.fullPath;
+                                                    wavesurfer.load(recordingToWavFilePath);
+                                                } else {
+                                                    alert("First select a prompt to edit it.")
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button id="setCurrentPrompt" type="button" class="btn btn-primary">CopyExtracted</button>
+
+                                        <script>
+                                            $('#setCurrentPrompt').on('click', function (e) {
+                                                if (trimWavFilePath) {
+                                                    wavesurferPrompt.load(trimWavFilePath);
+                                                } else {
+                                                    alert("Record a prompt before copy from it.")
+                                                }
+                                            });
+                                        </script> 
+                                    </div>
+                                </div>
+                                <div class="row mt-20">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-4 mt-20">
+                                        <button id="saveAndUpload" type="button" class="btn btn-success">UploadExtracted</button>
+                                        <script>
+                                            $('#saveAndUpload').on('click', function (e) {
+                                                if (currentDisplayPrompt) {
+                                                    if (trimWavFilePath) {
+                                                        uploadRecording(currentDisplayPrompt, trimWavFilePath)
+                                                    } else {
+                                                        alert("Trim a recorded prompt before upload")
+                                                    }
+                                                } else {
+                                                    alert("Need a prompt to upload it.")
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 </body>

@@ -1,0 +1,4 @@
+{
+  "ask_payment":{"filename":"ask_payment.wav","text":"when will you make the payment?"},
+  "ask_payment_mode":{"filename":"ask_payment_mode.wav","text":"What will be the mode of payment?"}
+}
