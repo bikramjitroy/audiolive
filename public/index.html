@@ -87,7 +87,7 @@
                 li.setAttribute('data-idkey',promptId);
                 li.setAttribute('data-filename',fileName);
                 li.setAttribute('data-text',text);
-                li.setAttribute('data-fileExist',fileExist);
+                li.setAttribute('data-fileexist',fileExist);
                 li.innerText = promptId
                 promptList.appendChild(li);
             }
@@ -97,7 +97,7 @@
                 if (target.tagName != 'LI') return; // not on LI? Then we're not interested
                 let fileUrl = 'recordings/' + userName + '/' + language + '/' + typeOfPrompt + '/' + target.dataset.filename
                 //Load the file 
-                currentDisplayPrompt = {"idkey":target.dataset.idkey, "filename":target.dataset.filename, "text":target.dataset.text, "username":userName, "language":language, "typeOfPrompt":typeOfPrompt, "fullPath": fileUrl, "fileExist":target.dataset.fileExist}
+                currentDisplayPrompt = {"idkey":target.dataset.idkey, "filename":target.dataset.filename, "text":target.dataset.text, "username":userName, "language":language, "typeOfPrompt":typeOfPrompt, "fullPath": fileUrl, "fileExist":target.dataset.fileexist}
 
                 wavesurferPrompt.load(currentDisplayPrompt.fullPath)
                 $('#promptNameDisplayId').text(currentDisplayPrompt.text)
@@ -343,11 +343,11 @@
                                         <button id="editCurrent" type="button" class="btn btn-info">EditCurrent</button>
                                         <script>
                                             $('#editCurrent').on('click', function (e) {
-                                                if (currentDisplayPrompt && currentDisplayPrompt.fileExist == true) {
+                                                if (currentDisplayPrompt && currentDisplayPrompt.fileExist == "true") {
                                                     recordingToWavFilePath = currentDisplayPrompt.fullPath;
                                                     wavesurfer.load(recordingToWavFilePath);
                                                 } else {
-                                                    alert("First select a prompt to edit it.")
+                                                    alert("First select a prompt to edit it." + currentDisplayPrompt.fileExist)
                                                 }
                                             });
                                         </script>
