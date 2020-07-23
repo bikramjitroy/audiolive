@@ -1,5 +1,6 @@
 node_modules/
+nohup.out
 public/uploads/currentFile-sonam-en.wav
 public/uploads/currentFile-sonam-en.webm
 configs/
-public/uploads/currentFile-*
+public/uploads/*

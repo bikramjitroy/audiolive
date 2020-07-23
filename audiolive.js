@@ -53,7 +53,7 @@ app.post('/process', urlencodedParser,function (req, res) {
   console.log('Got from data process:', req.body);
   
   let dstFile = req.body.userName
-  let dstFileTrim = 'uploads/' + dstFile + '-trim.wav'
+  let dstFileTrim = 'uploads/currentFile-' + dstFile + '-trim.wav'
 
   let command = 'sox public/' + req.body.srcAudioName + ' public/' + dstFileTrim + ' trim ' +  req.body.startTime + ' ' + req.body.duration
   console.log("Command:",command)
