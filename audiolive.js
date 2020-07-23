@@ -1,3 +1,4 @@
+const https = require('https')
 var express = require("express");
 const bodyParser = require('body-parser');
 const util = require('util');
@@ -6,6 +7,9 @@ const exec = util.promisify(require('child_process').exec);
 const multer  = require('multer') //use multer to upload blob data
 const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
 const fs = require('fs');
+
+
+const APP_PORT = 2402
 
 
 var app = express();
@@ -193,7 +197,17 @@ app.post('/botData', jsonParser, function (req, res) {
 })
 
 
-var server = app.listen(8090, function(){
-    var port = server.address().port;
-    console.log("Server http://localhost:%s", port);
+
+
+
+var privateKey = fs.readFileSync('configs/sslcert_2020/CER/_.emerge', 'utf8')
+var certificate = fs.readFileSync('configs/sslcert_2020/CER/STAR_ameyoemerge_in.crt', 'utf8')
+var caBundle = fs.readFileSync('configs/sslcert_2020/CER/My_CA_Bundle.ca-bundle')
+var credentials = { key: privateKey, cert: certificate, ca: caBundle }
+
+
+var httpsServer = https.createServer(credentials, app);
+httpsServer.listen(APP_PORT, function(){
+    console.log("Server https://voicebotdemo.ameyoemerge.in:%s", APP_PORT);
 });
+

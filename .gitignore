@@ -1,1 +1,5 @@
 node_modules/
+public/uploads/currentFile-sonam-en.wav
+public/uploads/currentFile-sonam-en.webm
+configs/
+public/uploads/currentFile-*
