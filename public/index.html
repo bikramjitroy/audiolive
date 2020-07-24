@@ -12,17 +12,21 @@
     <script src="https://unpkg.com/wavesurfer.js"></script>
     <style>
         .mt-20 {
-            padding-top: 20px;
+            padding-top: 0px;
         }
         .mb-20 {
-            padding-bottom: 20px;
+            padding-bottom: 0px;
+        }
+        .pd-20 {
+            padding-bottom: 0px;
+            padding-top: 0px;
         }
         .fixed-height-scroll {
             flex: 1 1 0; /* flex: 1, which you had before, is equivalent but doesn't work */
             display: flex;
             flex-direction: column;
             overflow-y: scroll;
-            height: 700px;
+            height: 500px;
         }
     </style>
 
@@ -93,6 +97,8 @@
                 promptList.appendChild(li);
             }
 
+            $('#promptActionID').removeClass("visible").addClass("invisible");
+
             promptList.onclick = function(event) {
                 let target = event.target; // where was the click?
                 if (target.tagName != 'LI') return; // not on LI? Then we're not interested
@@ -157,7 +163,7 @@
     </script>
 
     <!---TOP NAVIGATION PANEL-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pd-20">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -179,10 +185,12 @@
                     <a class="nav-link" id="download">Download Raw Recordig</a>
                 </li>
             </ul>
+            <!--
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+            -->
         </div>
     </nav>
 
@@ -190,54 +198,49 @@
     <main role="main" class="container">
         <div class="row">
             <!---LEFT LIST PANEL OF PROMPTS-->
-            <div class="col-md-3"> 
+            <div class="col-sm-3"> 
                 <h3 ><span class="badge badge-info"  id="scrollPanelListName">Prompt Names</span></h3>
                 <div id='prompt-names-list' class="list-group fixed-height-scroll"></div>
             </div>
             <!---RECORD EDIT SAVE AND DISPLAY PANEL-->
-            <div class="col-md-9">
+            <div class="col-sm-9">
                 <!---RECORD AND EDITING PANEL-->
                 <div class="row mb-20 mt-20">
-                    <div class="col-md-12">
+                    <div class="col-sm-12">
 
                         <div class="card">
                             <div class="row">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4">
-                                    <button id="startStopRecording" class="btn btn-primary">StartStopRecording</button>
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4">
+                                    <button id="startStopRecording" class="btn btn-sm btn-primary">StartStopRecording</button>
                                 </div>
-                                <div class="col-md-4">
-                                    <button class="btn btn-secondary" id="PlayPause" type="button">PlayPauseFull</button>
+                                <div class="col-sm-4">
+                                    <button class="btn btn-sm btn-secondary" id="PlayPause" type="button">PlayPauseFull</button>
                                 </div>
                             </div>
     
-                            <div class="card-body">
+                            <div class="card-body pd-20">
 
                                 <div id="waveform"></div>
 
                                 <div class="row mt-20">
                                     <div class="row">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-3"><button id="StartTime" type="button" class="btn btn-info">Start</button></div>
-                                        <div class="col-md-3"><input id="StartTimeValue" type="text" class="form-control"></input> </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-3"><button id="EndTime" type="button" class="btn btn-info">End</button></div>
-                                        <div class="col-md-3"><input id="EndTimeValue" type="text" class="form-control"></input></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <button id="PlaySelected" type="button" class="btn btn-primary">PlaySelected</button>
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-2"><button id="StartTime" type="button" class="btn btn-sm btn-info">Start</button></div>
+                                        <div class="col-sm-2"><input id="StartTimeValue" type="text" class="form-control input-sm"></input> </div>
+                                        <div class="col-sm-2"><button id="EndTime" type="button" class="btn btn-sm btn-info">End</button></div>
+                                        <div class="col-sm-2"><input id="EndTimeValue" type="text" class="form-control input-sm"></input></div>
+                                        <div class="col-sm-3">
+                                            <button id="PlaySelected" type="button" class="btn btn-sm btn-primary">PlaySelected</button>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div id="waveform-trim"></div>
                                 <div class="row">
-                                    <div class="col-md-4"><button id="playPauseCopy" type="button" class="btn btn-secondary">PlayPause</button></div>
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-4"><button id="currentSelectedCopy" type="button" class="btn btn-primary">ExtractSelected</button></div>
+                                    <div class="col-sm-4"><button id="playPauseCopy" type="button" class="btn btn-sm btn-secondary">PlayPause</button></div>
+                                    <div class="col-sm-4"></div>
+                                    <div class="col-sm-4"><button id="currentSelectedCopy" type="button" class="btn btn-sm btn-primary">ExtractSelected</button></div>
                                 </div>
                 
                                 <script>
@@ -308,18 +311,18 @@
 
                 <!---PROMPT DISPLAY AND SAVE PANEL-->
                 <div id="promptActionID"  class='row mt-20 invisible'>
-                    <div class="col-md-12">
+                    <div class="col-sm-12">
 
                         <div class="card">
                             <div class="row">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4">
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4">
                                     <h3 ><span class="badge badge-info"  id="promptNameDisplayId">Prompt Name</span></h3>
                                 </div>
-                                <div class="col-md-4"></div>
+                                <div class="col-sm-4"></div>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body pd-20">
                                 <div id="waveformPrompt"></div>
         
                                 <script>
@@ -332,16 +335,16 @@
                                 </script>
         
                                 <div class="row mt-20">
-                                    <div class="col-md-4">
-                                        <button id="playLoadedPrompt" type="button" class="btn btn-secondary">PlayPause</button>   
+                                    <div class="col-sm-3">
+                                        <button id="playLoadedPrompt" type="button" class="btn btn-sm btn-secondary">PlayPause</button>   
                                         <script>
                                             $('#playLoadedPrompt').on('click', function(e) {
                                                 wavesurferPrompt.playPause();
                                             });
                                         </script>             
                                     </div>
-                                    <div class="col-md-4">
-                                        <button id="editCurrent" type="button" class="btn btn-info">EditCurrent</button>
+                                    <div class="col-sm-3">
+                                        <button id="editCurrent" type="button" class="btn btn-sm btn-info">EditCurrent</button>
                                         <script>
                                             $('#editCurrent').on('click', function (e) {
                                                 if (currentDisplayPrompt && currentDisplayPrompt.fileExist == "true") {
@@ -353,8 +356,8 @@
                                             });
                                         </script>
                                     </div>
-                                    <div class="col-md-4">
-                                        <button id="setCurrentPrompt" type="button" class="btn btn-primary">CopyExtracted</button>
+                                    <div class="col-sm-3">
+                                        <button id="setCurrentPrompt" type="button" class="btn btn-sm btn-primary">CopyExtracted</button>
 
                                         <script>
                                             $('#setCurrentPrompt').on('click', function (e) {
@@ -366,12 +369,8 @@
                                             });
                                         </script> 
                                     </div>
-                                </div>
-                                <div class="row mt-20">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-4 mt-20">
-                                        <button id="saveAndUpload" type="button" class="btn btn-success">UploadExtracted</button>
+                                    <div class="col-sm-3 mt-20">
+                                        <button id="saveAndUpload" type="button" class="btn btn-sm btn-success">UploadExtracted</button>
                                         <script>
                                             $('#saveAndUpload').on('click', function (e) {
                                                 if (currentDisplayPrompt) {
@@ -387,6 +386,7 @@
                                         </script>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
