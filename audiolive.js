@@ -65,6 +65,11 @@ app.post('/process', urlencodedParser,function (req, res) {
 
 app.post('/uploadPrompt', urlencodedParser, function (req, res) {
   console.log('Got from data uploadPrompt:', req.body);
+
+  var onlyPath = require('path').dirname('public/' + req.body.fullPath);
+  if (!fs.existsSync(onlyPath)){
+      fs.mkdirSync(onlyPath, {recursive: true});
+  }
   
   let command = 'cp public/' + req.body.fromFile + ' public/' + req.body.fullPath 
   console.log("Command:",command)

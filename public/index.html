@@ -83,6 +83,7 @@
                     li.setAttribute('class',"list-group-item list-group-item-action list-group-item-danger");
                 }
 
+                li.setAttribute('id',"promptId-"+promptId);
                 li.setAttribute('data-toggle',"list");
                 li.setAttribute('data-idkey',promptId);
                 li.setAttribute('data-filename',fileName);
@@ -97,11 +98,11 @@
                 if (target.tagName != 'LI') return; // not on LI? Then we're not interested
                 let fileUrl = 'recordings/' + userName + '/' + language + '/' + typeOfPrompt + '/' + target.dataset.filename
                 //Load the file 
-                currentDisplayPrompt = {"idkey":target.dataset.idkey, "filename":target.dataset.filename, "text":target.dataset.text, "username":userName, "language":language, "typeOfPrompt":typeOfPrompt, "fullPath": fileUrl, "fileExist":target.dataset.fileexist}
+                currentDisplayPrompt = {"idkey":target.dataset.idkey, "filename":target.dataset.filename, "text":target.dataset.text, "username":userName, "language":language, "typeOfPrompt":typeOfPrompt, "fullPath": fileUrl, "fileExist":target.dataset.fileexist, "itemId":target.id}
 
                 wavesurferPrompt.load(currentDisplayPrompt.fullPath)
                 $('#promptNameDisplayId').text(currentDisplayPrompt.text)
-                //TODO:Set value  for upload
+                $('#promptActionID').removeClass("invisible").addClass("visible");
             };
         }
 
@@ -306,7 +307,7 @@
                 </div>
 
                 <!---PROMPT DISPLAY AND SAVE PANEL-->
-                <div class='row mt-20 '>
+                <div id="promptActionID"  class='row mt-20 invisible'>
                     <div class="col-md-12">
 
                         <div class="card">

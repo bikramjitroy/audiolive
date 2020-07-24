@@ -46,6 +46,11 @@ function uploadRecording(currentDisplayPrompt, trimWavFilePath) {
   $.post("/uploadPrompt",
     jsonData,
     function(data, status){
+
+      if (status == "success") {
+          $('#'+currentDisplayPrompt.itemId).removeClass( "list-group-item-danger" ).addClass( "list-group-item-success" );
+          $('#promptActionID').removeClass("visible").addClass("invisible");
+      }
       alert("Data: " + data + "\nStatus: " + status);
   });
 }
