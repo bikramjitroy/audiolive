@@ -1,6 +1,7 @@
 node_modules/
 nohup.out
-public/uploads/currentFile-sonam-en.wav
-public/uploads/currentFile-sonam-en.webm
 configs/
 public/uploads/*
+tts_final/concat_final/*
+tts_final/concat_date/*
+tts_final/concat_number/*
