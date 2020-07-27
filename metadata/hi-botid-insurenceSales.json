@@ -1,0 +1,4 @@
+{
+  "ask_payment":{"filename":"ask_payment.wav","text":"आप भुगतान कब करेंगे?"},
+  "ask_payment_mode":{"filename":"ask_payment_mode.wav","text":"भुगतान का तरीका क्या होगा?"}
+}
