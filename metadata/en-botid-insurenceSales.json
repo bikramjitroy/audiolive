@@ -1,6 +1,0 @@
-{
-  "ask_payment":{"filename":"ask_payment.wav","text":"when will you make the payment?"},
-  "ask_payment_mode":{"filename":"ask_payment_mode.wav","text":"What will be the mode of payment?"},
-  "today_to":{"filename":"today_to.wav","text":"Today we will speak"},
-  "rupees_on":{"filename":"rupees_on.wav","text":"rupees on"}
-}
