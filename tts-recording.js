@@ -113,7 +113,7 @@ function getSSMLTokens(textForTTS) {
     }
 
     if (textForTTS.length - tokenOutsideStart > 0) {
-        let text = textForTTS.substring(tokenOutsideStart, textForTTS.length-1);
+        let text = textForTTS.substring(tokenOutsideStart, textForTTS.length);
         //console.log(textForTTS.length, tokenOutsideStart, "TOKEN-Out:",text.trim());
         if (text === " " || text ==="" || text.trim() === "") {
             //Don't add empty tokens
@@ -155,7 +155,7 @@ function audioFileFromText(token, voiceProfile, languageCode, dataFolder, dataJS
     return;
 }
 
-async function responseFile(ssmlText, languageCode, voiceProfile, botId) {
+function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 
     try {
         //NUMBER
@@ -176,8 +176,9 @@ async function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 
         var oParser = new DOMParser();
         var oDOM = oParser.parseFromString(ssmlText);
-        console.log("TextForTTS:",oDOM.getElementsByTagName('speech')[0].innerHTML); 
-        let textForTTS = oDOM.getElementsByTagName('speech')[0].innerHTML;
+
+        console.log("TextForTTS:",oDOM.getElementsByTagName('speak')[0].innerHTML); 
+        let textForTTS = oDOM.getElementsByTagName('speak')[0].innerHTML;
     
         let tokens = getSSMLTokens(textForTTS);
         console.log("TOKENS:-------", tokens);
@@ -220,25 +221,25 @@ async function responseFile(ssmlText, languageCode, voiceProfile, botId) {
                 if (outfile) {
                     tokenFiles.push(outfile);
                 } else {
-                    //TODO:: Update the json to add this 
+                    // Update the json to add this 
                     let key = md5(token);
                     nameJson[key] = {"filename":key+".wav","text":token}
-                    let updatedBotJson = JSON.stringify(nameJson);
+                    let updatedBotJson = JSON.stringify(nameJson, null, 2);
                     fs.writeFileSync(botJsonFile, updatedBotJson);
 
                     throw new Error("Missing NAME token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
                 }
             } else {
-                //console.log(1,"OPEN-Token", token);
+                console.log(1,"OPEN-Token", token);
                 let outfile = audioFileFromText(token, voiceProfile, languageCode, botId, botJson);
                 //console.log(11,"OPEN-Token-OUT", outfile);
                 if (outfile) {
                     tokenFiles.push(outfile);
                 } else {
-                    //TODO:: Update the json to add this 
+                    // Update the json to add this 
                     let key = md5(token);
                     botJson[key] = {"filename":key+".wav","text":token}
-                    let updatedBotJson = JSON.stringify(botJson);
+                    let updatedBotJson = JSON.stringify(botJson, null, 2);
                     fs.writeFileSync(botJsonFile, updatedBotJson);
 
                     throw new Error("Missing BOT token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
@@ -264,6 +265,8 @@ async function responseFile(ssmlText, languageCode, voiceProfile, botId) {
     }
 }
 
+
+
 //var converter = require('number-to-words');
 
 // let ssmlText = '<speech>Today we will speak <name>mister bikramjit</name> <number>23596</number> <number>6</number> <number>96</number> <number>596</number> <number>3596</number> rupees on <date>29 Jul</date> </speech>';
@@ -276,3 +279,7 @@ async function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 // }).catch(ex => {
 //     console.log("ERROR", ex.message)
 // });
+
+module.exports = {
+    responseFile,
+}

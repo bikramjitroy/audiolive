@@ -9,9 +9,10 @@ const upload = multer(); // set multer to be the upload variable (just like expr
 const fs = require('fs');
 
 var path = require("path");
-
+const ttsFromRecording = require("./tts-recording.js")
 
 const APP_PORT = 2402;
+const APP_HTTP_PORT = 2403;
 var ASTERISK_PATH = "/dacx/var/ameyo/dacxdata/asap/var/lib/asterisk/sounds/en/"
 
 
@@ -210,6 +211,8 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
    
     let ssmlText = req.body.ssml
     let languageCode = req.body.language;
+    //let languageCode = language.substring(1,3);
+    
     let botId = req.body.botId; 
  
     // Based on language select voice profile
@@ -217,8 +220,10 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
     let voiceProfileJsonFile = "metadata/default_voice_profile.json"; 
     let voiceProfileJson = JSON.parse(fs.readFileSync(voiceProfileJsonFile));
     let voiceProfile = voiceProfileJson[languageCode];
+
+    console.log(1,"TTS Live Data:", ssmlText, languageCode, voiceProfile, botId)
     
-    responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
+    ttsFromRecording.responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
         console.log("OUTVALUE-RESPONSE-FILE", outvalue);
 
         let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
@@ -250,10 +255,10 @@ httpsServer.listen(APP_PORT, function(){
     console.log("Server https://voicebotdemo.ameyoemerge.in:%s", APP_PORT);
 });
 
-//const http = require('http')
-//var httpsServer = http.createServer(app);
-//httpsServer.listen(APP_PORT, function(){
-//    console.log("Server https://voicebotdemo.ameyoemerge.in:%s", APP_PORT);
-//});
+const http = require('http')
+var httpsServer = http.createServer(app);
+httpsServer.listen(APP_HTTP_PORT, function(){
+    console.log("Server http://localhost:%s", APP_HTTP_PORT);
+});
 
 
