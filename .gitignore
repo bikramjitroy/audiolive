@@ -2,6 +2,6 @@ node_modules/
 nohup.out
 configs/
 public/uploads/*
-tts_final/concat_final/*
-tts_final/concat_date/*
-tts_final/concat_number/*
+public/tts_final/concat_final/*
+public/tts_final/concat_date/*
+public/tts_final/concat_number/*

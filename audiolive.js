@@ -8,8 +8,11 @@ const multer  = require('multer'); //use multer to upload blob data
 const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
 const fs = require('fs');
 
+var path = require("path");
+
 
 const APP_PORT = 2402;
+var ASTERISK_PATH = "/dacx/var/ameyo/dacxdata/asap/var/lib/asterisk/sounds/en/"
 
 
 var app = express();
@@ -202,6 +205,37 @@ app.post('/botData', jsonParser, function (req, res) {
 })
 
 
+app.post('/liveTTS', urlencodedParser, function (req, res) {
+    console.log('Live TTS: Request', req.body);
+   
+    let ssmlText = req.body.ssml
+    let languageCode = req.body.language;
+    let botId = req.body.botId; 
+ 
+    // Based on language select voice profile
+    //VOICE PROFILE
+    let voiceProfileJsonFile = "metadata/default_voice_profile.json"; 
+    let voiceProfileJson = JSON.parse(fs.readFileSync(voiceProfileJsonFile));
+    let voiceProfile = voiceProfileJson[languageCode];
+    
+    responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
+        console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+
+        let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
+        console.log("Copy Command:",command);
+        exec(command).then(function(resp) {
+               console.log("Response:", resp);
+               var extension = path.extname(outvalue);
+               var exactFile = path.basename(outvalue,extension);
+               res.send(exactFile);
+        });
+
+    }).catch(ex => {
+        console.log("ERROR", ex.message)
+    });
+
+});
+
 
 
 
@@ -215,4 +249,11 @@ var httpsServer = https.createServer(credentials, app);
 httpsServer.listen(APP_PORT, function(){
     console.log("Server https://voicebotdemo.ameyoemerge.in:%s", APP_PORT);
 });
+
+//const http = require('http')
+//var httpsServer = http.createServer(app);
+//httpsServer.listen(APP_PORT, function(){
+//    console.log("Server https://voicebotdemo.ameyoemerge.in:%s", APP_PORT);
+//});
+
 
