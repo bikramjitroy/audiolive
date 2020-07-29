@@ -1,0 +1,70 @@
+{
+  "ASRNoInputMessage1": {
+    "filename": "ASRNoInputMessage1.wav",
+    "text": "कृपया फिर से कहिएगा"
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "सुप्रभात , मै Ameyo से रिया बोल रही हू। क्या मैं"
+  },
+  "CustomerConfirmationPart2": {
+    "filename": "CustomerConfirmationPart2.wav",
+    "text": " जी से बात कर रहीं हूँ  ?"
+  },
+  "EMICautionPart1": {
+    "filename": "EMICautionPart1.wav",
+    "text": "आपने इस महीने की इ ऍम आई"
+  },
+  "EMICautionPart2": {
+    "filename": "EMICautionPart2.wav",
+    "text": " को आपके बैंक खाते पर देह है। क्या आपके बैंक खाते में इ ऍम आई के भुक्तान के लिए पर्याप्त धन राशि है ?"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "text": "आप अपने खाते में पर्याप्त धन राशि कब तक जमा करेंगे ? आज , कल या किसी और तिथि को ?"
+  },
+  "ThankYouExit": {
+    "filename": "ThankYouExit.wav",
+    "text": "धन्यवाद, आपका दिन शुभ हो।"
+  },
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "कृपया फिर से बोलें।"
+  },
+  "BOTLoopTransfer": {
+    "filename": "BOTLoopTransfer.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "WrongCustomer": {
+    "filename": "WrongCustomer.wav",
+    "text": "असुविधा के लिए खेद है।  आपका दिन शुभ हो।"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "text": "आपके उत्तर के लिए धन्यवाद। आपसे सविनय अनुरोध है,  की आप अपने  खाते में जल्द से जल्द  धन राशी जमा कर दे , जिससे आप 350 रुपए के बाउंस चार्ज और अन्य  के अर्थ दंड से बच सके। उम्मीद है  उचित कार्यवाही करेंगे।"
+  },
+  "EMIMissPart1": {
+    "filename": "EMIMissPart1.wav",
+    "text": "आपने"
+  },
+  "EMIMissPart2": {
+    "filename": "EMIMissPart2.wav",
+    "text": "महीने की"
+  },
+  "EMIMissPart3": {
+    "filename": "EMIMissPart3.wav",
+    "text": " रुपये की इ ऍम आई का भुक्तान नहीं किया है। आप भुक्तान कब तक कर पाएंगे। आज , कल या किसी और तिथि को ?"
+  },
+  "PaymentOnlineOffline": {
+    "filename": "PaymentOnlineOffline.wav",
+    "text": "धन्यवाद। कृपया आप भुक्तान के तरीको के बारे में जानकारी दें। क्या आप ऑनलाइन माधयम से भुक्तान करेंगे , या फिर ब्रांच में आ कर  भुक्तान करेंगे।"
+  },
+  "OnlinePaymentPortal": {
+    "filename": "OnlinePaymentPortal.wav",
+    "text": "आप किस माधयम से भुक्तान करेंगे ?  पे टी ऍम , यू  पी आई  या एन यि अफ टी ?"
+  },
+  "BranchPayment": {
+    "filename": "BranchPayment.wav",
+    "text": "हमारी शाखा में भुगतान करने की पुष्टि करने के लिए धन्यवाद, अलविदा"
+  }
+}
