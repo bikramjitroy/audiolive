@@ -1,0 +1,38 @@
+{
+  "EMICautionPart1": {
+    "filename": "EMICautionPart1.wav",
+    "text": "I would like to inform you that your E M I for the month is due on"
+  },
+  "EMICautionPart2": {
+    "filename": "EMICautionPart2.wav",
+    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "text": "When will you be funding your account? Today? Tomorrow ? else please specify a date?"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "text": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to an accrual of a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand"
+  },
+  "ThankYouExit": {
+    "filename": "ThankYouExit.wav",
+    "text": "Thank you very much and have a great day."
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to"
+  },
+  "WrongCustomer": {
+    "filename": "WrongCustomer.wav",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  },
+  "NoInputMessage2": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  }
+}

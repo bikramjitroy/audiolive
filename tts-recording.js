@@ -223,9 +223,9 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
                 } else {
                     // Update the json to add this 
                     let key = md5(token);
-                    nameJson[key] = {"filename":key+".wav","text":token}
+                    nameJson[key] = {"filename":key+".wav","text":textWithoutTag}
                     let updatedBotJson = JSON.stringify(nameJson, null, 2);
-                    fs.writeFileSync(botJsonFile, updatedBotJson);
+                    fs.writeFileSync(nameJsonFile, updatedBotJson);
 
                     throw new Error("Missing NAME token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
                 }
