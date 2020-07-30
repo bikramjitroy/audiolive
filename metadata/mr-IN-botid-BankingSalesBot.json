@@ -1,0 +1,74 @@
+{
+  "Sonam-PrimaryOfferLOAN": {
+    "filename": "Sonam-PrimaryOfferLOAN.wav",
+    "text": "Hi, we have a pre-approved offer for you for 5 Lakh personal loan are you interested?"
+  },
+  "Sonam-PrimaryOfferCC": {
+    "filename": "Sonam-PrimaryOfferCC.wav",
+    "text": "Hi, You are Qualified for a pre-approved Platinum Credit Card. Do you wish to upgrade your current Credit Card for more cashback, and enhanced credit limit?"
+  },
+  "Sonam-SecondaryOfferLOAN": {
+    "filename": "Sonam-SecondaryOfferLOAN.wav",
+    "text": "Are you sure this is a special offer and processing charges are waived off"
+  },
+  "Sonam-SecondaryOfferCC": {
+    "filename": "Sonam-SecondaryOfferCC.wav",
+    "text": "One time Annual Fee of Rs 1999 is waived off with this offer. Would you like to Upgrade to the Platinum Credit Card?"
+  },
+  "Sonam-NoInputMessage1": {
+    "filename": "Sonam-NoInputMessage1.wav",
+    "text": "to listen to last message ask me to repeat."
+  },
+  "Sonam-NoInputMessage2": {
+    "filename": "Sonam-NoInputMessage2.wav",
+    "text": "did you say something ?"
+  },
+  "Sonam-NoInputMessage3": {
+    "filename": "Sonam-NoInputMessage3.wav",
+    "text": "Waiting for your response"
+  },
+  "Sonam-PrimaryOfferYes": {
+    "filename": "Sonam-PrimaryOfferYes.wav",
+    "text": "I am glad to hear that, please wait while I connect with your relationship manager."
+  },
+  "Sonam-SecondOfferYes": {
+    "filename": "Sonam-SecondOfferYes.wav",
+    "text": "Perfect, please wait while I transfer the call to your relationship manager,for getting into next steps."
+  },
+  "Sonam-AllNo": {
+    "filename": "Sonam-AllNo.wav",
+    "text": "Sure, Thanks for your time, and have a great day ahead"
+  },
+  "Sonam-Transfer": {
+    "filename": "Sonam-Transfer.wav",
+    "text": "Please wait while we connect to your relationship manager for detailed offer."
+  },
+  "Sonam-Secondaryoffer": {
+    "filename": "Sonam-Secondaryoffer.wav",
+    "text": "All processing charges are waived off, are you interested now?"
+  },
+  "Sonam-Welcome": {
+    "filename": "Sonam-Welcome.wav",
+    "text": "hey"
+  },
+  "Sonam-HelloAman": {
+    "filename": "Sonam-HelloAman.wav",
+    "text": "hey"
+  },
+  "Sonam-BotRepeat": {
+    "filename": "Sonam-BotRepeat.wav",
+    "text": "Can you repeat"
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "Hello this is sonam from loan company. Am I speaking to"
+  },
+  "PrimaryOfferPart1": {
+    "filename": "PrimaryOfferPart1.wav",
+    "text": "We have a pre-approved offer for you for"
+  },
+  "PrimaryOfferPart2": {
+    "filename": "PrimaryOfferPart2.wav",
+    "text": " Rupees personal loan, are you interested?"
+  }
+}

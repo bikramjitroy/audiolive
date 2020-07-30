@@ -1,0 +1,70 @@
+{
+  "EMICautionPart1": {
+    "filename": "EMICautionPart1.wav",
+    "text": "I would like to inform you that your E M I for the month is due on"
+  },
+  "EMICautionPart2": {
+    "filename": "EMICautionPart2.wav",
+    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "text": "When will you be funding your account? Today? Tomorrow ? else please specify a date?"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "text": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to an accrual of a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand"
+  },
+  "ThankYouExit": {
+    "filename": "ThankYouExit.wav",
+    "text": "Thank you very much and have a great day."
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to"
+  },
+  "WrongCustomer": {
+    "filename": "WrongCustomer.wav",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  },
+  "NoInputMessage2": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "Can you repeat!"
+  },
+  "EMIMissPart1": {
+    "filename": "EMIMissPart1.wav",
+    "text": "You have missed making a payment towards your E M I for the month of"
+  },
+  "EMIMissPart2": {
+    "filename": "EMIMissPart2.wav",
+    "text": "of an amount of Rs"
+  },
+  "PaymentOnlineOffline": {
+    "filename": "PaymentOnlineOffline.wav",
+    "text": "Thankyou. Please confirm how you shall be making this payment, online? visiting the branch?"
+  },
+  "OnlinePaymentPortal": {
+    "filename": "OnlinePaymentPortal.wav",
+    "text": "What mode will you use to pay, Paytm, U P I, N E F T?"
+  },
+  "ThankYouHeavyPenaltyInfoExit": {
+    "filename": "ThankYouHeavyPenaltyInfoExit.wav",
+    "text": "Thank You very much for the response. I have msged you the link through which you can make an online payment. Request you not to delay the payment as the same will lead to a levy of penalty charge. Thank You very much for your cooperation and have a great day."
+  },
+  "BranchPayment": {
+    "filename": "BranchPayment.wav",
+    "text": "Thank you for confirming you will pay at our branch, and have a great day ahead ."
+  },
+  "FollowupAskPaymentDate": {
+    "filename": "FollowupAskPaymentDate.wav",
+    "text": ". Please confirm when you will be making this payment. Today, tomorrow or else please specify a date."
+  }
+}
