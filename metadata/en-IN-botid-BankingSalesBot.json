@@ -130,5 +130,17 @@
   "Sonam-BotRepeat": {
     "filename": "Sonam-BotRepeat.wav",
     "text": "Can you repeat"
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "Hello this is sonam from loan company. Am I speaking to"
+  },
+  "PrimaryOfferPart1": {
+    "filename": "PrimaryOfferPart1.wav",
+    "text": "We have a pre-approved offer for you for"
+  },
+  "PrimaryOfferPart2": {
+    "filename": "PrimaryOfferPart2.wav",
+    "text": " Rupees personal loan, are you interested?"
   }
 }

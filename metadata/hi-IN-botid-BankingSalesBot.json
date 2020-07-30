@@ -23,44 +23,28 @@
     "filename": "Sonam-HelloUtter_transfer.wav",
     "text": "मुझे यह सुनकर खुशी हुई, कृपया प्रतीक्षा करें जबकि मैं आपके रिलेशनशिप मैनेजर से जुड़ता हूं।"
   },
-  "Sonam-Welcome": {
-    "filename": "Sonam-Welcome.wav",
-    "text": "hey"
+  "DetectCustomerWithHello": {
+    "filename": "DetectCustomerWithHello.wav",
+    "text": ".... हेल्लो  ................. हेल्लो  ............... क्या आप सुन रहे है ?"
   },
-  "32d378548134ff723c443bcf9aa3739a": {
-    "filename": "32d378548134ff723c443bcf9aa3739a.wav",
-    "text": "मैं Sonam बोल रही हु लोन कंपनी से, क्या मैं Deepak जी से बात कर रही हूँ ?"
+  "CustomerIdentificationPart1": {
+    "filename": "CustomerIdentificationPart1.wav",
+    "text": "मैं Sonam बोल रही हु लोन कंपनी से, क्या मैं"
   },
-  "4f34e7d668a2f212b558013f118d2719": {
-    "filename": "4f34e7d668a2f212b558013f118d2719.wav",
-    "text": "मैं Sonam बोल रही हु लोन कंपनी से, क्या मैं Vikas जी से बात कर रही हूँ ?"
+  "CustomerIdentificationPart2": {
+    "filename": "CustomerIdentificationPart2.wav",
+    "text": " जी से बात कर रही हूँ ?"
   },
-  "b3fa336fa94312a8bfb71da69ce9ae8a": {
-    "filename": "b3fa336fa94312a8bfb71da69ce9ae8a.wav",
-    "text": "did you say something ?"
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "कृपया फिर से कहिएगा"
   },
-  "2b6b0409e2719d53ea5bbb94056251ab": {
-    "filename": "2b6b0409e2719d53ea5bbb94056251ab.wav",
-    "text": "Waiting for your response"
+  "OfferPart1": {
+    "filename": "OfferPart1.wav",
+    "text": "हमारे पास आपके लिए"
   },
-  "90105123df62b0657d2bebffb1d33b72": {
-    "filename": "90105123df62b0657d2bebffb1d33b72.wav",
-    "text": "Hi, we have a pre-approved offer for you for 5 Lakh personal loan are you interested?"
-  },
-  "8bc585e94ae2bce184cbb9afae996887": {
-    "filename": "8bc585e94ae2bce184cbb9afae996887.wav",
-    "text": "मैं Sonam बोल रही हु लोन कंपनी से, क्या मैं Sonam जी से बात कर रही हूँ ?"
-  },
-  "3a6d185a15a389acecf746ea5663c461": {
-    "filename": "3a6d185a15a389acecf746ea5663c461.wav",
-    "text": "I am glad to hear that, please wait while I connect with your relationship manager."
-  },
-  "27c5bef74c2ac99a6547f39dbd861d94": {
-    "filename": "27c5bef74c2ac99a6547f39dbd861d94.wav",
-    "text": "Can you repeat"
-  },
-  "beab08daa020ab3989cd18039ce280f8": {
-    "filename": "beab08daa020ab3989cd18039ce280f8.wav",
-    "text": "All processing charges are waived off, are you interested now?"
+  "OfferPart2": {
+    "filename": "OfferPart2.wav",
+    "text": " रुपए व्यक्तिगत ऋण के लिए पूर्व-अनुमोदित प्रस्ताव है क्या आप रुचि रखते हैं?"
   }
 }

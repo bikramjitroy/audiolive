@@ -60,7 +60,7 @@ function numberToText(numberToText, numberJson) {
    if (number> 0) {
        concat = concat + String(number);
    }
-
+   concat = concat.trim();
    console.log("TokenText: ",numberToText, concat);
    return concat;
 }
@@ -131,6 +131,7 @@ function removeTag(tagStr, start, end) {
 }
 
 function audioFilesFromTokens(convertedText, voiceProfile, languageCode, dataFolder, dataJSON) {
+    console.log(1,"AudioFilesFromToken", convertedText, voiceProfile, languageCode, dataFolder)
     let tokens = convertedText.split(" ");
     let audioTokens = [];
     //Search by key

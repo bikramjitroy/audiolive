@@ -186,6 +186,13 @@
   "mr_avinash":{"filename":"mr_avinash.wav","text":"mister avinash"},
   "mr_avi":{"filename":"mr_avi.wav","text":"mister avi"},
   "mr_suresh":{"filename":"mr_suresh.wav","text":"mister suresh"},
-  "mr_ajeet":{"filename":"mr_ajeet.wav","text":"mister ajeet"}
- 
+  "mr_ajeet":{"filename":"mr_ajeet.wav","text":"mister ajeet"},
+"mr_farhan":{"filename":"mr_farhan.wav","text":"mister farhan"},
+"mr_prabal":{"filename":"mr_prabal.wav","text":"mister prabal"},
+"mr_rajesh":{"filename":"mr_rajesh.wav","text":"mister rajesh"},
+"mr_ishwardas":{"filename":"mr_ishwardas.wav","text":"mister ishwardas"},
+"rachana_mam":{"filename":"rachana_mam.wav","text":"rachana mam"},
+"ashlesha_mam":{"filename":"ashlesha_mam.wav","text":"ashlesha mam"}
+
+
 }
