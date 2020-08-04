@@ -1,3 +1,4 @@
+require('log-timestamp');
 const https = require('https');
 var express = require("express");
 const bodyParser = require('body-parser');
@@ -111,7 +112,7 @@ app.post('/dates', jsonParser, function (req, res) {
       }
   }
 
-  console.log(updatedJson);
+  //console.log(updatedJson);
   res.send(updatedJson);
 });
 
@@ -140,7 +141,7 @@ app.post('/numbers', jsonParser, function (req, res) {
       }
   }
 
-  console.log(updatedJson)
+  //console.log(updatedJson)
   res.send(updatedJson)
 })
 
@@ -169,7 +170,7 @@ app.post('/names', jsonParser, function (req, res) {
       }
   }
 
-  console.log(updatedJson)
+  //console.log(updatedJson)
   res.send(updatedJson)
 })
 
@@ -201,7 +202,7 @@ app.post('/botData', jsonParser, function (req, res) {
       }
   }
 
-  console.log(updatedJson)
+  //console.log(updatedJson)
   res.send(updatedJson)
 })
 

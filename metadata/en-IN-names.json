@@ -731,10 +731,48 @@
     "filename": "mr_ajeet.wav",
     "text": "mister ajeet"
   },
-  "mr_farhan":{"filename":"mr_farhan.wav","text":"mister farhan"},
-"mr_prabal":{"filename":"mr_prabal.wav","text":"mister prabal"},
-"mr_rajesh":{"filename":"mr_rajesh.wav","text":"mister rajesh"},
-"mr_ishwardas":{"filename":"mr_ishwardas.wav","text":"mister ishwardas"},
-"rachana_mam":{"filename":"rachana_mam.wav","text":"rachana mam"},
-"ashlesha_mam":{"filename":"ashlesha_mam.wav","text":"ashlesha mam"}
+  "mr_farhan": {
+    "filename": "mr_farhan.wav",
+    "text": "mister farhan"
+  },
+  "mr_prabal": {
+    "filename": "mr_prabal.wav",
+    "text": "mister prabal"
+  },
+  "mr_rajesh": {
+    "filename": "mr_rajesh.wav",
+    "text": "mister rajesh"
+  },
+  "mr_ishwardas": {
+    "filename": "mr_ishwardas.wav",
+    "text": "mister ishwardas"
+  },
+  "rachana_mam": {
+    "filename": "rachana_mam.wav",
+    "text": "rachana mam"
+  },
+  "ashlesha_mam": {
+    "filename": "ashlesha_mam.wav",
+    "text": "ashlesha mam"
+  },
+  "fc6571ee901576941edfa4111097009a": {
+    "filename": "fc6571ee901576941edfa4111097009a.wav",
+    "text": "mister rachana"
+  },
+  "9845f1636ac3a7fe1606f94cad53b36b": {
+    "filename": "9845f1636ac3a7fe1606f94cad53b36b.wav",
+    "text": "deepak mam"
+  },
+  "1779733248075437350741767e6ece9a": {
+    "filename": "1779733248075437350741767e6ece9a.wav",
+    "text": "mister rohith"
+  },
+  "mr_vikas": {
+    "filename": "mr_vikas.wav",
+    "text": "mister vikas"
+  },
+  "mr_manoj": {
+    "filename": "mr_manoj.wav",
+    "text": "mister manoj"
+  }
 }

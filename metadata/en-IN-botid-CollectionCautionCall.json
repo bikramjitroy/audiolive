@@ -5,7 +5,7 @@
   },
   "EMICautionPart2": {
     "filename": "EMICautionPart2.wav",
-    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+    "text": "Please confirm if you have sufficient balance in your account for clearance ?"
   },
   "AskPaymentDate": {
     "filename": "AskPaymentDate.wav",
@@ -38,5 +38,29 @@
   "AskRepeat": {
     "filename": "AskRepeat.wav",
     "text": "Can you repeat!"
+  },
+  "f7139d71da8c8bacb1c67c5db7ec3c27": {
+    "filename": "f7139d71da8c8bacb1c67c5db7ec3c27.wav",
+    "text": "I would like to inform you that your E M I for the month is due on 03 Aug"
+  },
+  "8c0f25e964e6eaf81da700ae902c59f3": {
+    "filename": "8c0f25e964e6eaf81da700ae902c59f3.wav",
+    "text": "I would like to inform you that your E M I for the month is due on "
+  },
+  "ef955b1616e60d600251aaec54a03331": {
+    "filename": "ef955b1616e60d600251aaec54a03331.wav",
+    "text": "I would like to inform you that your E M I for the month is due on Aug"
+  },
+  "12083d3a4f6305708871ef9650df99ce": {
+    "filename": "12083d3a4f6305708871ef9650df99ce.wav",
+    "text": "I would like to inform you that your E M I for the month is due on 03"
+  },
+  "3cffbea0933e7fa7eb577c90acbd5202": {
+    "filename": "3cffbea0933e7fa7eb577c90acbd5202.wav",
+    "text": "I would like to inform you that your E M I for the month is due on 03 aug"
+  },
+  "3984a0131bd84a9f18a06264da925b32": {
+    "filename": "3984a0131bd84a9f18a06264da925b32.wav",
+    "text": "Please confirm if you have sufficient balance in your account for clearance ?"
   }
 }

@@ -66,5 +66,9 @@
   "FollowupAskPaymentDate": {
     "filename": "FollowupAskPaymentDate.wav",
     "text": ". Please confirm when you will be making this payment. Today, tomorrow or else please specify a date."
+  },
+  "9ed6d727dd54ddde3201c43bac26feab": {
+    "filename": "9ed6d727dd54ddde3201c43bac26feab.wav",
+    "text": "Thank you very much and have a great day"
   }
 }
