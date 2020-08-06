@@ -143,7 +143,19 @@ function audioFilesFromTokens(convertedText, voiceProfile, languageCode, dataFol
     return audioTokens;
 }
 
-function audioFileFromText(token, voiceProfile, languageCode, dataFolder, dataJSON) {
+function audioFileFromTextEnglish(token, voiceProfile, languageCode, dataFolder, dataJSON) {
+
+    //Search by text
+    for (var key of Object.keys(dataJSON)) {
+        if (token.toUpperCase() === dataJSON[key].text.toUpperCase()) {
+            let fullPath = "public/recordings/" + voiceProfile + "/" + languageCode + "/" + dataFolder + "/" + dataJSON[key].filename;
+            return fullPath;
+        }
+    }
+    return;
+}
+
+function audioFileFromTextInternational(token, voiceProfile, languageCode, dataFolder, dataJSON) {
 
     //Search by text
     for (var key of Object.keys(dataJSON)) {
@@ -152,7 +164,6 @@ function audioFileFromText(token, voiceProfile, languageCode, dataFolder, dataJS
             return fullPath;
         }
     }
-
     return;
 }
 
@@ -186,6 +197,8 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
     
         let fileConcatPromises = [];
         let tokenFiles = [];
+
+        let promptMissing = false;
     
         for (let i =0; i < tokens.length; i++) {
             let token = tokens[i];
@@ -217,7 +230,7 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
     
             } else if (token.startsWith("<name>")) {
                 let textWithoutTag = removeTag(token,"<name>","</name>");
-                let outfile = audioFileFromText(textWithoutTag, voiceProfile, languageCode, "names", nameJson);
+                let outfile = audioFileFromTextEnglish(textWithoutTag, voiceProfile, languageCode, "names", nameJson);
 
                 if (outfile) {
                     tokenFiles.push(outfile);
@@ -227,12 +240,12 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
                     nameJson[key] = {"filename":key+".wav","text":textWithoutTag}
                     let updatedBotJson = JSON.stringify(nameJson, null, 2);
                     fs.writeFileSync(nameJsonFile, updatedBotJson);
-
-                    throw new Error("Missing NAME token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
+                    promptMissing = true;
+                    console.log("Missing NAME token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
                 }
             } else {
                 console.log(1,"OPEN-Token", token);
-                let outfile = audioFileFromText(token, voiceProfile, languageCode, botId, botJson);
+                let outfile = audioFileFromTextInternational(token, voiceProfile, languageCode, botId, botJson);
                 //console.log(11,"OPEN-Token-OUT", outfile);
                 if (outfile) {
                     tokenFiles.push(outfile);
@@ -242,10 +255,14 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
                     botJson[key] = {"filename":key+".wav","text":token}
                     let updatedBotJson = JSON.stringify(botJson, null, 2);
                     fs.writeFileSync(botJsonFile, updatedBotJson);
-
-                    throw new Error("Missing BOT token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
+                    promptMissing = true;
+                    console.log("Missing BOT token:<" + token + "> for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
                 }
             }
+        }
+
+        if (promptMissing) {
+            throw new Error("Missing for language:" + languageCode + " of voice:"  + voiceProfile + " for bot:" + botId);
         }
     
         let finalOut = "public/tts_final/concat_final/" + voiceProfile + "-" + languageCode + "-" + botId + "-" + md5(textForTTS) + ".wav";

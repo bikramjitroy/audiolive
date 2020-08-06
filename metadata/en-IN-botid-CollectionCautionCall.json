@@ -62,5 +62,21 @@
   "3984a0131bd84a9f18a06264da925b32": {
     "filename": "3984a0131bd84a9f18a06264da925b32.wav",
     "text": "Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "confirmationMessage": {
+    "filename": "confirmationMessage.wav",
+    "text": "Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "38aab826b77fba63fbb0021fd0882cb9": {
+    "filename": "38aab826b77fba63fbb0021fd0882cb9.wav",
+    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "3ce7cb74b5cffa2a78b8a94643106fe2": {
+    "filename": "3ce7cb74b5cffa2a78b8a94643106fe2.wav",
+    "text": "Good Morning, I am Riya calling from qqqqqq. Am I speaking to"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
   }
 }

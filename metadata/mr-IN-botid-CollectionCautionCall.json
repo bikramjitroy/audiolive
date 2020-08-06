@@ -5,7 +5,7 @@
   },
   "EMICautionPart2": {
     "filename": "EMICautionPart2.wav",
-    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+    "text": "Please confirm if you have sufficient balance in your account for clearance ?"
   },
   "AskPaymentDate": {
     "filename": "AskPaymentDate.wav",
@@ -54,5 +54,57 @@
   "611ead9b6215d1fec4550026a79c413d": {
     "filename": "611ead9b6215d1fec4550026a79c413d.wav",
     "text": "धन्यवाद आपला दिवस चांगला जावो ."
+  },
+  "e745cbbda5cdf2557e69cd6d58863b1d": {
+    "filename": "e745cbbda5cdf2557e69cd6d58863b1d.wav",
+    "text": " सरांशी बोलत आहे का?"
+  },
+  "632a05e669b301ce893840bfa43510b4": {
+    "filename": "632a05e669b301ce893840bfa43510b4.wav",
+    "text": " रोजी देय आहे. कृपया आपल्याकडे मंजुरीसाठी आपल्या खात्यात पुरेसा शिल्लक असल्यास पुष्टी करा?"
+  },
+  "77bf388a539d5636735c02cd12b29a75": {
+    "filename": "77bf388a539d5636735c02cd12b29a75.wav",
+    "text": "क्षमस्व, आपल्या गैरसोयीबद्दल.आपला दिवस चांगला जावो ."
+  },
+  "df9c7f53e7b8c370dc140206eb1d0771": {
+    "filename": "df9c7f53e7b8c370dc140206eb1d0771.wav",
+    "text": "आपल्या प्रतिसादाबद्दल धन्यवाद. कृपया आपणास लवकरात लवकर खाते अद्यतनित करण्याची विनंती केल्यास विलंब झाल्यास Rs 350 रुपये बाऊंस शुल्क जमा होईल आणि ईएमआय देयकामध्ये आणखी विलंब झाल्यास दंड आकारणी देखील होऊ शकते. आपण समजून आशा आहे"
+  },
+  "ab763966e29967b47449978ffa6144ff": {
+    "filename": "ab763966e29967b47449978ffa6144ff.wav",
+    "text": " रोजी देणे बाकी आहे. कृपया आपल्या खात्या मध्ये पुरेशी रक्कम असल्याची खात्री करा ."
+  },
+  "616c5c546d93ce4cefa6a789cee285b7": {
+    "filename": "616c5c546d93ce4cefa6a789cee285b7.wav",
+    "text": "आपण आपल्या खात्यात केव्हा रक्क्म भरणार आहात याची पुष्टी करा, आज? उद्या? अन्यथा कृपया एखादी तारीख निर्दिष्ट करा ."
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "8b2eef230df28de6ecc9149934f4a9f3": {
+    "filename": "8b2eef230df28de6ecc9149934f4a9f3.wav",
+    "text": "सरांशी बोलत आहे का?"
+  },
+  "66883184aca1a80e6d585d9826f70c61": {
+    "filename": "66883184aca1a80e6d585d9826f70c61.wav",
+    "text": "मॅमशी बोलत आहे का?"
+  },
+  "10f2c386403caf9dcb68caf4ae9206b9": {
+    "filename": "10f2c386403caf9dcb68caf4ae9206b9.wav",
+    "text": "आपल्या प्रतिसादाबद्दल धन्यवाद. कृपया आपण आपले खाते अद्ययावत करून घ्यावे , आम्ही तुम्हाला सांगू इसच्छितो आपण विलंब केल्यास रुपये ३५० बाउन्स दंड आकारण्यात येईल आणि EMI देण्यास विलंब झाल्यास आणखी दंड आकारण्यात येईल. आपणास माहिती समजली अशी आशा करतो ."
+  },
+  "916a478cb7076875bfd24b1f281353a5": {
+    "filename": "916a478cb7076875bfd24b1f281353a5.wav",
+    "text": " मॅमशी बोलत आहे का?"
+  },
+  "9a69a00c669b8a898153ce76a97e5270": {
+    "filename": "9a69a00c669b8a898153ce76a97e5270.wav",
+    "text": "आपण काहीतरी विचारत आहात का?"
+  },
+  "e18081569053b5957d4b93c0aa160051": {
+    "filename": "e18081569053b5957d4b93c0aa160051.wav",
+    "text": " सरांशी बोलत आहे का?."
   }
 }

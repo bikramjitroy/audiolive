@@ -380,7 +380,7 @@
     "text": "shyam"
   },
   "deepak": {
-    "filename": "deepak.wav",
+    "filename": "bf2c07f5eeb76c29066687f1ebf165bd.wav",
     "text": "deepak"
   },
   "aryan": {
@@ -755,10 +755,6 @@
     "filename": "ashlesha_mam.wav",
     "text": "ashlesha"
   },
-  "bf2c07f5eeb76c29066687f1ebf165bd": {
-    "filename": "bf2c07f5eeb76c29066687f1ebf165bd.wav",
-    "text": "deepak"
-  },
   "029d34358bddfb7022d388d13852a508": {
     "filename": "029d34358bddfb7022d388d13852a508.wav",
     "text": "rohith"
@@ -834,5 +830,21 @@
   "842fccabed82068980c04074785a15c4": {
     "filename": "842fccabed82068980c04074785a15c4.wav",
     "text": "IRCLASS"
+  },
+  "d9b240892ac996ed6490d9ad30b8333f": {
+    "filename": "d9b240892ac996ed6490d9ad30b8333f.wav",
+    "text": "Arvind"
+  },
+  "242bb7189a342558d45ee9cd6426c8fe": {
+    "filename": "242bb7189a342558d45ee9cd6426c8fe.wav",
+    "text": "Sonam"
+  },
+  "906a33f3483fdcea75bc62c8bc5f68fa": {
+    "filename": "906a33f3483fdcea75bc62c8bc5f68fa.wav",
+    "text": "suraj"
+  },
+  "6e534ae62db6ba20ffcb8513f5bcb0b3": {
+    "filename": "6e534ae62db6ba20ffcb8513f5bcb0b3.wav",
+    "text": "Deepak"
   }
 }
