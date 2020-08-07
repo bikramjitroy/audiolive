@@ -1,10 +1,6 @@
 {
-  "bikramjit": {
-    "filename": "bikramjit.wav",
-    "text": "bikramjit"
-  },
   "sonam": {
-    "filename": "sonam.wav",
+    "filename": "80c27b112381e742faef8fda2b0906e3.wav",
     "text": "sonam"
   },
   "sneha": {
@@ -361,11 +357,11 @@
   },
   "amit": {
     "filename": "mahesh.wav",
-    "text": "mahesh"
+    "text": "amit"
   },
   "mahesh": {
-    "filename": "bikramjit.wav",
-    "text": "bikramjit"
+    "filename": "mahesh.wav",
+    "text": "mahesh"
   },
   "yash": {
     "filename": "yash.wav",
@@ -755,96 +751,72 @@
     "filename": "ashlesha_mam.wav",
     "text": "ashlesha"
   },
-  "029d34358bddfb7022d388d13852a508": {
+  "rohith": {
     "filename": "029d34358bddfb7022d388d13852a508.wav",
     "text": "rohith"
   },
-  "e3473b1106af017956b9a3ced40d482b": {
+  "manoj": {
     "filename": "e3473b1106af017956b9a3ced40d482b.wav",
     "text": "manoj"
   },
-  "80c27b112381e742faef8fda2b0906e3": {
-    "filename": "80c27b112381e742faef8fda2b0906e3.wav",
-    "text": "sonam"
-  },
-  "1205e127cd2224ffc0d60d28a8c59015": {
+  "vikas": {
     "filename": "1205e127cd2224ffc0d60d28a8c59015.wav",
     "text": "vikas"
   },
-  "eb95a672f766777b4ee041f624722af6": {
+  "martha": {
     "filename": "eb95a672f766777b4ee041f624722af6.wav",
     "text": "martha"
   },
-  "503473d1154131bd3f5f94a2f0c288e5": {
+  "arvind": {
     "filename": "503473d1154131bd3f5f94a2f0c288e5.wav",
     "text": "arvind"
   },
-  "b46a26e396240a6824f993f2881def33": {
-    "filename": "b46a26e396240a6824f993f2881def33.wav",
-    "text": "akshay"
-  },
-  "115b530038d8796f400aee0abefb20ff": {
+  "bikramjit": {
     "filename": "115b530038d8796f400aee0abefb20ff.wav",
     "text": "bikramjit"
   },
-  "1b587561f8a443d3422446be4df9b29b": {
+  "ramesh": {
     "filename": "1b587561f8a443d3422446be4df9b29b.wav",
     "text": "ramesh"
   },
-  "8b16493511a1e03b0948eaccd050dbbd": {
+  "tahir": {
     "filename": "8b16493511a1e03b0948eaccd050dbbd.wav",
     "text": "tahir"
   },
-  "3c7cf5dffd382ede4d790e6ef06ed516": {
+  "g_srinivasan": {
     "filename": "3c7cf5dffd382ede4d790e6ef06ed516.wav",
     "text": "g srinivasan"
   },
-  "6809860637452efe66061fe30405f275": {
+  "shantanu": {
     "filename": "6809860637452efe66061fe30405f275.wav",
     "text": "shantanu"
   },
-  "250dbba7121396070d7fe40c4f462176": {
+  "dhanajay": {
     "filename": "250dbba7121396070d7fe40c4f462176.wav",
     "text": "dhananjay"
   },
-  "a3ef632258e8aedce6926aea2e8b0ce2": {
+  "rajesh": {
     "filename": "a3ef632258e8aedce6926aea2e8b0ce2.wav",
     "text": "rajesh"
   },
-  "ec8f977deae171daae7f0bcde1a740fd": {
+  "ashok": {
     "filename": "ec8f977deae171daae7f0bcde1a740fd.wav",
     "text": "ashok"
   },
-  "afb356a756df7a28a48974d50cc817c3": {
+  "pradip": {
     "filename": "afb356a756df7a28a48974d50cc817c3.wav",
     "text": "pradip"
   },
-  "18edbb55687a9f660915ba37092fcc58": {
+  "suraj": {
     "filename": "18edbb55687a9f660915ba37092fcc58.wav",
     "text": "Suraj"
   },
-  "dbe6d2eeca242d81ff384ba4c8ac7fb5": {
+  "akshay": {
     "filename": "dbe6d2eeca242d81ff384ba4c8ac7fb5.wav",
     "text": "Akshay"
   },
-  "842fccabed82068980c04074785a15c4": {
-    "filename": "842fccabed82068980c04074785a15c4.wav",
-    "text": "IRCLASS"
-  },
-  "d9b240892ac996ed6490d9ad30b8333f": {
+  "arvind": {
     "filename": "d9b240892ac996ed6490d9ad30b8333f.wav",
     "text": "Arvind"
-  },
-  "242bb7189a342558d45ee9cd6426c8fe": {
-    "filename": "242bb7189a342558d45ee9cd6426c8fe.wav",
-    "text": "Sonam"
-  },
-  "906a33f3483fdcea75bc62c8bc5f68fa": {
-    "filename": "906a33f3483fdcea75bc62c8bc5f68fa.wav",
-    "text": "suraj"
-  },
-  "6e534ae62db6ba20ffcb8513f5bcb0b3": {
-    "filename": "6e534ae62db6ba20ffcb8513f5bcb0b3.wav",
-    "text": "Deepak"
   }
 }

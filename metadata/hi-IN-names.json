@@ -770,5 +770,32 @@
   "mr_vikas": {
     "filename": "mr_vikas.wav",
     "text": "mister vikas"
-  }
+  },
+  "mr_manoj": {
+    "filename": "mr_manoj.wav",
+    "text": "mister manoj"
+  },
+"mr_gaurav": {
+    "filename": "mr_gaurav.wav",
+    "text": "mister gaurav"
+} ,
+
+"mr_nimish": {
+    "filename": "mr_nimish.wav",
+    "text": "mister nimish"
+},
+"akriti_mam": {
+    "filename": "akriti_mam.wav",
+    "text": "akriti mam"
+} ,
+"mr_sachin": {
+    "filename": "mr_sachin.wav",
+    "text": "mister sachin"
+} ,
+
+"mr_pushkaraj": {
+    "filename": "mr_pushkaraj.wav",
+    "text": "mister pushkaraj"
+}
+
 }
