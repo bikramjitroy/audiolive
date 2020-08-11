@@ -1,0 +1,52 @@
+{
+  "Common-NotUnderstandTransfer-EN": {
+    "filename": "Common-NotUnderstandTransfer.wav",
+    "speech": "कृपया प्रतीक्षा करें,  बेहतर तरीके से समाधान  के लिए आपकी कॉल को एक्सपर्ट  पर्सनल को स्थानांतरित किया जा रहा हैं।",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Common-NotUnderstandTransfer": {
+    "filename": "Common-NotUnderstandTransfer.wav",
+    "speech": "कृपया प्रतीक्षा करें,  बेहतर तरीके से समाधान  के लिए आपकी कॉल को एक्सपर्ट  पर्सनल को स्थानांतरित किया जा रहा हैं।",
+    "text": "कृपया प्रतीक्षा करें,  बेहतर तरीके से समाधान  के लिए आपकी कॉल को एक्सपर्ट  पर्सनल को स्थानांतरित किया जा रहा हैं।"
+  },
+  "Common-SentimentTransfer": {
+    "filename": "Common-SentimentTransfer.wav",
+    "speech": "मैं आपकी भावनाओं को समझ सकती हू , बेहतर तरीके से समाधान  के लिए मैं आपकी कॉल को एक्सपर्ट  पर्सनल को स्थानांतरित कर रहीं हूँ",
+    "text": "मैं आपकी भावनाओं को समझ सकती हू , बेहतर तरीके से समाधान  के लिए मैं आपकी कॉल को एक्सपर्ट  पर्सनल को स्थानांतरित कर रहीं हूँ"
+  },
+  "Common-NoInput-A": {
+    "filename": "Common-NoInput-A.wav",
+    "speech": "आपने कुछ कहा",
+    "text": "आपने कुछ कहा"
+  },
+  "Common-NoInput-B": {
+    "filename": "Common-NoInput-B.wav",
+    "speech": "आपके उत्तर का इंतज़ार कर रही हूँ",
+    "text": "आपके उत्तर का इंतज़ार कर रही हूँ"
+  },
+  "Common-NoInput-AskRepeat": {
+    "filename": "Common-AskRepeat.wav",
+    "speech": "कृपया फिर से बोलिए।",
+    "text": "कृपया फिर से कहिएगा"
+  },
+  "Common-Fallback": {
+    "filename": "Common-AskRepeat.wav",
+    "speech": "कृपया फिर से बोलिए।",    
+    "text": "कृपया फिर से बोलें।"
+  },
+  "Common-Fallback-Bank": {
+    "filename": "Common-AskRepeat.wav",
+    "speech": "कृपया फिर से बोलिए।",    
+    "text": "कृपया फिर से बोलिए।"
+  },
+  "Common-ThankYou": {
+    "filename": "Common-ThankYou.wav",
+    "speech": "धन्यवाद, आपका दिन शुभ हो।",
+    "text": "धन्यवाद, आपका दिन शुभ हो।"
+  },
+  "Common-WrongCustomer": {
+    "filename": "Common-WrongCustomer.wav",
+    "speech": "असुविधा के लिए खेद है।  आपका दिन शुभ हो।",
+    "text": "असुविधा के लिए खेद है।  आपका दिन शुभ हो।"
+  }
+}

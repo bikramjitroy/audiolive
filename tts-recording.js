@@ -191,6 +191,16 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 
         console.log("TextForTTS:",oDOM.getElementsByTagName('speak')[0].innerHTML); 
         let textForTTS = oDOM.getElementsByTagName('speak')[0].innerHTML;
+  
+        let outfile = audioFileFromTextInternational(textForTTS, voiceProfile, languageCode, botId, botJson);
+        if (outfile) {
+            //If text exist then return the file
+            var promise = new Promise(function(resolve, reject) {
+                console.log("Return TextForTTS:",textForTTS, outfile, voiceProfile, languageCode, botId, botJson);
+                resolve(outfile);
+            });
+            return promise;
+        }
     
         let tokens = getSSMLTokens(textForTTS);
         console.log("TOKENS:-------", tokens);
@@ -284,6 +294,46 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 }
 
 
+function responseFileModule(ssmlText, languageCode, voiceProfile, botId, dataFolder) {
+
+    try {
+        //BOT-JSON
+        let botJsonFile = "metadata/" + languageCode + "-botid-" + botId + ".json"; 
+        let botJson = JSON.parse(fs.readFileSync(botJsonFile));
+
+        var oParser = new DOMParser();
+        var oDOM = oParser.parseFromString(ssmlText);
+
+        console.log(1,"TextForTTS:",oDOM.getElementsByTagName('speak')[0].innerHTML); 
+        let textForTTS = oDOM.getElementsByTagName('speak')[0].innerHTML;
+
+        let outfile = DEFAULT_MESSAGE_AUDIO;
+  
+        outfile = audioFileFromTextInternational(textForTTS, voiceProfile, languageCode, dataFolder, botJson);
+        if (outfile) {
+            //If text exist then return the file
+        } else {
+            //COMMON-JSON
+            console.log(2,"Checking Common",textForTTS)
+            let commonFile = "metadata/" + languageCode + "-common.json"; 
+            let commonJson = JSON.parse(fs.readFileSync(commonFile));
+            
+            outfile = audioFileFromTextInternational(textForTTS, voiceProfile, languageCode, 'common', commonJson);
+        }
+
+        var promise = new Promise(function(resolve, reject) {
+            console.log(3,"Return TextForTTS:", textForTTS, outfile, voiceProfile, languageCode, botId, dataFolder);
+            resolve(outfile);
+        });
+        return promise;
+
+    } catch (ex) {
+        throw new Error(ex.toString());
+    }
+}
+
+
+
 
 //var converter = require('number-to-words');
 
@@ -300,4 +350,5 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
 
 module.exports = {
     responseFile,
+    responseFileModule,
 }

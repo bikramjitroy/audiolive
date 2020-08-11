@@ -1,0 +1,42 @@
+{
+  "Common-NotUnderstandTransfer": {
+    "filename": "Common-NotUnderstandTransfer.wav",
+    "speech": "I am not able to  understand let me transfer your call to senior executive",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Common-SentimentTransfer": {
+    "filename": "Common-SentimentTransfer.wav",
+    "speech": "I can understand your emotions. Let me transfer your call for better way of handling.",
+    "text": "I can understand your emotions. Let me transfer your call for better way of handling."
+  },
+  "Common-NoInput-A": {
+    "filename": "Common-NoInput-A.wav",
+    "speech": "Did you say something ?",
+    "text": "Did you say something ?"
+  },
+  "Common-NoInput-B": {
+    "filename": "Common-NoInput-B.wav",
+    "speech": "Waiting for your response",
+    "text": "Waiting for your response"
+  },
+  "Common-NoInput-AskRepeat": {
+    "filename": "Common-AskRepeat.wav",
+    "speech": "Can you repeat!",
+    "text": "Can you repeat!"
+  },
+  "Common-Fallback": {
+    "filename": "Common-AskRepeat.wav",
+    "speech": "Can you repeat!",
+    "text": "Can you repeat!"
+  },
+  "Common-ThankYou": {
+    "filename": "Common-ThankYou.wav",
+    "speech": "Thank you very much and have a great day.",
+    "text": "Thank you very much and have a great day."
+  },
+  "Common-WrongCustomer": {
+    "filename": "Common-WrongCustomer.wav",
+    "speech": "Sorry, for your inconvenience. Have a great day ahead.",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  }
+}

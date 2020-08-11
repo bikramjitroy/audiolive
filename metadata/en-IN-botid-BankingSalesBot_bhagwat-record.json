@@ -1,0 +1,47 @@
+{
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech":"Hello ………… Hello ………..  Are you there?",
+    "text": "hey"
+  },
+  "CustomerConfirmationVikas": {
+    "filename": "CustomerConfirmationVikas.wav",
+    "speech":"Hello this is sonam from loan company. Am I speaking to mister vikas",
+    "text": "Hello this is sonam from loan company. Am I speaking to <name>mister Vikas</name>"
+  },
+  "CustomerConfirmationTanya": {
+    "filename": "CustomerConfirmationTanya.wav",
+    "speech":"Hello this is sonam from loan company. Am I speaking to tanya mam",
+    "text": "Hello this is sonam from loan company. Am I speaking to <name>Tanya mam</name>"
+  },
+  "PrimaryOfferLOAN": {
+    "filename": "PrimaryOfferLOAN.wav",
+    "speech": "We have a pre-approved offer for you for 5 Lakh Rupees personal loan, are you interested?",
+    "text": "We have a pre-approved offer for you for <number>500000</number> Rupees personal loan, are you interested?"
+  },
+  "PrimaryOfferYes": {
+    "filename": "PrimaryOfferYes.wav",
+    "speech": "I am glad to hear that, please wait while I connect with your relationship manager.",
+    "text": "I am glad to hear that, please wait while I connect with your relationship manager."
+  },
+  "SecondaryOfferLOAN": {
+    "filename": "SecondaryOfferLOAN.wav",
+    "speech": "all the processing charges are waived off, are you interested now?",
+    "text": "All processing charges are waived off, are you interested now?"
+  },
+  "SecondOfferYes": {
+    "filename": "SecondOfferYes.wav",
+    "text": "Perfect, please wait while I transfer the call to your relationship manager,for getting into next steps.",
+    "text": "Perfect, please wait while I transfer the call to your relationship manager,for getting into next steps."
+  },
+  "Transfer": {
+    "filename": "Transfer.wav",
+    "text": "Please wait while we connect to your relationship manager for detailed offer.",
+    "text": "Please wait while we connect to your relationship manager for detailed offer."
+  },
+  "AllNo": {
+    "filename": "AllNo.wav",
+    "text": "Sure, Thanks for your time, and have a great day ahead",
+    "text": "Sure, Thanks for your time, and have a great day ahead"
+  }
+}

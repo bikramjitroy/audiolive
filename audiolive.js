@@ -222,23 +222,47 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
     let voiceProfileJson = JSON.parse(fs.readFileSync(voiceProfileJsonFile));
     let voiceProfile = voiceProfileJson[languageCode];
 
-    console.log(1,"TTS Live Data:", ssmlText, languageCode, voiceProfile, botId)
-    
-    ttsFromRecording.responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
-        console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+    console.log(1,"TTS Live Data:", ssmlText, languageCode, voiceProfile, botId);
 
-        let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
-        console.log("Copy Command:",command);
-        exec(command).then(function(resp) {
-               console.log("Response:", resp);
-               var extension = path.extname(outvalue);
-               var exactFile = path.basename(outvalue,extension);
-               res.send(exactFile);
+    if (voiceProfile === 'bhagwat-record') {
+        let dataFolder = botId;
+        botId = botId + '_bhagwat-record';
+
+
+        ttsFromRecording.responseFileModule(ssmlText, languageCode, voiceProfile, botId, dataFolder).then((outvalue) =>{
+            console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+
+            let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
+            console.log("Copy Command:",command);
+            exec(command).then(function(resp) {
+                   console.log("Response:", resp);
+                   var extension = path.extname(outvalue);
+                   var exactFile = path.basename(outvalue,extension);
+                   res.send(exactFile);
+            });
+
+        }).catch(ex => {
+            console.log("ERROR", ex.message)
         });
 
-    }).catch(ex => {
-        console.log("ERROR", ex.message)
-    });
+    } else {
+
+        ttsFromRecording.responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
+            console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+
+            let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
+            console.log("Copy Command:",command);
+            exec(command).then(function(resp) {
+                   console.log("Response:", resp);
+                   var extension = path.extname(outvalue);
+                   var exactFile = path.basename(outvalue,extension);
+                   res.send(exactFile);
+            });
+
+        }).catch(ex => {
+            console.log("ERROR", ex.message)
+        });
+    }
 
 });
 

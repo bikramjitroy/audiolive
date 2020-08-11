@@ -1,0 +1,27 @@
+{
+  "CustomerConfirmationVikas": {
+    "filename": "CustomerConfirmationVikas.wav",
+    "speech": "Good Morning, I am Riya calling from Ameyo. Am I speaking to mister vikas",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to <name>mister Vikas</name>"
+  },
+  "CustomerConfirmationSonam": {
+    "filename": "CustomerConfirmationSonam.wav",
+    "speech": "Good Morning, I am Riya calling from Ameyo. Am I speaking to sonam mam",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to <name>Sonam mam</name>"
+  },
+  "EMICaution": {
+    "filename": "EMICaution.wav",
+    "speech": "I would like to inform you that your E M I due for the month of 5th September of an amount of Rs 12495. Please confirm if you have sufficient balance in your account for clearance ?",
+    "text": "I would like to inform you that your E M I for the month is due on <date>05 Sep</date>. Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "speech": "When will you be funding your account? Today? Tomorrow ? else please specify a date?",
+    "text": "When will you be funding your account? Today? Tomorrow ? else please specify a date?"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "speech": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand",
+    "text": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to an accrual of a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "CustomerConfirmationVikas": {
+    "filename": "CustomerConfirmationVikas.wav",
+    "speech": "Good Morning, I am Riya calling from Ameyo. Am I speaking to mister vikas",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to <name>mister Vikas</name>"
+  },
+  "CustomerConfirmationSonam": {
+    "filename": "CustomerConfirmationSonam.wav",
+    "speech": "Good Morning, I am Riya calling from Ameyo. Am I speaking to sonam mam",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to <name>Sonam mam</name>"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "speech": "You have missed making a payment towards your E M I for the month of 5th September of an amount of Rs 12495. Please confirm when will you be making this payment? Today, tomorrow or else please specify a date.",
+    "text": "You have missed making a payment towards your E M I for the month of <date>05 Sep</date> of an amount of Rs <number>12495</number>. Please confirm when you will be making this payment. Today, tomorrow or else please specify a date."
+  },
+  "OnlineOffline": {
+    "filename": "OnlineOffline.wav",
+    "speech": "Thank you. Please confirm how you shall be making this payment, online? or visiting the branch?",
+    "text": "Thankyou. Please confirm how you shall be making this payment, online? visiting the branch?"
+  },
+  "OnlineMode": {
+    "filename": "OnlineMode.wav",
+    "speech": "What mode will you use to pay, Paytm, U P I or N E F T?",
+    "text": "What mode will you use to pay, Paytm, U P I, N E F T?"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "speech": "Thank You very much for the response. I have messaged you the link through which you can make an online payment. Request you not to delay the payment as the same will lead to a levy of penalty charge. Thank You very much for your cooperation and have a great day.",
+    "text": "Thank You very much for the response. I have msged you the link through which you can make an online payment. Request you not to delay the payment as the same will lead to a levy of penalty charge. Thank You very much for your cooperation and have a great day."
+  },
+  "ThankYouBranchPayExit": {
+    "filename": "ThankYouBranchPayExit.wav",
+    "speech": "Thank you for confirming you will pay at our branch, and have a great day ahead .",
+    "text": "Thank you for confirming you will pay at our branch, and have a great day ahead ."
+  }
+}
