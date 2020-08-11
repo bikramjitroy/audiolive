@@ -17,6 +17,8 @@ const APP_HTTP_PORT = 2403;
 var ASTERISK_PATH = "/dacx/var/ameyo/dacxdata/asap/var/lib/asterisk/sounds/en/"
 
 
+const DEFAULT_MESSAGE_AUDIO = "public/tts_final/default_error_message.wav"
+
 var app = express();
 
 app.use(express.static('public'));
@@ -239,10 +241,13 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
                    var extension = path.extname(outvalue);
                    var exactFile = path.basename(outvalue,extension);
                    res.send(exactFile);
+            }).catch(ex => {
+                throw new Error(ex.toString());
             });
 
         }).catch(ex => {
             console.log("ERROR", ex.message)
+            res.send(DEFAULT_MESSAGE_AUDIO)
         });
 
     } else {
@@ -257,10 +262,13 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
                    var extension = path.extname(outvalue);
                    var exactFile = path.basename(outvalue,extension);
                    res.send(exactFile);
+            }).catch(ex => {
+                throw new Error(ex.toString());
             });
 
         }).catch(ex => {
             console.log("ERROR", ex.message)
+            res.send(DEFAULT_MESSAGE_AUDIO)
         });
     }
 

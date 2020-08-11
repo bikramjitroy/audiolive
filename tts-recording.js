@@ -192,15 +192,15 @@ function responseFile(ssmlText, languageCode, voiceProfile, botId) {
         console.log("TextForTTS:",oDOM.getElementsByTagName('speak')[0].innerHTML); 
         let textForTTS = oDOM.getElementsByTagName('speak')[0].innerHTML;
   
-        let outfile = audioFileFromTextInternational(textForTTS, voiceProfile, languageCode, botId, botJson);
-        if (outfile) {
-            //If text exist then return the file
-            var promise = new Promise(function(resolve, reject) {
-                console.log("Return TextForTTS:",textForTTS, outfile, voiceProfile, languageCode, botId, botJson);
-                resolve(outfile);
-            });
-            return promise;
-        }
+        //let outfile = audioFileFromTextInternational(textForTTS, voiceProfile, languageCode, botId, botJson);
+        //if (outfile) {
+        //    //If text exist then return the file
+        //    var promise = new Promise(function(resolve, reject) {
+        //        console.log("Return TextForTTS:",textForTTS, outfile, voiceProfile, languageCode, botId, botJson);
+        //        resolve(outfile);
+        //    });
+        //    return promise;
+        //}
     
         let tokens = getSSMLTokens(textForTTS);
         console.log("TOKENS:-------", tokens);
