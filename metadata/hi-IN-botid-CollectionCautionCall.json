@@ -42,5 +42,10 @@
   "ThankYouPenaltyInfoExit": {
     "filename": "ThankYouPenaltyInfoExit.wav",
     "text": "आपके उत्तर के लिए धन्यवाद। आपसे सविनय अनुरोध है,  की आप अपने  खाते में जल्द से जल्द  धन राशी जमा कर दे , जिससे आप 350 रुपए के बाउंस चार्ज और अन्य  के अर्थ दंड से बच सके। उम्मीद है  उचित कार्यवाही करेंगे।"
+  },
+    "Hello":{
+    "filename":"Hello.wav",
+    "speech": "hello",
+    "text":"हेलो ."
   }
 }

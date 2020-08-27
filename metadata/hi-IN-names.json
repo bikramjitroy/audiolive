@@ -771,31 +771,60 @@
     "filename": "mr_vikas.wav",
     "text": "mister vikas"
   },
-  "mr_manoj": {
-    "filename": "mr_manoj.wav",
-    "text": "mister manoj"
-  },
-"mr_gaurav": {
+  "mr_gaurav": {
     "filename": "mr_gaurav.wav",
     "text": "mister gaurav"
-} ,
-
-"mr_nimish": {
+  },
+  "mr_nimish": {
     "filename": "mr_nimish.wav",
     "text": "mister nimish"
-},
-"akriti_mam": {
+  },
+  "akriti_mam": {
     "filename": "akriti_mam.wav",
     "text": "akriti mam"
-} ,
-"mr_sachin": {
+  },
+  "mr_sachin": {
     "filename": "mr_sachin.wav",
     "text": "mister sachin"
-} ,
-
-"mr_pushkaraj": {
+  },
+  "mr_pushkaraj": {
     "filename": "mr_pushkaraj.wav",
     "text": "mister pushkaraj"
-}
-
+  },
+   "shruti_mam": {
+    "filename": "shruti_mam.wav",
+    "text": "shruti mam"
+  },
+   "mr_vyankatesh": {
+    "filename": "mr_vyankatesh.wav",
+    "text": "mister vyankatesh"
+  },
+   "mr_prawin": {
+    "filename": "mr_prawin.wav",
+    "text": "mister prawin"
+  },
+   "mr_roshan": {
+    "filename": "mr_roshan.wav",
+    "text": "mister Roshan"
+  },
+   "mr_pabitra": {
+    "filename": "mr_pabitra.wav",
+    "text": "mister Pabitra"
+  },
+   "mr_kaifi": {
+    "filename": "mr_kaifi.wav",
+    "text": "mister kaifi"
+  },
+   "mr_ashif": {
+    "filename": "mr_ashif.wav",
+    "text": "mister ashif"
+  },
+   "rinky_mam": {
+    "filename": "rinky_mam.wav",
+    "text": "rinky mam"
+  },
+"mr_nilesh": {
+    "filename": "mr_nilesh.wav",
+    "text": "mister nilesh"
+  }
 }

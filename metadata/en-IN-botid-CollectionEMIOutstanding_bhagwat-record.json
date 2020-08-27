@@ -33,5 +33,10 @@
     "filename": "ThankYouBranchPayExit.wav",
     "speech": "Thank you for confirming you will pay at our branch, and have a great day ahead .",
     "text": "Thank you for confirming you will pay at our branch, and have a great day ahead ."
+  },
+  "Hello":{
+    "filename":"Hello.wav",
+    "speech": "hello",
+    "text":"hello"
   }
 }

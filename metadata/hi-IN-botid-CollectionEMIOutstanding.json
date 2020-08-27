@@ -66,5 +66,10 @@
   "BranchPayment": {
     "filename": "BranchPayment.wav",
     "text": "हमारी शाखा में भुगतान करने की पुष्टि करने के लिए धन्यवाद, अलविदा"
+  },
+    "Hello":{
+    "filename":"Hello.wav",
+    "speech": "hello",
+    "text":"हेलो ."
   }
 }

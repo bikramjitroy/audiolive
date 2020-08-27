@@ -23,5 +23,10 @@
     "filename": "ThankYouPenaltyInfoExit.wav",
     "speech": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand",
     "text": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to an accrual of a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand"
+  },
+  "Hello":{
+    "filename":"Hello.wav",
+    "speech": "hello",
+    "text":"hello"
   }
 }

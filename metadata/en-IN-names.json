@@ -759,9 +759,9 @@
     "filename": "fc6571ee901576941edfa4111097009a.wav",
     "text": "mister rachana"
   },
-  "9845f1636ac3a7fe1606f94cad53b36b": {
-    "filename": "9845f1636ac3a7fe1606f94cad53b36b.wav",
-    "text": "deepak mam"
+  "mr_sahil": {
+    "filename": "sahil.wav",
+    "text": "mister sahil"
   },
   "mr_rohith": {
     "filename": "mr_rohith.wav",
@@ -775,35 +775,68 @@
     "filename": "mr_manoj.wav",
     "text": "mister manoj"
   },
-"mr_gaurav": {
+  "mr_gaurav": {
     "filename": "mr_gaurav.wav",
     "text": "mister gaurav"
-} ,
-
-"mr_nimish": {
+  },
+  "mr_nimish": {
     "filename": "mr_nimish.wav",
     "text": "mister nimish"
-},
-"akriti_mam": {
+  },
+  "akriti_mam": {
     "filename": "akriti_mam.wav",
     "text": "akriti mam"
-} ,
-"mr_sachin": {
+  },
+  "mr_sachin": {
     "filename": "mr_sachin.wav",
     "text": "mister sachin"
-} ,
-
-"mr_pushkaraj": {
+  },
+  "mr_pushkaraj": {
     "filename": "mr_pushkaraj.wav",
     "text": "mister pushkaraj"
-},
- "mr_bishal": {
+  },
+  "mr_bishal": {
     "filename": "mr_bishal.wav",
     "text": "mister bishal"
   },
- "mr_arvind": {
+  "mr_arvind": {
     "filename": "mr_arvind.wav",
     "text": "mister arvind"
+  },
+  "shruti_mam": {
+    "filename": "shruti_mam.wav",
+    "text": "shruti mam"
+  },
+  "mr_vyankatesh": {
+    "filename": "mr_vyankatesh.wav",
+    "text": "mister vyankatesh"
+  },
+  "mr_prawin": {
+    "filename": "mr_prawin.wav",
+    "text": "mister prawin"
+  },
+  "mr_roshan": {
+    "filename": "mr_roshan.wav",
+    "text": "mister Roshan"
+  },
+  "mr_pabitra": {
+    "filename": "mr_pabitra.wav",
+    "text": "mister pabitra"
+  },
+  "mr_kaifi": {
+    "filename": "mr_kaifi.wav",
+    "text": "mister kaifi"
+  },
+  "mr_ashif": {
+    "filename": "mr_ashif.wav",
+    "text": "mister ashif"
+  },
+  "rinky_mam": {
+    "filename": "rinky_mam.wav",
+    "text": "rinky mam"
+  },
+  "mr_nilesh": {
+    "filename": "mr_nilesh.wav",
+    "text": "mister nilesh"
   }
-
 }
