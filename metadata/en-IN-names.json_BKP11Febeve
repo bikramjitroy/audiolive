@@ -27251,628 +27251,520 @@
     "filename": "anuradha_mam.wav",
     "text": "anuradha mam"
   },
-  "rajeswari_mam": {
-    "filename": "rajeswari_mam.wav",
-    "text": "rajeswari mam"
-  },
-  "mr_achanta": {
-    "filename": "mr_achanta.wav",
-    "text": "mister achanta"
-  },
-  "mr_achutuni": {
-    "filename": "mr_achutuni.wav",
-    "text": "mister achutuni"
-  },
-  "mr_afsal": {
-    "filename": "mr_afsal.wav",
-    "text": "mister afsal"
-  },
-  "mr_ajayraj": {
-    "filename": "mr_ajayraj.wav",
-    "text": "mister ajayraj"
-  },
-  "akunoori_mam": {
-    "filename": "akunoori_mam.wav",
-    "text": "akunoori mam"
-  },
-  "alfiya_mam": {
-    "filename": "alfiya_mam.wav",
-    "text": "alfiya mam"
-  },
-  "mr_allapalli": {
-    "filename": "mr_allapalli.wav",
-    "text": "mister allapalli"
-  },
-  "mr_anugonda": {
-    "filename": "mr_anugonda.wav",
-    "text": "mister anugonda"
-  },
-  "mr_anukula": {
-    "filename": "mr_anukula.wav",
-    "text": "mister anukula"
-  },
-  "mr_arulkumar": {
-    "filename": "mr_arulkumar.wav",
-    "text": "mister arulkumar"
-  },
-  "mr_avineet": {
-    "filename": "mr_avineet.wav",
-    "text": "mister avineet"
-  },
-  "mr_ayanalli": {
-    "filename": "mr_ayanalli.wav",
-    "text": "mister ayanalli"
-  },
-  "mr_ayyappan": {
-    "filename": "mr_ayyappan.wav",
-    "text": "mister ayyappan"
-  },
-  "mr_balakarthik": {
-    "filename": "mr_balakarthik.wav",
-    "text": "mister balakarthik"
-  },
-  "mr_basavalingayya": {
-    "filename": "mr_basavalingayya.wav",
-    "text": "mister basavalingayya"
-  },
-  "mr_becky": {
-    "filename": "mr_becky.wav",
-    "text": "mister becky"
-  },
-  "mr_bhatesh": {
-    "filename": "mr_bhatesh.wav",
-    "text": "mister bhatesh"
-  },
-  "bidisha_mam": {
-    "filename": "bidisha_mam.wav",
-    "text": "bidisha mam"
-  },
-  "mr_binda": {
-    "filename": "mr_binda.wav",
-    "text": "mister binda"
-  },
-  "mr_bongani": {
-    "filename": "mr_bongani.wav",
-    "text": "mister bongani"
-  },
-  "mr_burgoji": {
-    "filename": "mr_burgoji.wav",
-    "text": "mister burgoji"
-  },
-  "challangi_mam": {
-    "filename": "challangi_mam.wav",
-    "text": "challangi mam"
-  },
-  "mr_chaturvedi": {
-    "filename": "mr_chaturvedi.wav",
-    "text": "mister chaturvedi"
-  },
-  "christina_mam": {
-    "filename": "christina_mam.wav",
-    "text": "christina mam"
-  },
-  "harini_mam": {
-    "filename": "harini_mam.wav",
-    "text": "harini mam"
-  },
-  "mr_dayananda": {
-    "filename": "mr_dayananda.wav",
-    "text": "mister dayananda"
-  },
-  "mr_dhanalakota": {
-    "filename": "mr_dhanalakota.wav",
-    "text": "mister dhanalakota"
-  },
-  "mr_dhaneshwar": {
-    "filename": "mr_dhaneshwar.wav",
-    "text": "mister dhaneshwar"
-  },
-  "mr_dhanraj": {
-    "filename": "mr_dhanraj.wav",
-    "text": "mister dhanraj"
-  },
-  "mr_dharmagalla": {
-    "filename": "mr_dharmagalla.wav",
-    "text": "mister dharmagalla"
-  },
-  "mr_dhavala": {
-    "filename": "mr_dhavala.wav",
-    "text": "mister dhavala"
-  },
-  "mr_dyagara": {
-    "filename": "mr_dyagara.wav",
-    "text": "mister dyagara"
-  },
-  "mr_elakkiyachelvan": {
-    "filename": "mr_elakkiyachelvan.wav",
-    "text": "mister elakkiyachelvan"
-  },
-  "mr_ebenezer": {
-    "filename": "mr_ebenezer.wav",
-    "text": "mister ebenezer"
-  },
-  "farheez_mam": {
-    "filename": "farheez_mam.wav",
-    "text": "farheez mam"
-  },
-  "mr_farooz": {
-    "filename": "mr_farooz.wav",
-    "text": "mister farooz"
-  },
-  "mr_garude": {
-    "filename": "mr_garude.wav",
-    "text": "mister garude"
-  },
-  "gaytri_mam": {
-    "filename": "gaytri_mam.wav",
-    "text": "gaytri mam"
-  },
-  "mr_ghadge": {
-    "filename": "mr_ghadge.wav",
-    "text": "mister ghadge"
-  },
-  "mr_ghanshyambhai": {
-    "filename": "mr_ghanshyambhai.wav",
-    "text": "mister ghanshyambhai"
-  },
-  "mr_gudiboina": {
-    "filename": "mr_gudiboina.wav",
-    "text": "mister gudiboina"
-  },
-  "mr_gurumoorthi": {
-    "filename": "mr_gurumoorthi.wav",
-    "text": "mister gurumoorthi"
-  },
-  "harshitha_mam": {
-    "filename": "harshitha_mam.wav",
-    "text": "harshitha mam"
-  },
-  "mr_hasmukhbhai": {
-    "filename": "mr_hasmukhbhai.wav",
-    "text": "mister hasmukhbhai"
-  },
-  "mr_iptekar": {
-    "filename": "mr_iptekar.wav",
-    "text": "mister iptekar"
-  },
-  "itee_mam": {
-    "filename": "itee_mam.wav",
-    "text": "itee mam"
-  },
-  "mr_iyer": {
-    "filename": "mr_iyer.wav",
-    "text": "mister iyer"
-  },
-  "mr_jagarnath": {
-    "filename": "mr_jagarnath.wav",
-    "text": "mister jagarnath"
-  },
-  "mr_jahairuddin": {
-    "filename": "mr_jahairuddin.wav",
-    "text": "mister jahairuddin"
-  },
-  "mr_jaison": {
-    "filename": "mr_jaison.wav",
-    "text": "mister jaison"
-  },
-  "janhavi_mam": {
-    "filename": "janhavi_mam.wav",
-    "text": "janhavi mam"
-  },
-  "mr_jawed": {
-    "filename": "mr_jawed.wav",
-    "text": "mister jawed"
-  },
-  "mr_jaybhaye": {
-    "filename": "mr_jaybhaye.wav",
-    "text": "mister jaybhaye"
-  },
-  "mr_jeewak": {
-    "filename": "mr_jeewak.wav",
-    "text": "mister jeewak"
-  },
-  "mr_jenarthoos": {
-    "filename": "mr_jenarthoos.wav",
-    "text": "mister jenarthoos"
-  },
-  "mr_jithu": {
-    "filename": "mr_jithu.wav",
-    "text": "mister jithu"
-  },
-  "mr_jittu": {
-    "filename": "mr_jittu.wav",
-    "text": "mister jittu"
-  },
-  "mr_kadiyam": {
-    "filename": "mr_kadiyam.wav",
-    "text": "mister kadiyam"
-  },
-  "mr_kalaga": {
-    "filename": "mr_kalaga.wav",
-    "text": "mister kalaga"
-  },
-  "mr_kanapuram": {
-    "filename": "mr_kanapuram.wav",
-    "text": "mister kanapuram"
-  },
-  "mr_kandoriya": {
-    "filename": "mr_kandoriya.wav",
-    "text": "mister kandoriya"
-  },
-  "mr_karri": {
-    "filename": "mr_karri.wav",
-    "text": "mister karri"
-  },
-  "mr_karupakala": {
-    "filename": "mr_karupakala.wav",
-    "text": "mister karupakala"
-  },
-  "kiranjot_mam": {
-    "filename": "kiranjot_mam.wav",
-    "text": "kiranjot mam"
-  },
-  "mr_kokkirala": {
-    "filename": "mr_kokkirala.wav",
-    "text": "mister kokkirala"
-  },
-  "mr_maddikuntla": {
-    "filename": "mr_maddikuntla.wav",
-    "text": "mister maddikuntla"
-  },
-  "mr_madduri": {
-    "filename": "mr_madduri.wav",
-    "text": "mister madduri"
-  },
-  "mahadevamma_mam": {
-    "filename": "mahadevamma_mam.wav",
-    "text": "mahadevamma mam"
-  },
-  "mr_maheswaran": {
-    "filename": "mr_maheswaran.wav",
-    "text": "mister maheswaran"
-  },
-  "mr_mandadapu": {
-    "filename": "mr_mandadapu.wav",
-    "text": "mister mandadapu"
-  },
-  "mr_mandapati": {
-    "filename": "mr_mandapati.wav",
-    "text": "mister mandapati"
-  },
-  "mr_mandyam": {
-    "filename": "mr_mandyam.wav",
-    "text": "mister mandyam"
-  },
-  "mr_mangaraju": {
-    "filename": "mr_mangaraju.wav",
-    "text": "mister mangaraju"
-  },
-  "marlena_mam": {
-    "filename": "marlena_mam.wav",
-    "text": "marlena mam"
-  },
-  "mr_mayuraysh": {
-    "filename": "mr_mayuraysh.wav",
-    "text": "mister mayuraysh"
-  },
-  "mr_medtiya": {
-    "filename": "mr_medtiya.wav",
-    "text": "mister medtiya"
-  },
-  "meenu_mam": {
-    "filename": "meenu_mam.wav",
-    "text": "meenu mam"
-  },
-  "mr_mehra": {
-    "filename": "mr_mehra.wav",
-    "text": "mister mehra"
-  },
-  "mr_mehrajudeen": {
-    "filename": "mr_mehrajudeen.wav",
-    "text": "mister mehrajudeen"
-  },
-  "meloosina_mam": {
-    "filename": "meloosina_mam.wav",
-    "text": "meloosina mam"
-  },
-  "mr_mergu": {
-    "filename": "mr_mergu.wav",
-    "text": "mister mergu"
-  },
-  "mr_milansinh": {
-    "filename": "mr_milansinh.wav",
-    "text": "mister milansinh"
-  },
-  "minakshi_mam": {
-    "filename": "minakshi_mam.wav",
-    "text": "minakshi mam"
-  },
-  "mr_miyapuram": {
-    "filename": "mr_miyapuram.wav",
-    "text": "mister miyapuram"
-  },
-  "mr_muduthanapelli": {
-    "filename": "mr_muduthanapelli.wav",
-    "text": "mister muduthanapelli"
-  },
-  "mr_muniyappan": {
-    "filename": "mr_muniyappan.wav",
-    "text": "mister muniyappan"
-  },
-  "mr_munzir": {
-    "filename": "mr_munzir.wav",
-    "text": "mister munzir"
-  },
-  "mr_muralidhar": {
-    "filename": "mr_muralidhar.wav",
-    "text": "mister muralidhar"
-  },
-  "mr_muthupandian": {
-    "filename": "mr_muthupandian.wav",
-    "text": "mister muthupandian"
-  },
-  "mr_muthyala": {
-    "filename": "mr_muthyala.wav",
-    "text": "mister muthyala"
-  },
-  "mr_nakkala": {
-    "filename": "mr_nakkala.wav",
-    "text": "mister nakkala"
-  },
-  "namita_mam": {
-    "filename": "namita_mam.wav",
-    "text": "namita mam"
-  },
-  "mr_nandeesha": {
-    "filename": "mr_nandeesha.wav",
-    "text": "mister nandeesha"
-  },
-  "mr_nandhhakumar": {
-    "filename": "mr_nandhhakumar.wav",
-    "text": "mister nandhhakumar"
-  },
-  "mr_narendar": {
-    "filename": "mr_narendar.wav",
-    "text": "mister narendar"
-  },
-  "mr_nayaz": {
-    "filename": "mr_nayaz.wav",
-    "text": "mister nayaz"
-  },
-  "mr_neyesh": {
-    "filename": "mr_neyesh.wav",
-    "text": "mister neyesh"
-  },
-  "mr_nithinkumar": {
-    "filename": "mr_nithinkumar.wav",
-    "text": "mister nithinkumar"
-  },
-  "mr_kalidass": {
-    "filename": "mr_kalidass.wav",
-    "text": "mister kalidass"
-  },
-  "mr_padakanti": {
-    "filename": "mr_padakanti.wav",
-    "text": "mister padakanti"
-  },
-  "mr_padman": {
-    "filename": "mr_padman.wav",
-    "text": "mister padman"
-  },
-  "mr_pankit": {
-    "filename": "mr_pankit.wav",
-    "text": "mister pankit"
-  },
-  "mr_papina": {
-    "filename": "mr_papina.wav",
-    "text": "mister papina"
-  },
-  "mr_peta": {
-    "filename": "mr_peta.wav",
-    "text": "mister peta"
-  },
-  "pramila_mam": {
-    "filename": "pramila_mam.wav",
-    "text": "pramila mam"
-  },
-  "mr_prashantgiri": {
-    "filename": "mr_prashantgiri.wav",
-    "text": "mister prashantgiri"
-  },
-  "mr_punnapuneeru": {
-    "filename": "mr_punnapuneeru.wav",
-    "text": "mister punnapuneeru"
-  },
-  "mr_rafiq": {
-    "filename": "mr_rafiq.wav",
-    "text": "mister rafiq"
-  },
-  "mr_rajapandi": {
-    "filename": "mr_rajapandi.wav",
-    "text": "mister rajapandi"
-  },
-  "mr_rajbir": {
-    "filename": "mr_rajbir.wav",
-    "text": "mister rajbir"
-  },
-  "mr_randheer": {
-    "filename": "mr_randheer.wav",
-    "text": "mister randheer"
-  },
-  "mr_ravadagundi": {
-    "filename": "mr_ravadagundi.wav",
-    "text": "mister ravadagundi"
-  },
-  "mr_ravivarma": {
-    "filename": "mr_ravivarma.wav",
-    "text": "mister ravivarma"
-  },
-  "mr_rayani": {
-    "filename": "mr_rayani.wav",
-    "text": "mister rayani"
-  },
-  "renita_mam": {
-    "filename": "renita_mam.wav",
-    "text": "renita mam"
-  },
-  "mr_revanasiddappa": {
-    "filename": "mr_revanasiddappa.wav",
-    "text": "mister revanasiddappa"
-  },
-  "mr_rudragouda": {
-    "filename": "mr_rudragouda.wav",
-    "text": "mister rudragouda"
-  },
-  "pushpalatha_mam": {
-    "filename": "pushpalatha_mam.wav",
-    "text": "pushpalatha mam"
-  },
-  "sadu_mam": {
-    "filename": "sadu_mam.wav",
-    "text": "sadu mam"
-  },
-  "mr_sandeepa": {
-    "filename": "mr_sandeepa.wav",
-    "text": "mister sandeepa"
-  },
-  "mr_sankoju": {
-    "filename": "mr_sankoju.wav",
-    "text": "mister sankoju"
-  },
-  "mr_sankpal": {
-    "filename": "mr_sankpal.wav",
-    "text": "mister sankpal"
-  },
-  "mr_sapankumar": {
-    "filename": "mr_sapankumar.wav",
-    "text": "mister sapankumar"
-  },
-  "sasmita_mam": {
-    "filename": "sasmita_mam.wav",
-    "text": "sasmita mam"
-  },
-  "mr_sateesh": {
-    "filename": "mr_sateesh.wav",
-    "text": "mister sateesh"
-  },
-  "sathiyapriya_mam": {
-    "filename": "sathiyapriya_mam.wav",
-    "text": "sathiyapriya mam"
-  },
-  "serin_mam": {
-    "filename": "serin_mam.wav",
-    "text": "serin mam"
-  },
-  "mr_shabab": {
-    "filename": "mr_shabab.wav",
-    "text": "mister shabab"
-  },
-  "shameem_mam": {
-    "filename": "shameem_mam.wav",
-    "text": "shameem mam"
-  },
-  "mr_shanmugasundaram": {
-    "filename": "mr_shanmugasundaram.wav",
-    "text": "mister shanmugasundaram"
-  },
-  "mr_shijo": {
-    "filename": "mr_shijo.wav",
-    "text": "mister shijo"
-  },
-  "mr_shivangkumar": {
-    "filename": "mr_shivangkumar.wav",
-    "text": "mister shivangkumar"
-  },
-  "mr_siddappareddigari": {
-    "filename": "mr_siddappareddigari.wav",
-    "text": "mister siddappareddigari"
-  },
-  "mr_sivaji": {
-    "filename": "mr_sivaji.wav",
-    "text": "mister sivaji"
-  },
-  "mr_somashekhara": {
-    "filename": "mr_somashekhara.wav",
-    "text": "mister somashekhara"
-  },
-  "mr_sonawane": {
-    "filename": "mr_sonawane.wav",
-    "text": "mister sonawane"
-  },
-  "mr_soundarapandian": {
-    "filename": "mr_soundarapandian.wav",
-    "text": "mister soundarapandian"
-  },
-  "mr_sujithkumar": {
-    "filename": "mr_sujithkumar.wav",
-    "text": "mister sujithkumar"
-  },
-  "mr_surjendu": {
-    "filename": "mr_surjendu.wav",
-    "text": "mister surjendu"
-  },
-  "mr_suryavnshi": {
-    "filename": "mr_suryavnshi.wav",
-    "text": "mister suryavnshi"
-  },
-  "mr_mohammedaliazad": {
-    "filename": "mr_mohammedaliazad.wav",
-    "text": "mister mohammedaliazad"
-  },
-  "mr_tanpure": {
-    "filename": "mr_tanpure.wav",
-    "text": "mister tanpure"
-  },
-  "thella_mam": {
-    "filename": "thella_mam.wav",
-    "text": "thella mam"
-  },
-  "thenmozhi_mam": {
-    "filename": "thenmozhi_mam.wav",
-    "text": "thenmozhi mam"
-  },
-  "mr_tuhin": {
-    "filename": "mr_tuhin.wav",
-    "text": "mister tuhin"
-  },
-  "mr_umapathi": {
-    "filename": "mr_umapathi.wav",
-    "text": "mister umapathi"
-  },
-  "mr_veerendar": {
-    "filename": "mr_veerendar.wav",
-    "text": "mister veerendar"
-  },
-  "mr_venkataravana": {
-    "filename": "mr_venkataravana.wav",
-    "text": "mister venkataravana"
-  },
-  "mr_vesalapu": {
-    "filename": "mr_vesalapu.wav",
-    "text": "mister vesalapu"
-  },
-  "mr_vettrivel": {
-    "filename": "mr_vettrivel.wav",
-    "text": "mister vettrivel"
-  },
-  "mr_vibhute": {
-    "filename": "mr_vibhute.wav",
-    "text": "mister vibhute"
-  },
-  "mr_vilendra": {
-    "filename": "mr_vilendra.wav",
-    "text": "mister vilendra"
-  },
-  "mr_vinukonda": {
-    "filename": "mr_vinukonda.wav",
-    "text": "mister vinukonda"
-  },
-  "mr_yuvaganesh": {
-    "filename": "mr_yuvaganesh.wav",
-    "text": "mister yuvaganesh"
-  },
-  "abc9f446debc34a5bbfbbbe7095375f1": {
-    "filename": "abc9f446debc34a5bbfbbbe7095375f1.wav",
-    "text": "mister xyz"
+  "533c5937351ee2c313a6f1a5414d8f85": {
+    "filename": "533c5937351ee2c313a6f1a5414d8f85.wav",
+    "text": "mister KUNA"
+  },
+  "475de80fa19b6267d74adc8fa32da058": {
+    "filename": "475de80fa19b6267d74adc8fa32da058.wav",
+    "text": "mister Maheswara"
+  },
+  "1e181fe1d847341ae4dd2cb89b17d7c7": {
+    "filename": "1e181fe1d847341ae4dd2cb89b17d7c7.wav",
+    "text": "mister CHITTEM"
+  },
+  "47965d3e506b5b0ddfecb3a4d8ad12e8": {
+    "filename": "47965d3e506b5b0ddfecb3a4d8ad12e8.wav",
+    "text": "Bellam mam"
+  },
+  "250aa2902e91ff1e3de4cbfd076b5caf": {
+    "filename": "250aa2902e91ff1e3de4cbfd076b5caf.wav",
+    "text": "mister Eshwar"
+  },
+  "6a7a536a331806e5825fd227734a889d": {
+    "filename": "6a7a536a331806e5825fd227734a889d.wav",
+    "text": "SUBA mam"
+  },
+  "f0f7f393d4ff78331ffd4d755964cf86": {
+    "filename": "f0f7f393d4ff78331ffd4d755964cf86.wav",
+    "text": "mister KALLA"
+  },
+  "87455865f449a05457ef80f6e2c432ff": {
+    "filename": "87455865f449a05457ef80f6e2c432ff.wav",
+    "text": "mister THEJAS"
+  },
+  "4cdddd020c75285b55c33f3ef414d30b": {
+    "filename": "4cdddd020c75285b55c33f3ef414d30b.wav",
+    "text": "mister Kumaravel"
+  },
+  "a348566f78beedf9ee49d582aaa77588": {
+    "filename": "a348566f78beedf9ee49d582aaa77588.wav",
+    "text": "mister null"
+  },
+  "c96431126f5ee62ee5fbd02a3e5985b2": {
+    "filename": "c96431126f5ee62ee5fbd02a3e5985b2.wav",
+    "text": "mister Padma"
+  },
+  "1a214e550c7936cb33636301ab6c5a64": {
+    "filename": "1a214e550c7936cb33636301ab6c5a64.wav",
+    "text": "mister ARULKUMAR"
+  },
+  "b0798783d74410279e2719dd0107ea23": {
+    "filename": "b0798783d74410279e2719dd0107ea23.wav",
+    "text": "mister DUVAKA"
+  },
+  "be951be055e191030ced649b85e1c278": {
+    "filename": "be951be055e191030ced649b85e1c278.wav",
+    "text": "mister VINAYAKASA"
+  },
+  "046688c4b3c2968a964b794936e2bc38": {
+    "filename": "046688c4b3c2968a964b794936e2bc38.wav",
+    "text": "mister BOORLA"
+  },
+  "e683fce9c8e7e8e40805d16b32f7435a": {
+    "filename": "e683fce9c8e7e8e40805d16b32f7435a.wav",
+    "text": "mister Rolon"
+  },
+  "7a9d2b1f615f6da74b100f94ff782770": {
+    "filename": "7a9d2b1f615f6da74b100f94ff782770.wav",
+    "text": "mister Manjuprasad"
+  },
+  "7a6d48b9926571f584d6aec56a73c310": {
+    "filename": "7a6d48b9926571f584d6aec56a73c310.wav",
+    "text": "mister VALASA"
+  },
+  "51ea3810789599fd06f24176799da940": {
+    "filename": "51ea3810789599fd06f24176799da940.wav",
+    "text": "mister Yunus"
+  },
+  "cd2e0f7cc039c27fa0a349cd40cf0bed": {
+    "filename": "cd2e0f7cc039c27fa0a349cd40cf0bed.wav",
+    "text": "mister Nanjundappa"
+  },
+  "b74c4e0cd20ca460f3a668bafefa956e": {
+    "filename": "b74c4e0cd20ca460f3a668bafefa956e.wav",
+    "text": "mister Atmuri"
+  },
+  "9fdd0dec61197f6fbf8126085525c90f": {
+    "filename": "9fdd0dec61197f6fbf8126085525c90f.wav",
+    "text": "mister Thabre"
+  },
+  "3e94df387af341d4802060767f63c442": {
+    "filename": "3e94df387af341d4802060767f63c442.wav",
+    "text": "ARJOO mam"
+  },
+  "d2e4efcb134212c566922d4a7602ced6": {
+    "filename": "d2e4efcb134212c566922d4a7602ced6.wav",
+    "text": "mister Boghara"
+  },
+  "dcf47637c508c69ea34435ee7ba9a172": {
+    "filename": "dcf47637c508c69ea34435ee7ba9a172.wav",
+    "text": "mister PUNURU"
+  },
+  "60ede64dd1e29d3103ff0bcdbc17280b": {
+    "filename": "60ede64dd1e29d3103ff0bcdbc17280b.wav",
+    "text": "mister PADMAN"
+  },
+  "319404e4581607254e3c89840c78fe9b": {
+    "filename": "319404e4581607254e3c89840c78fe9b.wav",
+    "text": "mister AJIMHUSEN"
+  },
+  "6090743b922c6ea720c14f29b3b72c7c": {
+    "filename": "6090743b922c6ea720c14f29b3b72c7c.wav",
+    "text": "mister Ajaharuddin"
+  },
+  "f3664a50cccd8b3c97a946f4731f8a15": {
+    "filename": "f3664a50cccd8b3c97a946f4731f8a15.wav",
+    "text": "mister MATTA"
+  },
+  "ae81ab47a4810554a2cb708d8d57b4c5": {
+    "filename": "ae81ab47a4810554a2cb708d8d57b4c5.wav",
+    "text": "mister WAGLE"
+  },
+  "6eff1afe5efba2912d248ba5bbf0236f": {
+    "filename": "6eff1afe5efba2912d248ba5bbf0236f.wav",
+    "text": "mister Mabusab"
+  },
+  "a86c43e9e65c6959319b9c9eee05441d": {
+    "filename": "a86c43e9e65c6959319b9c9eee05441d.wav",
+    "text": "mister Akketi"
+  },
+  "41136ab3719ab16ee8d3f8ee3952eeab": {
+    "filename": "41136ab3719ab16ee8d3f8ee3952eeab.wav",
+    "text": "mister Arunkuumar"
+  },
+  "ab16c3c246e486fec4d19695c77e0188": {
+    "filename": "ab16c3c246e486fec4d19695c77e0188.wav",
+    "text": "mister PENUGONDA"
+  },
+  "defdb2318e731e2b95dfc06799f5cfe7": {
+    "filename": "defdb2318e731e2b95dfc06799f5cfe7.wav",
+    "text": "mister RAJANIKANTA"
+  },
+  "f2cda9c3f2988e1efd2e274e67a43dc0": {
+    "filename": "f2cda9c3f2988e1efd2e274e67a43dc0.wav",
+    "text": "mister Dipu"
+  },
+  "9e151e127d8edf323663c5e31f261108": {
+    "filename": "9e151e127d8edf323663c5e31f261108.wav",
+    "text": "mister BAZEER"
+  },
+  "3e1b5ed55a17c79bd53d2a079850b4f8": {
+    "filename": "3e1b5ed55a17c79bd53d2a079850b4f8.wav",
+    "text": "mister MANORANJAN"
+  },
+  "cf3d216db5cac568a67bb7f328bbefe0": {
+    "filename": "cf3d216db5cac568a67bb7f328bbefe0.wav",
+    "text": "mister Kabalibaskar"
+  },
+  "c8681cc256f90782cd16b33b035b5a66": {
+    "filename": "c8681cc256f90782cd16b33b035b5a66.wav",
+    "text": "mister BONAGIRI"
+  },
+  "7f926d2443a53249d906ab3181ea896a": {
+    "filename": "7f926d2443a53249d906ab3181ea896a.wav",
+    "text": "mister BODDAM"
+  },
+  "3b9330d18d7d4c69f38b68a55c732950": {
+    "filename": "3b9330d18d7d4c69f38b68a55c732950.wav",
+    "text": "mister KETHAN"
+  },
+  "74af1ad651f27b84afc590cfd54ebffd": {
+    "filename": "74af1ad651f27b84afc590cfd54ebffd.wav",
+    "text": "mister Mundla"
+  },
+  "7273b563ed59dd3fabc07c97f26b6890": {
+    "filename": "7273b563ed59dd3fabc07c97f26b6890.wav",
+    "text": "mister James"
+  },
+  "fa9454619fd95e312dad9ad8867ae965": {
+    "filename": "fa9454619fd95e312dad9ad8867ae965.wav",
+    "text": "mister Laxmen"
+  },
+  "e9eeb71b61c841fbddab99b0be390e33": {
+    "filename": "e9eeb71b61c841fbddab99b0be390e33.wav",
+    "text": "mister PRADEEPGOUDA"
+  },
+  "3af54bb3eb68f5c54422dbd051a181f6": {
+    "filename": "3af54bb3eb68f5c54422dbd051a181f6.wav",
+    "text": "mister Gopalakrishnan"
+  },
+  "86b5911a010b6101e37d6bf90e630cb6": {
+    "filename": "86b5911a010b6101e37d6bf90e630cb6.wav",
+    "text": "Miraben mam"
+  },
+  "c436bfbf4c295ff001bfac7cfeabc382": {
+    "filename": "c436bfbf4c295ff001bfac7cfeabc382.wav",
+    "text": "mister SOMASHEKER"
+  },
+  "c8fc1cc01753655e34907eea7ec2b7d5": {
+    "filename": "c8fc1cc01753655e34907eea7ec2b7d5.wav",
+    "text": "mister CHANDRASEKARAN"
+  },
+  "865cb03ef62178cd98275ebf1d687ded": {
+    "filename": "865cb03ef62178cd98275ebf1d687ded.wav",
+    "text": "mister KIRANBABU"
+  },
+  "c0c285e7499e8120bda2ea788e07112f": {
+    "filename": "c0c285e7499e8120bda2ea788e07112f.wav",
+    "text": "mister VEERACHANDRA"
+  },
+  "50f12ce485dde20eb4b95aafacc80564": {
+    "filename": "50f12ce485dde20eb4b95aafacc80564.wav",
+    "text": "mister vallabhaneni"
+  },
+  "6262cca1fbd7e9c153908345d39f9541": {
+    "filename": "6262cca1fbd7e9c153908345d39f9541.wav",
+    "text": "mister DONDEV"
+  },
+  "9fc42a133d90c3547877c6d633045bf9": {
+    "filename": "9fc42a133d90c3547877c6d633045bf9.wav",
+    "text": "mister Pendyam"
+  },
+  "a479108d1bfbba656ba22ac366730ecb": {
+    "filename": "a479108d1bfbba656ba22ac366730ecb.wav",
+    "text": "mister Gunishetty"
+  },
+  "24e5cd70a9ed4ceb3a369e2b60ef1035": {
+    "filename": "24e5cd70a9ed4ceb3a369e2b60ef1035.wav",
+    "text": "mister Sivaprakash"
+  },
+  "dccf14fa289948aa557e9beb9cc44a77": {
+    "filename": "dccf14fa289948aa557e9beb9cc44a77.wav",
+    "text": "SUGANTHI mam"
+  },
+  "45238c31544c35ad70bec082afb14520": {
+    "filename": "45238c31544c35ad70bec082afb14520.wav",
+    "text": "mister KALLESHA"
+  },
+  "e3d2929c831a4c2819292d9010d56c78": {
+    "filename": "e3d2929c831a4c2819292d9010d56c78.wav",
+    "text": "mister SREEKUMAR"
+  },
+  "18474b3843aabb2163af3e3b9b418cc3": {
+    "filename": "18474b3843aabb2163af3e3b9b418cc3.wav",
+    "text": "mister JESHWANTH"
+  },
+  "3248800d80cabb0d58906c240afc7cc1": {
+    "filename": "3248800d80cabb0d58906c240afc7cc1.wav",
+    "text": "mister Thirumurugan"
+  },
+  "51909cb567e68b0ff0a4a904ab7942f9": {
+    "filename": "51909cb567e68b0ff0a4a904ab7942f9.wav",
+    "text": "mister Dumpala"
+  },
+  "10983f445d0b2fbf220beee17bab4717": {
+    "filename": "10983f445d0b2fbf220beee17bab4717.wav",
+    "text": "mister Kamaraj"
+  },
+  "120a2445e70b24e53c9ee4ade7b872d9": {
+    "filename": "120a2445e70b24e53c9ee4ade7b872d9.wav",
+    "text": "mister BINDA"
+  },
+  "4cd7c70408ca7176f5b6ed9355e41d4a": {
+    "filename": "4cd7c70408ca7176f5b6ed9355e41d4a.wav",
+    "text": "mister HYNDHAVA"
+  },
+  "6342007d77ee1e7c412f7046fb71e969": {
+    "filename": "6342007d77ee1e7c412f7046fb71e969.wav",
+    "text": "mister VADDEBOINA"
+  },
+  "f4be15d1b562916f891ad8be86174069": {
+    "filename": "f4be15d1b562916f891ad8be86174069.wav",
+    "text": "mister Bolemoni"
+  },
+  "bc556fc0d4afe46a22129c6cb4bb9049": {
+    "filename": "bc556fc0d4afe46a22129c6cb4bb9049.wav",
+    "text": "mister Sadumu"
+  },
+  "323bb53871191190be2cd74e2209fdd7": {
+    "filename": "323bb53871191190be2cd74e2209fdd7.wav",
+    "text": "Nanthini mam"
+  },
+  "6a1131b973947adc5cf6c48e1d74bd17": {
+    "filename": "6a1131b973947adc5cf6c48e1d74bd17.wav",
+    "text": "mister MANDAVARAJU"
+  },
+  "35a017af5c8975542a5d97249bfa80d7": {
+    "filename": "35a017af5c8975542a5d97249bfa80d7.wav",
+    "text": "mister BHAVESHBHAI"
+  },
+  "1513a792199cdbcbcc1c30c3f024a711": {
+    "filename": "1513a792199cdbcbcc1c30c3f024a711.wav",
+    "text": "mister SIMIN"
+  },
+  "9ca9d870149f78222e9c33db7121f7c9": {
+    "filename": "9ca9d870149f78222e9c33db7121f7c9.wav",
+    "text": "mister POTHUKUNTA"
+  },
+  "f44ee78ed0d51c268871112ea1dc14a6": {
+    "filename": "f44ee78ed0d51c268871112ea1dc14a6.wav",
+    "text": "mister JASHWANTH"
+  },
+  "04fc5f6c502cb54a9cbd60e473812547": {
+    "filename": "04fc5f6c502cb54a9cbd60e473812547.wav",
+    "text": "mister DANDU"
+  },
+  "e1a27bfd85aa8747f65dd6098fbba7c8": {
+    "filename": "e1a27bfd85aa8747f65dd6098fbba7c8.wav",
+    "text": "mister Damasridhar"
+  },
+  "1c95b1b78a3859f2c247e85723e713f9": {
+    "filename": "1c95b1b78a3859f2c247e85723e713f9.wav",
+    "text": "mister MMKS"
+  },
+  "4d4da07c515992b57757438ea4c22000": {
+    "filename": "4d4da07c515992b57757438ea4c22000.wav",
+    "text": "mister BALASUBRAMANYAM"
+  },
+  "ee6f9de3f74d0958d7bf9831fbdab147": {
+    "filename": "ee6f9de3f74d0958d7bf9831fbdab147.wav",
+    "text": "mister YOGESHWARAN"
+  },
+  "529482fda9614714d69c24bcf1e3b6ec": {
+    "filename": "529482fda9614714d69c24bcf1e3b6ec.wav",
+    "text": "mister SUBRAMANIAM"
+  },
+  "8142a420e822bdde5ddc142ca1ae1452": {
+    "filename": "8142a420e822bdde5ddc142ca1ae1452.wav",
+    "text": "mister SIDDESHVITTAL"
+  },
+  "160f756aad330ff0a05995286889e584": {
+    "filename": "160f756aad330ff0a05995286889e584.wav",
+    "text": "HEMAVATHI mam"
+  },
+  "e8d7025a9c4c40bdc4716260e2d05e8d": {
+    "filename": "e8d7025a9c4c40bdc4716260e2d05e8d.wav",
+    "text": "mister PITCHAIMUTHU"
+  },
+  "622b46a6953664cf6352c003b47c39fd": {
+    "filename": "622b46a6953664cf6352c003b47c39fd.wav",
+    "text": "mister PULIGILLA"
+  },
+  "0f2471142dc83a869998f6f294015674": {
+    "filename": "0f2471142dc83a869998f6f294015674.wav",
+    "text": "mister SANDEEPA"
+  },
+  "ca38fe7b34b3349ea25f312397c93fa8": {
+    "filename": "ca38fe7b34b3349ea25f312397c93fa8.wav",
+    "text": "mister LAKNEPALLY"
+  },
+  "a83131a504a5a2b97ed96f1a76ec92e6": {
+    "filename": "a83131a504a5a2b97ed96f1a76ec92e6.wav",
+    "text": "mister SATHESH"
+  },
+  "f3e5fed499fdb1f3c715412c560b7a95": {
+    "filename": "f3e5fed499fdb1f3c715412c560b7a95.wav",
+    "text": "mister DHINESHKUMAR"
+  },
+  "6ff203ea1d066c56e7e71a45024a3260": {
+    "filename": "6ff203ea1d066c56e7e71a45024a3260.wav",
+    "text": "mister KONDURU"
+  },
+  "e2d997bde41fb071937f21cb996580f3": {
+    "filename": "e2d997bde41fb071937f21cb996580f3.wav",
+    "text": "mister SATHYANARAYANAN"
+  },
+  "da2b853c99c359de014c4b00120cbe77": {
+    "filename": "da2b853c99c359de014c4b00120cbe77.wav",
+    "text": "mister CHILLAL"
+  },
+  "1e9212f9bb2fbd4c8d785af378f008e9": {
+    "filename": "1e9212f9bb2fbd4c8d785af378f008e9.wav",
+    "text": "mister NIRMALCHANDRA"
+  },
+  "ce373d8146ca36dfda4e75a7da9a20b5": {
+    "filename": "ce373d8146ca36dfda4e75a7da9a20b5.wav",
+    "text": "ADHYARU mam"
+  },
+  "6c077aff844b8728fae479fd589977b3": {
+    "filename": "6c077aff844b8728fae479fd589977b3.wav",
+    "text": "mister AKKAPELLY"
+  },
+  "048ce59aff5ac2f8bf3358f3cd7e9340": {
+    "filename": "048ce59aff5ac2f8bf3358f3cd7e9340.wav",
+    "text": "mister THAKER"
+  },
+  "51d7a7811fa70542bed98a6ae93d9a0f": {
+    "filename": "51d7a7811fa70542bed98a6ae93d9a0f.wav",
+    "text": "mister CHENNARAPU"
+  },
+  "e229a4a60443fe42bab390cadacc4072": {
+    "filename": "e229a4a60443fe42bab390cadacc4072.wav",
+    "text": "mister AMIRAPPAS"
+  },
+  "d21cda0df3da005eab1151e510278980": {
+    "filename": "d21cda0df3da005eab1151e510278980.wav",
+    "text": "mister SHREESHA"
+  },
+  "647a890a59ff1aac41766b1948bb13b6": {
+    "filename": "647a890a59ff1aac41766b1948bb13b6.wav",
+    "text": "mister CHIRUMAMELLA"
+  },
+  "ca04ef636a63476aea54f7e8e60717d1": {
+    "filename": "ca04ef636a63476aea54f7e8e60717d1.wav",
+    "text": "mister KAMALANATH"
+  },
+  "22b4e939fc60fa5039641ea1781af1da": {
+    "filename": "22b4e939fc60fa5039641ea1781af1da.wav",
+    "text": "mister kaushalesh"
+  },
+  "a9d46a4033b4882bb1bc429f1691f6af": {
+    "filename": "a9d46a4033b4882bb1bc429f1691f6af.wav",
+    "text": "mister PEDDINTI"
+  },
+  "dc16b28267ed58cdd47e1b2c389ebb68": {
+    "filename": "dc16b28267ed58cdd47e1b2c389ebb68.wav",
+    "text": "mister Sundarraj"
+  },
+  "10f4cc8e27a3d62cb73835e6cce67896": {
+    "filename": "10f4cc8e27a3d62cb73835e6cce67896.wav",
+    "text": "mister KASHINATH"
+  },
+  "593af0161ee893c7b6207ec16fdc4fb5": {
+    "filename": "593af0161ee893c7b6207ec16fdc4fb5.wav",
+    "text": "Haripriya mam"
+  },
+  "bc7ecb9e3389177e802f1b5d42e5d83d": {
+    "filename": "bc7ecb9e3389177e802f1b5d42e5d83d.wav",
+    "text": "mister Hariprasath"
+  },
+  "b5f05e0f07f8d1bba0f19ed3bd43ede9": {
+    "filename": "b5f05e0f07f8d1bba0f19ed3bd43ede9.wav",
+    "text": "mister Yemulapati"
+  },
+  "d2dfec907174822c865210fba674fcd0": {
+    "filename": "d2dfec907174822c865210fba674fcd0.wav",
+    "text": "mister THANAKKUMAR"
+  },
+  "c7ba4ccc7885daa9bbea55325f1de19f": {
+    "filename": "c7ba4ccc7885daa9bbea55325f1de19f.wav",
+    "text": "mister Balakarthik"
+  },
+  "8ab0a8a3b1403435b588493c64e99be8": {
+    "filename": "8ab0a8a3b1403435b588493c64e99be8.wav",
+    "text": "mister NELSON"
+  },
+  "f5bb21a6cac526783311fe5353d3b894": {
+    "filename": "f5bb21a6cac526783311fe5353d3b894.wav",
+    "text": "mister SARUK"
+  },
+  "76820c56a23c731498254110f3c3832a": {
+    "filename": "76820c56a23c731498254110f3c3832a.wav",
+    "text": "mister REGANA"
+  },
+  "37fea73f774a7fb6e6eb7d760d4ad453": {
+    "filename": "37fea73f774a7fb6e6eb7d760d4ad453.wav",
+    "text": "PRAMILA mam"
+  },
+  "7f5c68f46d16aa59fde93cc52134bc82": {
+    "filename": "7f5c68f46d16aa59fde93cc52134bc82.wav",
+    "text": "mister Sundhar"
+  },
+  "0fff5f9a9ddde2b0d666bd2dd64a8b14": {
+    "filename": "0fff5f9a9ddde2b0d666bd2dd64a8b14.wav",
+    "text": "mister MOGLI"
+  },
+  "8613f81d669d357bb10c4a3289e04c0e": {
+    "filename": "8613f81d669d357bb10c4a3289e04c0e.wav",
+    "text": "mister Jijo"
+  },
+  "9a693ae07923c54481020e6f1809a998": {
+    "filename": "9a693ae07923c54481020e6f1809a998.wav",
+    "text": "mister Gorakhanath"
+  },
+  "280f9d08aba888d64ff4803427f979a8": {
+    "filename": "280f9d08aba888d64ff4803427f979a8.wav",
+    "text": "mister DODIA"
+  },
+  "d1e2f8d144e90ff95e63e7a95d7a7660": {
+    "filename": "d1e2f8d144e90ff95e63e7a95d7a7660.wav",
+    "text": "mister Soundarajan"
+  },
+  "5773de2a99a03a4e14ee9dee7fb95e6f": {
+    "filename": "5773de2a99a03a4e14ee9dee7fb95e6f.wav",
+    "text": "mister BAKOTRA"
+  },
+  "ec7a6f341a58976a0b191b69f0695bea": {
+    "filename": "ec7a6f341a58976a0b191b69f0695bea.wav",
+    "text": "mister SRIDHARA"
+  },
+  "75e8a728ff1f3a613ebed612139f8958": {
+    "filename": "75e8a728ff1f3a613ebed612139f8958.wav",
+    "text": "mister VADDLA"
+  },
+  "bcbc60ccebc4d93b2ad31a4e7b8481a8": {
+    "filename": "bcbc60ccebc4d93b2ad31a4e7b8481a8.wav",
+    "text": "mister KARTHIKAISAMY"
+  },
+  "4a0db5bd26916fa578442cd4e8ab941d": {
+    "filename": "4a0db5bd26916fa578442cd4e8ab941d.wav",
+    "text": "mister Shamil"
+  },
+  "dd8a2beca94368738740f0bcb7282aad": {
+    "filename": "dd8a2beca94368738740f0bcb7282aad.wav",
+    "text": "SINDHIYA mam"
+  },
+  "ade41f819f864c190ac56622d2c78e82": {
+    "filename": "ade41f819f864c190ac56622d2c78e82.wav",
+    "text": "mister AMARENDRA"
+  },
+  "f199f5fa5b799bd1cd3cd60cde16c695": {
+    "filename": "f199f5fa5b799bd1cd3cd60cde16c695.wav",
+    "text": "Arigela mam"
+  },
+  "116d16fc4fa1cf51d1ab589bc35b7ce3": {
+    "filename": "116d16fc4fa1cf51d1ab589bc35b7ce3.wav",
+    "text": "mister Riteshbhai"
   }
 }

@@ -1,0 +1,154 @@
+{
+  "utter_thanks_for_details_ask_callback.wav": {
+    "filename": "utter_thanks_for_details_ask_callback.wav",
+    "text": "Thank you for sharing the details, you will receive an email shortly with the JD and can we connect sometime today to discuss the JD in detail or specify a date as per your convenience."
+  },
+  "utter_ask_for_call_time.wav": {
+    "filename": "utter_ask_for_call_time.wav",
+    "text": "At what time we shall call you."
+  },
+  "utter_ask_for_references.wav": {
+    "filename": "utter_ask_for_references.wav",
+    "text": "Do you have any reference regarding this opportunity"
+  },
+  "utter_thanks_for_details.wav": {
+    "filename": "utter_thanks_for_details.wav",
+    "text": "Thank you and have great day"
+  },
+  "utter_hello.wav": {
+    "filename": "utter_hello.wav",
+    "text": "hello"
+  },
+  "utter_ask_for_refrence.wav": {
+    "filename": "utter_ask_for_refrence.wav",
+    "text": "Do you have any  refrences?"
+  },
+  "utter_ask_refrencename.wav": {
+    "filename": "utter_ask_refrencename.wav",
+    "text": "May I know the name of the candidate."
+  },
+  "utter_ask_refrencenumber.wav": {
+    "filename": "utter_ask_refrencenumber.wav",
+    "text": "Help me with the contact number of Candidate you are reffering"
+  },
+  "utter_ask_thanks_for_refrence.wav": {
+    "filename": "utter_ask_thanks_for_refrence.wav",
+    "text": "Thanks for sharing  details. Have a great day"
+  },
+  "utter_thanks.wav": {
+    "filename": "utter_thanks.wav",
+    "text": "Thanks for your time. Have a great day"
+  },
+  "utter_thanksandcallback.wav": {
+    "filename": "utter_thanksandcallback.wav",
+    "text": "You  will  recieve a callback. Have a great day"
+  },
+  "utter_thanksandenycallback.wav": {
+    "filename": "utter_thanksandenycallback.wav",
+    "text": "Thnaks for your time. Have a great day"
+  },
+  "oges-CTC.wav": {
+    "filename": "oges-CTC.wav",
+    "text": "Please tell us your Current Annual CTC?"
+  },
+  "oges-Location.wav": {
+    "filename": "oges-Location.wav",
+    "text": "What is your current location?"
+  },
+  "oges-NoticePeriod.wav": {
+    "filename": "oges-NoticePeriod.wav",
+    "text": "May i know your Notice Period?"
+  },
+  "opening-goes-Static.wav": {
+    "filename": "opening-goes-Static.wav",
+    "text": "I have an opening for the role of Fullstack developer for Gurgaon location with our client a German MNC"
+  },
+  "oges-developerSkill.wav": {
+    "filename": "oges-developerSkill.wav",
+    "text": "Fullstack developer"
+  },
+  "for.wav": {
+    "filename": "for.wav",
+    "text": "for"
+  },
+  "location.wav": {
+    "filename": "location.wav",
+    "text": "Gurgaon location"
+  },
+  "client-oges.wav": {
+    "filename": "client-oges.wav",
+    "text": "with our client"
+  },
+  "MNC-oges.wav": {
+    "filename": "MNC-oges.wav",
+    "text": "a German MNC"
+  },
+  "knowMore-Oges.wav": {
+    "filename": "knowMore-Oges.wav",
+    "text": "Would you be interested to know more about it?"
+  },
+  "oges-Welcome.wav": {
+    "filename": "oges-Welcome.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm."
+  },
+  "oges-Thakyou.wav": {
+    "filename": "oges-Thakyou.wav",
+    "text": "Thank You, I need few details before sharing the JD with you."
+  },
+  "currentCompany-Oges.wav": {
+    "filename": "currentCompany-Oges.wav",
+    "text": "Please let me know your current company or employer name?"
+  },
+  "utter_ask_company_for_affirm.wav": {
+    "filename": "utter_ask_company_for_affirm.wav",
+    "text": "Thank You, I need few details before sharing the JD with you. Please let me know your current company / employer name"
+  },
+  "utter_welcome_msg.wav": {
+    "filename": "utter_welcome_msg.wav",
+    "text": "Please let me know your current company or employer name?"
+  },
+  "oges-cloudDeveloper": {
+    "filename": "oges-cloudDeveloper.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of Devops Cloud Engineer for Pune with our client A Steel MNC Would you be interested to know more about it?"
+  },
+  "NoInputMessage1.wav": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "workExpereience-Oges.wav": {
+    "filename": "workExpereience-Oges.wav",
+    "text": "Please help us with your total year of experience."
+  },
+  "2b6b0409e2719d53ea5bbb94056251ab": {
+    "filename": "2b6b0409e2719d53ea5bbb94056251ab.wav",
+    "text": "Waiting for your response"
+  },
+  "14f60a99fd01f035f79392a468a9fcac": {
+    "filename": "14f60a99fd01f035f79392a468a9fcac.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of null for null with our client Ameyo Would you be interested to know more about it?"
+  },
+  "9b0ba7f37f4fe7ff010d64586192c984": {
+    "filename": "9b0ba7f37f4fe7ff010d64586192c984.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of Fullstack developer for Gurgaon location with our client Ameyo Would you be interested to know more about it?"
+  },
+  "1474cd31245c8d6e10b5db3973160556": {
+    "filename": "1474cd31245c8d6e10b5db3973160556.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of {designation} for {location} with our client {company_name} Would you be interested to know more about it?"
+  },
+  "abe4b1418dbd82f44ef59ef4dbd1296a": {
+    "filename": "abe4b1418dbd82f44ef59ef4dbd1296a.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of null for null with our client TATA CAPITAL Would you be interested to know more about it?"
+  },
+  "df9e47d628142774be49086269815897": {
+    "filename": "df9e47d628142774be49086269815897.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of Fullstack developer for Gurgaon location with our client a German MNC Would you be interested to know more about it?"
+  },
+  "a6b1b980c994a12efc7c1ea4263f7d30": {
+    "filename": "a6b1b980c994a12efc7c1ea4263f7d30.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm. I have an opening for the role of Fullstack developer for Mumbai with our client Ameyo Would you be interested to know more about it?"
+  }
+}

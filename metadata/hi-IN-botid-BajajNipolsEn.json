@@ -1,0 +1,58 @@
+{
+  "Bajaj-Finance-welcome-hi.wav": {
+    "filename": "Bajaj-Finance-welcome-hi.wav",
+    "text": "Dear Customer, Main Disha Bajaj Finance se, kya main aapse Do minute baat kar sakti hu"
+  },
+  "Nilpos-thankyou-hi.wav": {
+    "filename": "Nilpos-thankyou-hi.wav",
+    "text": "Bajaj Finance ke saath LAN"
+  },
+  "Nilpos-thankyou2-hi.wav": {
+    "filename": "Nilpos-thankyou2-hi.wav",
+    "text": "ke sabhi EMI ko clear karane ke lie dhanyavaad. Lekin aapka."
+  },
+  "Nilpos-thankyou3-hi.wav": {
+    "filename": "Nilpos-thankyou3-hi.wav",
+    "text": ".ka penal abhi bhi outstanding hai jiske karan hum aapaka loan account close karne mein asamarth hain. krpaya aaj hi"
+  },
+  "Nilpos-thankyou4-hi.wav": {
+    "filename": "Nilpos-thankyou4-hi.wav",
+    "text": "ka payment karke NOC prapt kare. Aap kis mode se payment karenge ? Online ya Bajaj branch"
+  },
+  "Bajaj-Finance-paymentMethod-hi.wav": {
+    "filename": "Bajaj-Finance-paymentMethod-hi.wav",
+    "text": "krypya batay aap kis channel se payment karenge PAYTM, Google pay Mobikwik phonepay ya net banking"
+  },
+  "Nilpos-thankYou-hi.wav": {
+    "filename": "Nilpos-thankYou-hi.wav",
+    "text": "Confirmation ke liye dhanyawad, Apka din subh ho"
+  },
+  "Nilpos-dhanyawad-hi.wav": {
+    "filename": "Nilpos-dhanyawad-hi.wav",
+    "text": "aapki pushti ke liye dhanyawad, Apka din subh ho"
+  },
+  "Nilpos-creditCard-hi.wav": {
+    "filename": "Nilpos-creditCard-hi.wa",
+    "text": "Apaka credit score banaye rakhne ke liye ye bahot avashyak hai ki aap paymentaaj hi kare,aapka din subh ho."
+  },
+  "paymentLink-hi.wav": {
+    "filename": "paymentLink-hi.wav",
+    "text": "aapki pushti ke liye dhanyawad,  Apka din subh ho"
+  },
+  "repeat-hi.wav": {
+    "filename": "repeat-hi.wav",
+    "text": "kbc"
+  },
+  "5d41402abc4b2a76b9719d911017c592": {
+    "filename": "hello.wav",
+    "text": "hello"
+  },
+  "8b59045e2868b83895a1c0cad7b9d009": {
+    "filename": "repeat-hi.wav",
+    "text": "कृपया फिर से कहिएगा"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  }
+}

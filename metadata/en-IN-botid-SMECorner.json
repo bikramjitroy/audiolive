@@ -1,0 +1,63 @@
+{
+	"hello": {
+		"filename": "hello.wav",
+		"text": "hello"
+	},
+	"thisis": {
+		"filename": "thisis.wav",
+		"text": "This is Disha calling from SME Corner. Am I speaking to"
+	},
+
+	"welcome1": {
+		"filename": "welcome1.wav",
+		"text": "Welcome to SMECorner, we are happy to see you as part of our family & hope to serve you at our best.This call-in respect to the Business Loan  disbursed by us on"
+	},
+	"welcome2": {
+		"filename": "welcome2.wav",
+		"text": "The disbursed Loan Details are as follows. Loan has been disbursed to you by"
+	},
+	"welcome3": {
+		"filename": "welcome3",
+		"text": "of an amount of"
+	},
+	"welcome4": {
+		"filename": "welcome4.wav",
+		"text": "for a tenure of"
+	},
+	"welcome5": {
+		"filename": "welcome5.wav",
+		"text": "months. Your monthly EMI will be of Rupees"
+	},
+	"welcome6": {
+		"filename": "welcome6.wav",
+		"text": "and first EMI will start on"
+	},
+	"welcome7": {
+		"filename": "welcome7.wav",
+		"text": "I hope the details are clear to you"
+	},
+	"maintainBalance": {
+		"filename": "maintainBalance.wav",
+		"text": "Request you to kindly maintain a sufficient balance in account on"
+	},
+	"greatDay": {
+		"filename": "greatDay.wav",
+		"text": "Thank you and have a great day"
+	},
+	"concern": {
+		"filename": "concern.wav",
+		"text": "We have noted your concern and our executive will call you back regrading the same"
+	},
+	"sorry": {
+		"filename": "sorry.wav",
+		"text": "Sorry for the inconvenience"
+	},
+	"repeat": {
+		"filename": "repeat.wav",
+		"text": "I hope you agree with the information provided or would you like me to repeat"
+	},
+	"sbi": {
+		"filename": "sbi.wav",
+		"text": "SBI"
+	}
+}

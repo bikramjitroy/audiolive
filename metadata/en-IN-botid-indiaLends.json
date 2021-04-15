@@ -1,0 +1,47 @@
+{
+  "IndialendsWelcomemessage": {
+    "filename": "IndialendsWelcomemessage.wav",
+    "text": " this is Swati calling from IndiaLends."
+  },
+  "hi-indialends": {
+    "filename": "hi-indialends.wav",
+    "text": "hi"
+  },
+  "AnnouncePrimaryoffer1WithoutName": {
+    "filename": "AnnouncePrimaryoffer1WithoutName.wav",
+    "text": "Congratulations You are eligible for our Pre-approved Personal loan offer from TATA CAPITAL of"
+  },
+  "AnnouncePrimaryoffer2": {
+    "filename": "AnnouncePrimaryoffer2.wav",
+    "text": " at amazing interest rates. Get instant loan processing and disbursement with minimal documentation. Would you be interested to know more about this amazing offer?"
+  },
+  "If-Interested": {
+    "filename": "If-Interested.wav",
+    "text": "Great! We will shortly connect you the banks official. Thank You!"
+  },
+  "If-not-Interested": {
+    "filename": "If-not-Interested.wav",
+    "text": "Thank you for giving us your valuable time. Have a great day and visit IndiaLends website."
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech": "hello",
+    "text": "hello"
+  },
+  "AnnouncePrimaryoffer1": {
+    "filename": "AnnouncePrimaryoffer1.wav",
+    "text": "this is Swati calling from IndiaLends. Congratulations You are eligible for our Pre-approved Personal loan offer from TATA CAPITAL of"
+  },
+  "b3fa336fa94312a8bfb71da69ce9ae8a": {
+    "filename": "b3fa336fa94312a8bfb71da69ce9ae8a.wav",
+    "text": "did you say something ?"
+  }
+}

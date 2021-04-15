@@ -19,6 +19,11 @@ var ASTERISK_PATH = "/dacx/var/ameyo/dacxdata/asap/var/lib/asterisk/sounds/en/"
 
 const DEFAULT_MESSAGE_AUDIO = "public/tts_final/default_error_message.wav"
 
+
+
+const AUDIO_SAMPLE_RATE = 22000;
+
+
 var app = express();
 
 app.use(express.static('public'));
@@ -34,13 +39,13 @@ app.post('/uploadfile', upload.single('soundBlob'), function (req, res, next) {
 
   let basePath = 'public/uploads/';
   let uploadLocation = __dirname + '/' + basePath + req.file.originalname + ".webm"; // where to save the file to. make sure the incoming name has a .wav extension
-  console.log("ST", req.file.startTime, req.endTime);
 
   //fs.writeFileSync(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)),{flag:'w'}); // write the blob to the server as a file
   fs.writeFileSync(uploadLocation, req.file.buffer,{flag:'w'}); // write the blob to the server as a file
 
   let filePath = basePath + req.file.originalname;
-  let convertCommand = 'ffmpeg -y -i ' + filePath + '.webm -ar 8000 -acodec pcm_s16le ' + filePath + '.wav';
+  //let convertCommand = 'ffmpeg -y -i ' + filePath + '.webm -ar ' + AUDIO_SAMPLE_RATE.toString()  + ' -acodec pcm_s16le ' + filePath + '.wav';
+  let convertCommand = 'ffmpeg -y -i ' + filePath + '.webm -ac 1 -acodec pcm_s16le ' + filePath + '.wav';
 
   console.log("ConvertCommand:",convertCommand);
 
@@ -186,7 +191,6 @@ app.post('/botData', jsonParser, function (req, res) {
   let botId = req.body.botId
   let folder = '/'+botId+'/'
   let filename = 'metadata/' + language + "-botid-" + botId + ".json"
-
   let rawdata = fs.readFileSync(filename);
   let rawJson = JSON.parse(rawdata);
   let updatedJson = JSON.parse(rawdata);
@@ -274,7 +278,104 @@ app.post('/liveTTS', urlencodedParser, function (req, res) {
 
 });
 
+app.post('/audioLiveTTS', urlencodedParser, function (req, res) {
+    console.log("AudioLiveTTS", (new Date()).toISOString(), req.body.botresponse, req.body.botId)
 
+    let botresponse = JSON.parse(req.body.botresponse)
+
+    //let ssmlText = req.body.ssml
+    //let languageCode = req.body.language;
+    //let languageCode = language.substring(1,3);
+    let botId = req.body.botId;
+
+    // Based on language select voice profile
+    //VOICE PROFILE
+    //let voiceProfileJsonFile = "metadata/default_voice_profile.json"; 
+    //let voiceProfileJson = JSON.parse(fs.readFileSync(voiceProfileJsonFile));
+    //let voiceProfile = voiceProfileJson[languageCode];
+
+    let ssmlText = botresponse.currentResponse;
+    let languageCode = botresponse.languageCode;
+    let voiceProfile = botresponse.voiceProfile
+
+    if (!ssmlText.startsWith('<')) {
+        ssmlText = '<speak>' + ssmlText + '</speak>';
+    }
+
+    console.log(1,"Audiolive Live TTS:", ssmlText, languageCode, voiceProfile, botId);
+
+    if (voiceProfile === 'bhagwat-record') {
+        let dataFolder = botId;
+        botId = botId + '_bhagwat-record';
+
+
+        ttsFromRecording.responseFileModule(ssmlText, languageCode, voiceProfile, botId, dataFolder).then((outvalue) =>{
+            console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+
+            let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
+            console.log("Copy Command:",command);
+            exec(command).then(function(resp) {
+                   console.log("Response:", resp);
+                   var extension = path.extname(outvalue);
+                   var exactFile = path.basename(outvalue,extension);
+                   res.send(exactFile);
+            }).catch(ex => {
+                throw new Error(ex.toString());
+            });
+
+        }).catch(ex => {
+            console.log("ERROR", ex.message)
+            res.send(DEFAULT_MESSAGE_AUDIO)
+        });
+
+    } else {
+
+        ttsFromRecording.responseFile(ssmlText, languageCode, voiceProfile, botId).then((outvalue) =>{
+            console.log("OUTVALUE-RESPONSE-FILE", outvalue);
+
+            let command = 'cp ' + outvalue + ' ' + ASTERISK_PATH;
+            console.log("Copy Command:",command);
+            exec(command).then(function(resp) {
+                   console.log("Response:", resp);
+                   var extension = path.extname(outvalue);
+                   var exactFile = path.basename(outvalue,extension);
+                   res.send(exactFile);
+            }).catch(ex => {
+                throw new Error(ex.toString());
+            });
+
+        }).catch(ex => {
+            console.log("ERROR", ex.message)
+            res.send(DEFAULT_MESSAGE_AUDIO)
+        });
+    }
+
+});
+
+
+app.post('/botNameCheck',  urlencodedParser, function (req, res) {
+  console.log('Data from  bot to check names : ', req.body);
+
+  let languageCode = req.body.languageCode
+  let voiceProfile = req.body.voiceProfile
+  let filename = req.body.filename
+var PathToName = "public/tts_final/concat_date/" + voiceProfile + "-" + languageCode + "-" + filename+".wav"
+
+try {
+  if (fs.existsSync(PathToName)) {
+    console.log("fileExist");
+    res.send("fileExist");
+  }
+ else {
+    console.log("fileExist");
+    res.send("fileNotExist")
+}
+} catch(err) {
+  console.error(err)
+}
+
+
+})
 
 
 var privateKey = fs.readFileSync('configs/sslcert_2020/CER/_.emerge', 'utf8')

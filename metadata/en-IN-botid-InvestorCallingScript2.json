@@ -1,0 +1,47 @@
+{
+  "goodAfternoon": {
+    "filename": "goodAfternoon.wav",
+    "text": "Good Afternoon"
+  },
+  "goodDay": {
+    "filename": "goodDay.wav",
+    "text": "Have a good day"
+  },
+  "hello": {
+    "filename": "hello.wav",
+    "text": "hello"
+  },
+  "Didyou": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  },
+  "waitresponse": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  },
+  "sorry-en": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Didyou1": {
+    "filename": "Didyou.wav",
+    "text": "User busy"
+  },
+  "goodEvening": {
+    "filename": "goodEvening.wav",
+    "text": "Good Evening"
+  },
+  "goodMorning": {
+    "filename": "goodMorning.wav",
+    "text": "Good Morning"
+  },
+  
+  "Dearlendeninvestor2": {
+    "filename": "Dearlendeninvestor2.wav",
+    "text": "Dear Customer You have been investing through the basic investment plan, thus missing out on diversifying the portfolio. Switch to premium investment plan today. You can customise the auto invest as per your investment needs. Reply with yes if you want a relationship manager to call you back"
+  },
+  "lendeninvestor2": {
+    "filename": "lendeninvestor2.wav",
+    "text": " This is Disha calling from Lenden Club. You have been investing through the basic investment plan, hence you are missing out on diversifying the portfolio. We highly recommend you to switch to premium investment plan today. You can customise the auto invest as per your investment needs. Kindly share your confirmation by saying YES to know more and our relationship manager will call you back."
+  }
+}

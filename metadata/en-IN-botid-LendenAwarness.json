@@ -1,0 +1,54 @@
+{
+  "hello": {
+    "filename": "hello.wav",
+    "text": "hello"
+  },
+  "introduction": {
+    "filename": "introduction.wav",
+    "text": ", Your InstaMoney loan installment is due on"
+  },
+  "info": {
+    "filename": "info.wav",
+    "text": ".Maintain sufficient balance of EMI amount in your bank account registered with us before the due date.Hope you will clear the due amount. Request you to share a confirmation by saying yes no or already paid"
+  },
+  "customerSaysYes": {
+    "filename": "yes.wav",
+    "text": "Kindly Check InstaManey app for loan related information. Thanks for your co-operation. Hope you a Wonderful day ahead."
+  },
+  "wonderfulDay": {
+    "filename": "day.wav",
+    "text": "Hope you a wonderful day ahead"
+  },
+  "DidYouSaySomething": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  },
+  "waitingForYourResponse": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  },
+  "dear": {
+    "filename": "dear.wav",
+    "text": "Dear"
+  },
+  "blankWorking.wav": {
+    "filename": "blankWorking.wav",
+    "text": "recording"
+  },
+  "customerSaysNo": {
+    "filename": "no.wav",
+    "text": "Kindly Check InstaManey app for loan related information. Request you, not to bounce the EMI amount, as the Default will affect your CIBIL Score. Thanks for your co-operation. Hope you a Wonderful day ahead."
+  },
+  "thanksToCooperation": {
+    "filename": "cooperation.wav",
+    "text": "Thanks for your co-operation. Hope you a Wonderful day ahead."
+  },
+  "DearIntro": {
+    "filename": "DearIntro.wav",
+    "text": "Dear Customer, Your InstaMoney loan installment is due on"
+  },
+  "sorry-en.wav": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  }
+}

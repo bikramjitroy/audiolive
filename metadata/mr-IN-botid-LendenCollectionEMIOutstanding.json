@@ -1,0 +1,78 @@
+{
+  "BOTLoopMessage": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "1fcbdc692f63bc80dfcafb8287de45e3.wav",
+    "text": "सुप्रभात, मी Ameyo कडून Suraj कॉल करीत आहे. मी"
+  },
+  "CustomerConfirmationPart3M": {
+    "filename": "e745cbbda5cdf2557e69cd6d58863b1d.wav",
+    "text": " सरांशी बोलत आहे का?"
+  },
+  "CustomerConfirmationPart3F": {
+    "filename": "916a478cb7076875bfd24b1f281353a5.wav",
+    "text": " मॅमशी बोलत आहे का?"
+  },
+  "EMIMissPart1": {
+    "filename": "abe701387a37579ba04dd3a87cf24ecf.wav",
+    "text": "आपण"
+  },
+  "EMIMissPart2": {
+    "filename": "94298b44f7d2a35984320b1a1a2caa6d.wav",
+    "text": "महिन्याचा"
+  },
+  "EMIMissPart3": {
+    "filename": "c6c0dc425f9b9f4090e32d52a6193648.wav",
+    "text": " रुपयेचा चा हप्ता देणे बाकी आहे ही रक्कम कधी देणार याची पुष्टी करा.आज, उद्या किंवा अन्यथा कृपया एखादी तारीख निर्देशित करा ."
+  },
+  "OnlinePaymentPortal": {
+    "filename": "454ccd8fa27fbfa9090bffb1f0696881.wav",
+    "text": "तुम्ही कोणत्या ऑनलाईन माध्यमाद्वारे पेमेंट द्याल पेटीएम , यु पी आय ,एन ई एफ टी ?"
+  },
+  "ThankYouExit": {
+    "filename": "611ead9b6215d1fec4550026a79c413d.wav",
+    "text": "धन्यवाद आपला दिवस चांगला जावो ."
+  },
+  "PaymentOnlineOffline": {
+    "filename": "aa4e52dab73350bf0bbb80371f1cb29f.wav",
+    "text": "कृपया आपण पेमेंट कसे कराल ऑनलाईन कि शाखे मध्ये भेट देऊन ?"
+  },
+  "WrongCustomer": {
+    "filename": "77bf388a539d5636735c02cd12b29a75.wav",
+    "text": "क्षमस्व, आपल्या गैरसोयीबद्दल.आपला दिवस चांगला जावो ."
+  },
+  "AskRepeat": {
+    "filename": "6f23b621b340027762d197d6f018b37b.wav",
+    "text": "क्षमस्व.आपण पुन्हा एकदा  सांगू शकता ?"
+  },
+  "AskPaymentDate": {
+    "filename": "81d6d02a695beba435052cdfae6efd05.wav",
+    "text": " रुपयेचा  हप्ता देणे बाकी आहे ही रक्कम कधी देणार याची पुष्टी करा.आज, उद्या किंवा अन्यथा कृपया एखादी तारीख निर्देशित करा ."
+  },
+  "BranchPaymentThanks": {
+    "filename": "9bc830d0dd2848472b091e9ff0528b33.wav",
+    "text": "आपण आमच्या शाखेत पैसे भरल्याची पुष्टी केल्याबद्दल धन्यवाद . आपला दिवस चांगला जावो"
+  },
+  "NoInputMessage1": {
+    "filename": "0465bfd0e1b77ef452ad66b100acac99.wav",
+    "text": "आपण काहीतरी विचारत आहात का?"
+  },
+  "376c4a5db47957318e118a1f7ec018ea": {
+    "filename": "376c4a5db47957318e118a1f7ec018ea.wav",
+    "text": "आपण आमच्या शाखेत पैसे भरण्याची  पुष्टी केल्याबद्दल धन्यवाद.  आपला दिवस चांगला जाओ ."
+  },
+  "13da6d83c46e4adedc7c889b74bef1f7": {
+    "filename": "376c4a5db47957318e118a1f7ec018ea.wav",
+    "text": "आपण आमच्या शाखेत पैसे भरल्याची पुष्टी केल्याबद्दल धन्यवाद.  आपला दिवस चांगला जाओ ."
+  },
+  "4e47c31ab22dcd75c3d84dbaabdf0b25": {
+    "filename": "4e47c31ab22dcd75c3d84dbaabdf0b25.wav",
+    "text": "सुप्रभात, मी KBP Collage कडून Suraj कॉल करीत आहे. मी"
+  },
+  "5d41402abc4b2a76b9719d911017c592": {
+    "filename": "5d41402abc4b2a76b9719d911017c592.wav",
+    "text": "hello"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "ICICIintroduction": {
+    "filename": "ICICIintroduction.wav",
+    "text": " This Call is from PB central team, BKC, Mumbai. You have not actioned any task from managed ERV and P2C growth CRM campaigns. Do you want to know more about these campaigns?"
+  },
+  "ICICIcampaignSendSMS": {
+    "filename": "ICICIcampaignSendSMS.wav",
+    "text": "Campaign description has been sent through SMS to your mobile number. Still do you need to discuss Campaign details with your channel manager."
+  },
+  "ICICIThankyou": {
+    "filename": "ICICIThankyou.wav",
+    "text": "Thank you for you input"
+  },
+  "ICICIconferencecall": {
+    "filename": "ICICIconferencecall.wav",
+    "text": "Okay , You will receive an invite for conference call in sometime."
+  },
+  "Hi": {
+    "filename": "Hi.wav",
+    "text": "Hi"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "hello"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "NoInputMessage2": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+ 
+  "WrongCustomer": {
+    "filename": "WrongCustomer.wav",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  },
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "Can you repeat"
+  },
+  "92d565bd948e613a47dc63cfe7f234ac": {
+    "filename": "92d565bd948e613a47dc63cfe7f234ac.wav",
+    "text": " This Call is from PB central team, BKC, Mumbai. You have not actioned any task from managed ERV and P2C growth CRM campaigns. Do you want to know more about these campaigns?"
+  },
+  "d4320ea030055041e9ca4dacbf65cef6": {
+    "filename": "d4320ea030055041e9ca4dacbf65cef6.wav",
+    "text": "Okay , You will receive an invite for conference call in sometime."
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "NoInputMessage3": {
+  "filename": "NoInputMessage3.wav",
+  "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  }
+}

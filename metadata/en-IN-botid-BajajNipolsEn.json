@@ -1,0 +1,54 @@
+{
+  "Bajaj-Finance-welcome-en.wav": {
+    "filename": "Bajaj-Finance-welcome-en.wav",
+    "text": "Dear Customer, this is Disha from Bajaj Finance , can I have your two minutes?"
+  },
+  "Nilpos-thankyou-en.wav": {
+    "filename": "Nilpos-thankyou-en.wav",
+    "text": "Thank you for clearing all your EMIs with Bajaj Finance for loan number ending with XXX"
+  },
+  "Nilpos-thankyou2-en.wav": {
+    "filename": "Nilpos-thankyou2-en.wav",
+    "text": ".we are unable to close your loan  due to  penal outstanding amount of RS."
+  },
+  "d4386c000dba9e57d1ba4859ab133212": {
+    "filename": "Nilpos-thankyou3-en.wav",
+    "text": ". Kindly pay your outstanding amount today and get the NOC. How will you make the payment by online or bajaj branch?"
+  },
+  "Nilpos-thankyou3-en.wav": {
+    "filename": "Nilpos-thankyou3-en.wav",
+    "text": "Thank you for clearing all your EMIs with Bajaj Finance for loan number ending with XXX .we are unable to close your loan  due to  penal outstanding amount of RS.450. Kindly pay your outstanding amount today and get the NOC. How will you make the payment by online or bajaj branch?"
+  },
+  "Bajaj-Finance-paymentMethod-en.wav": {
+    "filename": "Bajaj-Finance-paymentMethod-en.wav",
+    "text": "please confirm through which channel will you pay. PayTM, googlepay, mobikwik, phonepay or NB"
+  },
+  "thankyou-en.wav": {
+    "filename": "thankyou-en.wav",
+    "text": "Thankyou for your confirmation. Have a great day"
+  },
+  "paymentLink-en.wav": {
+    "filename": "paymentLink-en.wav",
+    "text": "It’s very important to make the payment for you to maintain a healthy credit score. Please make the payment today .have a great day."
+  },
+  "sorry-en.wav": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "callback-en.wav": {
+    "filename": "callback-en.wav",
+    "text": "Thanks for your time,  we will call you back later."
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "hello"
+  },
+  "Didyou.wav": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  },
+  "waitresponse.wav": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  }
+}

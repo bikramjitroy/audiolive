@@ -1,0 +1,138 @@
+{
+  "welcome_IndiaFirstLifeInsurance.wav": {
+    "filename": "welcome_IndiaFirstLifeInsuranceMandatory.wav",
+    "text": "Good morning, I am calling from IndiaFirst life insurance. Am I speaking  with"
+  },
+  "yes_IndiaFirstLifeInsurancehealth.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancehealth.wav",
+    "text": "We hope you  amp  your loved ones are safe and healthy. May I take a minute of your time?"
+  },
+  "yes_IndiaFirstLifeInsuranceMandatory.wav": {
+    "filename": "yes_IndiaFirstLifeInsuranceMandatory.wav",
+    "text": "Sir/Ma’sm, this is just a payment reminder call and will take only a minute, may I proceed?"
+  },
+  "No_IndiaFirstLifeInsuranceMandatory.wav": {
+    "filename": "No_IndiaFirstLifeInsuranceMandatory.wav",
+    "text": "OK, when may I call you back?"
+  },
+  "IndiaFirstLifeInsurancePremium1.wav": {
+    "filename": "IndiaFirstLifeInsurancePremium1.wav",
+    "text": "your premium of Rs"
+  },
+  "IndiaFirstLifeInsurancePremium2.wav": {
+    "filename": "IndiaFirstLifeInsurancePremium2.wav",
+    "text": "for IndiaFirst Policy is due on"
+  },
+  "IndiaFirstLifeInsurancePremium3.wav": {
+    "filename": "IndiaFirstLifeInsurancePremium3.wav",
+    "text": " However, you can make the payment right away and and avoid last minute hassles.Would you like to do that?"
+  },
+  "yes_IndiaFirstLifeInsurancePremium1.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancePremium1.wav",
+    "text": "Thank you"
+  },
+  "yes_IndiaFirstLifeInsurancePremium2.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancePremium2.wav",
+    "text": "I am taking a request to debit your account. Please maintain sufficient balance of Rs."
+  },
+  "yes_IndiaFirstLifeInsurancePremium3.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancePremium3.wav",
+    "text": "in your"
+  },
+  "InYourBank.wav": {
+    "filename": "InYourBank.wav",
+    "text": "in your SBI bank account by"
+  },
+  "yes_IndiaFirstLifeInsurancePremium4.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancePremium4.wav",
+    "text": "account number"
+  },
+  "yes_IndiaFirstLifeInsurancePremium5.wav": {
+    "filename": "yes_IndiaFirstLifeInsurancePremium5.wav",
+    "text": " for the next 2-4 working days. If there isn’t enough balance, the bank may apply charges for this."
+  },
+  "no_IndiaFirstLifeInsurancePremium1.wav": {
+    "filename": "no_IndiaFirstLifeInsurancePremium1.wav",
+    "text": "OK, Sir/Maam. In that case, I would request you to maintain sufficient balance of Rs"
+  },
+  "no_IndiaFirstLifeInsurancePremium2.wav": {
+    "filename": "no_IndiaFirstLifeInsurancePremium2.wav",
+    "text": "bank account by"
+  },
+  "no_IndiaFirstLifeInsurancePremium3.wav": {
+    "filename": "no_IndiaFirstLifeInsurancePremium3.wav",
+    "text": ". Since you have an ECS mandate with us, the amount will be directly debited from the bank account. If there isn’t enoug balance, the bank may apply charges for this"
+  },
+  "duedate_IndiaFirstLifeInsurancePremium1.wav": {
+    "filename": "duedate_IndiaFirstLifeInsurancePremium1.wav",
+    "text": "I would request you to maintain sufficient balance of Rs."
+  },
+  "duedate_IndiaFirstLifeInsurancePremium2.wav": {
+    "filename": "duedate_IndiaFirstLifeInsurancePremium2.wav",
+    "text": " . Thepremium amount will be directly debited from the bank account since you have an ECS mandate with us. If there isn’t enough balance, the bank may apply charges for this"
+  },
+  "duedate_IndiaFirstLifeInsurancePremium3.wav": {
+    "filename": "duedate_IndiaFirstLifeInsurancePremium3.wav",
+    "text": "Thank you. Have a great day, and get in touch with us on 1800 xxx xxxx in case of any further queries."
+  },
+  "thankyou_IndiaFirstLifeInsurancemandatory.wav": {
+    "filename": "thankyou_IndiaFirstLifeInsurancemandatory.wav",
+    "text": "We have noted your concerns. Our customer service executive will get in touch with you shortly. In future if you want to know anything related to your policy you can call on our toll-free number 18002098700 or WhatsApp us on 022- 62749898. Thank you for your valuable time, have a great day."
+  },
+  "thankyou_IndiaFirstLifeInsurancereason.wav": {
+    "filename": "thankyou_IndiaFirstLifeInsurancereason.wav",
+    "text": "May I know the reason for the same?"
+  },
+  "IndiaFirstLifeInsurancegreatday.wav": {
+    "filename": "IndiaFirstLifeInsurancegreatday.wav",
+    "text": "Ok, have a great day."
+  },
+  "IndiaFirstLifeInsuranicici.wav": {
+    "filename": "IndiaFirstLifeInsuranicic.wav",
+    "text": "ICICI"
+  },
+  "IndiaFirstLifeInsuranchdfc.wav": {
+    "filename": "IndiaFirstLifeInsuranchdfc.wav",
+    "text": "HDFC"
+  },
+  "IndiaFirstLifeInsurancsbi.wav": {
+    "filename": "IndiaFirstLifeInsurancsbi.wav",
+    "text": "SBI"
+  },
+  "IndiaFirstLifeInsuranckotakbank.wav": {
+    "filename": "IndiaFirstLifeInsuranckotakbank.wav",
+    "text": "KOTAK MAHINDA BANK"
+  },
+  "IndiaFirstLifeInsurancpnbbank.wav": {
+    "filename": "IndiaFirstLifeInsurancpnbbank.wav",
+    "text": "Punjab National Bank"
+  },
+  "8b1a9953c4611296a827abf8c47804d7": {
+    "filename": "Hello.wav",
+    "text": "Hello"
+  },
+  "blankWorking": {
+    "filename": "blankWorking.wav",
+    "text": "recording"
+  },
+  "b3fa336fa94312a8bfb71da69ce9ae8a": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "2b6b0409e2719d53ea5bbb94056251ab": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "443e70c4bf183c486bdaad6f67439159": {
+    "filename": "443e70c4bf183c486bdaad6f67439159.wav",
+    "text": "this is just a payment reminder call and will take only a minute, may I proceed?"
+  },
+  "bef490d8b08bf1e5986130df5da654dc": {
+    "filename": "bef490d8b08bf1e5986130df5da654dc.wav",
+    "text": "in your_name SBI account number"
+  }
+}

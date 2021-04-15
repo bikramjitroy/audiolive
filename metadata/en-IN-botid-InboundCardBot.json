@@ -1,0 +1,66 @@
+{
+  "welcome_sbi.wav": {
+    "filename": "welcome_sbi.wav",
+    "text": "Welcome to Ameyo CARD, I am ILA your Personal Advisor. I can help you with Outstanding Amount, Due date or to block the card. Please suggest what you are looking for."
+  },
+  "sbi_block_creditCardthankyou": {
+    "filename": "Thankusbi_block_creditCardthankyou.wav",
+    "text": "Thank you for Verification.Thank you for your request, We have blocked your credit card. Please visit us at Ameyo card Mobile App to track the status."
+  },
+  "sbi_due_datethanku.wav": {
+    "filename": "Thankusbi_due_datethanku.wav",
+    "text": "Thank you for Verification.Your Outstanding balance for the month of January is 21530 which is due on 14th January."
+  },
+  "sbi_cvv.wav": {
+    "filename": "sbi_cvv.wav",
+    "text": "I have looked up your account basis the number you are calling from. Please confirm the last 4 digits of your card to verify you."
+  },
+  "sbi_thankyou.wav": {
+    "filename": "sbi_thankyou.wav",
+    "text": "Thank you for Verification."
+  },
+  "sbi_fallback.wav": {
+    "filename": "sbi_fallback.wav",
+    "text": "I can help you only with telling outstanding amounts, due date and block your credit card. For any other query, Kindly call us at our Helpline Number 01244771000."
+  },
+  "NoInputMessage2": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "Hello"
+  },
+  "sbi_emi_conversion": {
+    "filename": "sbi_emi_conversion.wav",
+    "text": "Your last transaction of 40000 could be converted to EMI. Rate of interest is 15% for 3 months with EMI 14300. And 13% for 6 months 7500. For how many months you will convert your emi into?"
+  },
+  "sbi_thanks_to_convert.wav": {
+    "filename": "sbi_thanks_to_convert.wav",
+    "text": "Thank you for your confirmation. EMI details sent to your registered mobile number."
+  },
+    "sbi_transfer.wav": {
+    "filename": "sbi_transfer.wav",
+    "text": "Let me connect to our executive for discounts."
+          },
+    "sbi_rephraseupdated": {
+    "filename": "sbi_rephraseupdated.wav",
+    "text": "I do not understand. Can you please rephrase?"
+          },
+    "sbi_fallbackupdated": {
+    "filename": "sbi_fallbackupdated.wav",
+    "text": "I can help you only with telling outstanding amounts, due date and block your credit card and convert the last transaction to EMI. For any other query, Kindly call us at our Helpline Number 01244771000."
+          },
+    "welcome_sbiupdated": {
+    "filename": "welcome_sbiupdated.wav",
+    "text": "Welcome to Ameyo CARD, I am ILA your Personal Advisor. I can help you only with telling outstanding amounts, due date and block your credit card and convert the last transaction to EMI. Please suggest what you are looking for."
+          }
+}

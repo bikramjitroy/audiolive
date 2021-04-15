@@ -1,0 +1,115 @@
+{
+  "welcome_IndiaFirstLifeInsurance.wav": {
+    "filename": "welcome_IndiaFirstLifeInsurance.wav",
+    "text": "Good morning, I am calling from IndiaFirst life insurance. Am I speaking with"
+  },
+  "yes_IndiaFirstLifeInsurance.wav": {
+    "filename": "yes_IndiaFirstLifeInsurance.wav",
+    "text": "Would like to inform you that the policy provides life cover to life assured from all ailments pertaining corona virus.This is an important reminder call regarding your existing policy.Is this right time to talk"
+  },
+  "No_IndiaFirstLifeInsurance.wav": {
+    "filename": "No_IndiaFirstLifeInsurance.wav",
+    "text": "It will take only 2 minutes of your valuable time, may I proceed with the call."
+  },
+  "No_again_IndiaFirstLifeInsurance.wav": {
+    "filename": "No_again_IndiaFirstLifeInsurance.wav",
+    "text": "May I know the convenient time to discuss about your policy?"
+  },
+  "sufficientBalanceIndiaFirstLifeInsurance.wav": {
+    "filename": "sufficientBalanceIndiaFirstLifeInsurance.wav",
+    "text": "Please note, in case sufficient balance is not maintained in the account on the given date,then you may end up paying the bounce charges of Rupees 295  Thank you and have a great day!"
+  },
+  "payment_IndiaFirstLifeInsurance.wav": {
+    "filename": "paymentIndiaFirstLifeInsurance.wav",
+    "text": "Please confirm how you shall be making the payment. Online, Cheque pick-up or visiting the branch"
+  },
+  "onlinePayment_IndiaFirstLifeInsurance.wav": {
+    "filename": "onlinePayment_IndiaFirstLifeInsurance.wav",
+    "text": "Thank you for selecting the payment method ,A payment link will be shared with you soon by sms on your registered contact number Please note, in case sufficient balance is not maintained in the account on the given date,then you may end up paying the bounce charges of Rupees 295."
+  },
+  "chequePayment_IndiaFirstLifeInsurance.wav": {
+    "filename": "chequePayment_IndiaFirstLifeInsurance.wav",
+    "text": "We will arrange our executive to pick up the payment via cheque from your door step.Please note, in case sufficient balance is not maintained in the account on the given date,then you may end up paying the bounce charges of Rupees 295"
+  },
+  "branch_IndiaFirstLifeInsurance.wav": {
+    "filename": "branch_IndiaFirstLifeInsurance.wav",
+    "text": "Thank you for the payment decision that you will make the payment by visiting at our branch.Please note, in case sufficient balance is not maintained in the account on the given date,then you may end up paying the bounce charges of Rupees 295"
+  },
+  "Thankyou_IndiaFirstLifeInsurance.wav": {
+    "filename": "Thankyou_IndiaFirstLifeInsurance.wav",
+    "text": "In future if you want to know anything related to policy you can call on our toll-free number and also if you use whatsapp you can whatsapp us on whatsapp number. Thank you for your valuable time , have a great day"
+  },
+  "BOT10.wav": {
+    "filename": "BOT10.wav",
+    "text": "Thank You As discussed, the payment will be done on"
+  },
+  "BOT45.wav": {
+    "filename": "BOT45.wav",
+    "text": "For financial security of your family, it is important to ensure cover during unforeseen adversities like coronavirus which has been declared pandemic by world health organization.your premium for covid-19 insurance is due on"
+  },
+  "BOT46.wav": {
+    "filename": "BOT46.wav",
+    "text": "If currently you have sufficient balance in your account of HDFC Bank, then we can take advance ECS request and your premium will be debited in advance, can we process your request for premium debit?"
+  },
+  "2b6b0409e2719d53ea5bbb94056251ab": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech": "hello",
+    "text": "start here"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "76a49a3cea3b1b92e29d2a1dd7602685": {
+    "filename": "76a49a3cea3b1b92e29d2a1dd7602685.wav",
+    "text": "Good morning, I am calling from IndiaFirst life insurance. Am I speaking with"
+  },
+  "a1dc0b76c4fe1f608f919a00be9244f5": {
+    "filename": "WrongCustomer.wav",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  },
+  "Thankyou_IndiaFirstLifeInsurance": {
+    "filename": "Thankyou_IndiaFirstLifeInsurance.wav",
+    "text": " In future if you want to know anything related to policy you can call on our toll-free number and also if you use whatsapp you can whatsapp us on whatsapp number. Thank you for your valuable time , have a great day"
+  },
+  "BOT11.wav": {
+    "filename": "BOT11.wav",
+    "text": "Thank You As discussed, the payment will be done via online method on"
+  },
+  "BOT12.wav": {
+    "filename": "BOT12.wav",
+    "text": "Thank You As discussed, the payment will be done via cheque on"
+  },
+  "BOT13.wav": {
+    "filename": "BOT13.wav",
+    "text": "Thank You As discussed, the payment will be done via branch visit on"
+  },
+  "BOT14.wav": {
+    "filename": "BOT14.wav",
+    "text": "Your premium for corona virus insurance is due on"
+  },
+  "BOT15.wav": {
+    "filename": "BOT15.wav",
+    "text": " Please confirm when you will be making the payment. Today, tomorrow or any specific date?"
+  },
+  "BOT11.wav": {
+    "filename": "BOT11.wav",
+    "text": "Thank You As discussed, the payment will be done via online method. In future if you want to know anything related to policy you can call on our toll-free number and also if you use whatsapp you can whatsapp us on whatsapp number. Thank you for your valuable time , have a great day"
+  },
+  "BOT12.wav": {
+    "filename": "BOT12.wav",
+    "text": "Thank You As discussed, the payment will be done via cheque. In future if you want to know anything related to policy you can call on our toll-free number and also if you use whatsapp you can whatsapp us on whatsapp number. Thank you for your valuable time , have a great day"
+  },
+  "BOT13.wav": {
+    "filename": "BOT13.wav",
+    "text": "Thank You As discussed, the payment will be done via branch visit. In future if you want to know anything related to policy you can call on our toll-free number and also if you use whatsapp you can whatsapp us on whatsapp number. Thank you for your valuable time , have a great day"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Bajaj-Finance-welcome-hi.wav": {
+    "filename": "Bajaj-Finance-welcome-hi.wav",
+    "text": "Dear Customer, Main Disha Bajaj Finance se, kya main aapse Do minute baat kar sakti hu"
+  },
+  "yes-hi.wav": {
+    "filename": "yes-hi.wav",
+    "text": "yeh call appko jaankari dene ke liye kiya hai ki aapka bajaj finance ka EMI Rs.1000 abhi tak hame prapt nahi hua hai,aapko iska payment aaj hi karna hai. Kripaya bataye aap kis mode se payment karenge Online or Bajaj branch"
+  },
+  "No-hi.wav": {
+    "filename": "No-hi.wav",
+    "text": "ye call aapke liye bahut important he. kripaya apna keemti samay de. Aapka bajaj finance ka EMI Rs.1000 abhi tak hame prapt nahi hua hai,aapko iska payment aaj hi karna hai. Kripaya bataye aap kis mode se payment karenge ? Online ya Bajaj branch"
+  },
+  "Bajaj-Finance-paymentMethod-hi.wav": {
+    "filename": "Bajaj-Finance-paymentMethod-hi.wav",
+    "text": "krypya batay  aap kis channel se payment karenge PAYTM, Google pay Mobikwik phonepay ya net banking ."
+  },
+  "confirmationThankYou-hi.wav": {
+    "filename": "confirmationThankYou-hi.wav",
+    "text": "aapki pushti ke liye dhanyawad, aapko registered mobile number pe SMS dwara payment link jaldhi prapt hoga. Apka din subh ho"
+  },
+  "thankyou-hi.wav": {
+    "filename": "thankyou-hi.wav",
+    "text": "aapki pushti ke liye dhanyawad. Kripaya aaj hi apne nazdiki bajaj branch me payment kare. Apka din subh ho"
+  },
+  "paymentLink-hi.wav": {
+    "filename": "paymentLink-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "sorry-hi.wav": {
+    "filename": "sorry-hi.wav",
+    "text": "Apaka credit score banaye rakhne ke liye ye bahot avashyak hai ki aap aapka EMI payment  samay par kare, jisase aapko aage  penalty na lage. Aapki suvidha ke liya aapko sms dwara  payment link prapt hoga. aapka din subh ho."
+  },
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "कृपया फिर से कहिएगा"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech": "hello",
+    "text": "hello"
+  }
+}

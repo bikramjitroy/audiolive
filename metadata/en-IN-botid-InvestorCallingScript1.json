@@ -1,0 +1,54 @@
+{
+  "goodDay": {
+    "filename": "goodDay.wav",
+    "text": "Have a good day"
+  },
+  "hello": {
+    "filename": "hello.wav",
+    "text": "hello"
+  },
+  "goodEvening": {
+    "filename": "goodEvening.wav",
+    "text": "Good Evening"
+  },
+  "info": {
+    "filename": "info.wav",
+    "text": " Business loans are now listed on LenDenClub. You can choose to invest up to Rupees Fifteen Thousand in these low to moderate risk loans. Invest with LenDenClub now and start earning interest on idle funds. Kindly share your confirmation by saying YES to know more and our relationship manager will call you back."
+  },
+  "waiting": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  },
+  "didYou": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  },
+  "recording": {
+    "filename": "blankWorking.wav",
+    "text": "recording"
+  },
+  "2ea18f5ec38c9790928d1b9e3810435f": {
+    "filename": "2ea18f5ec38c9790928d1b9e3810435f.wav",
+    "text": "recording Good Evening"
+  },
+  "goodMorning": {
+    "filename": "goodMorning.wav",
+    "text": "Good Morning"
+  },
+  "goodAfternoon": {
+    "filename": "goodAfternoon.wav",
+    "text": "Good Afternoon"
+  },
+  "sorry-en": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "bc28f18bebfde3e6a52143747b5c1bd4": {
+    "filename": "bc28f18bebfde3e6a52143747b5c1bd4.wav",
+    "text": " Business loans are now listed on LenDenClub. You can choose to invest up to Rupees Fifteen Thousand in these low to moderate risk loans. Invest with LenDenClub now and start earning interest on idle funds. Reply with yes if you want a relationship manager to call you back"
+  },
+  "dearCustomerInfo": {
+    "filename": "dearCustomerInfo.wav",
+    "text": "Dear Customer Business loans are now listed on LenDenClub.You can choose to invest up to Rupees Fifteen Thousand in these low to moderate risk loans. Invest with LenDenClub now and start earning interest on idle funds. Kindly share your confirmation by saying YES to know more and our relationship manager will call you back"
+  }
+}

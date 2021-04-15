@@ -1,0 +1,58 @@
+{
+  "welcome_instaMoney.wav": {
+    "filename": "wwelcome_instaMoney.wav",
+    "text": "This is Riya from InstaMoney, Am I talking to "
+  },
+  "no_instaMoney_thankyou.wav": {
+    "filename": "no_instaMoney_thankyou.wav",
+    "text": "Thank You and Have a Nice Day."
+  },
+  "yes_instaMoney_p1.wav": {
+    "filename": "yes_instaMoney_p1.wav",
+    "text": "This is a service call for the loan that is disbursed to you on"
+  },
+  "yes_instaMoney_p2.wav": {
+    "filename": "yes_instaMoney_p2.wav",
+    "text": "Is it Good time to speak ?"
+  },
+  "LendenThankYouExit.wav": {
+    "filename": "LendenThankYouExit.wav",
+    "text": "Thank You and Have a great Day. "
+  },
+  "instaMoney_p1.wav": {
+    "filename": "instaMoney_p1.wav",
+    "text": "You have availed a loan of Rs"
+  },
+  "instaMoney_p2.wav": {
+    "filename": "instaMoney_p2.wav",
+    "text": "for 3 Months tenure  and your 1st EMI is on"
+  },
+  "instaMoney_p3.wav": {
+    "filename": "instaMoney_p3.wav",
+    "text": "I will now announce some very important terms and conditions for your Loan. Kindly listen carefully"
+  },
+  "instaMoney_p4.wav": {
+    "filename": "instaMoney_p4.wav",
+    "text": "We will notify you if the EMI will be auto-debited or you need to pay manually via SMS , call or emails 3 days before the EMI date"
+  },
+  "instaMoney_p5.wav": {
+    "filename": "instaMoney_p5.wav",
+    "text": "If the ECS is approved the payment will be debited automatically however in case when ECS is  not approved you will have to pay manually"
+  },
+  "instaMoney_p6.wav": {
+    "filename": "instaMoney_p6.wav",
+    "text": "For EMI payment , You can visit us at our app and make the payment online before due date."
+  },
+  "instaMoney_p7.wav": {
+    "filename": "instaMoney_p7.wav",
+    "text": "We would also like to inform you that the delay charge is applicable if EMI is delayed. Every week a delay charge of Rs. 250 is applicable and the same will keep on adding every week and if EMI is delayed for 1 month then 2% penalty is applicable on outstanding amount."
+  },
+  "instaMoney_p8.wav": {
+    "filename": "instaMoney_p8.wav",
+    "text": "We hope you have understood our Loan product and terms.& you will repay the dues on time.Request you to kindly share a confirmation by saying YES"
+  },
+  "thankyou_callback.wav": {
+    "filename": "thankyou_IndiaFirstLifeInsurancemandatory.wav",
+    "text": "Thank you , We will call you back. Have a Nice Day"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "navi_EMI": {
+    "filename": "navi_EMI.wav",
+    "text": "Your EMI"
+  },
+  "navi_overdue": {
+    "filename": "navi_overdue.wav",
+    "text": "for Navi Loan Account is overdue since"
+  },
+  "navi_payDecide": {
+    "filename": "navi_payDecide.wav",
+    "text": ". Would you like to pay now or make an agreement to pay at a later date"
+  },
+  "navi_payToday": {
+    "filename": "navi_payToday.wav",
+    "text": "We have sent a payment link on your registered mobile number. Please make the payment there"
+  },
+  "navi_tomorrow": {
+    "filename": "navi_tomorrow.wav",
+    "text": "When can you make a payment - by tomorrow, day after tomorrow or within this week"
+  },
+  "navi_ptp": {
+    "filename": "navi_ptp.wav",
+    "text": "You have agreed to pay by"
+  },
+  "navi_ptp_date": {
+    "filename": "navi_ptp_date.wav",
+    "text": ". Please make your payment on the Navi app by"
+  },
+  "navi_ptp_date_flow": {
+    "filename": "navi_ptp_date_flow.wav",
+    "text": "you had agreed to pay the EMI"
+  },
+  "navi_ptp_date_flow_ofRs": {
+    "filename": "navi_ptp_date_flow_ofRs.wav",
+    "text": "you had agreed to pay the EMI of Rs"
+  },
+  "navi_ptp_date_flow_today": {
+    "filename": "navi_ptp_date_flow_today.wav",
+    "text": " today. Would you like to pay now ?"
+  },
+  "navi_ptp_breached": {
+    "filename": "navi_ptp_breached.wav",
+    "text": "you have not completed your agreement to pay the EMI "
+  },
+  "navi_by": {
+    "filename": "navi_by.wav",
+    "text": "by"
+  },
+  "navi_lastchance": {
+    "filename": "navi_lastchance.wav",
+    "text": "Would you like to pay now as a last chance before your case is transferred to a collection agency"
+  },
+  "navi_customerCare": {
+    "filename": "navi_customerCare.wav",
+    "text": "We have sent our customer care details on your registered mobile number. Please contact them for any queries this week"
+  },
+  "utter_rupess": {
+    "filename": "utter_rupess.wav",
+    "text": "of Rupees"
+  },
+  "utteryourEMI": {
+    "filename": "utteryourEMI.wav",
+    "text": "Your EMI of Rs"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "Hello"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "NoInputMessage2.wav": {
+    "filename": "NoInputMessage2.wav",
+    "text": "Waiting for your response"
+  },
+  "blankWorking": {
+    "filename": "blankWorking.wav",
+    "text": "recording"
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  }
+}

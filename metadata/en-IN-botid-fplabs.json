@@ -1,0 +1,82 @@
+{
+  "utter_hello_fblabs.wav": {
+    "filename": "utter_hello.wav",
+    "text": "Hello, Am I talking to"
+  },
+  "utter_Welcome_fb_labs.wav": {
+    "filename": "utter_Welcome_fb_labs.wav",
+    "text": "Hi This is Riya Calling from OneCard. This call is in regards to your Onecard bill repayment which was due on"
+  },
+  "utter_payment_missed_fblabs.wav": {
+    "filename": "utter_payment_missed_fblabs.wav",
+    "text": "You have missed making payment towards your OneCard billed amount for month of"
+  },
+  "utter_rupess.wav": {
+    "filename": "utter_rupess.wav",
+    "text": "of Rs"
+  },
+  "utter_fb_labs_confirm.wav": {
+    "filename": "utter_rb_labs_confirm.wav",
+    "text": " Please confirm when you will be making this payment. Today , Tomorrow or else specify a date."
+  },
+  "utter_ask_for_refrence.wav": {
+    "filename": "utter_ask_for_refrence.wav",
+    "text": "Thank you very much and Have a great day ahead."
+  },
+  "utter_fb_labs_ThankYou.wav": {
+    "filename": "utter_fb_labs_ThankYou.wav",
+    "text": "May I know the name of the candidate."
+  },
+  "utter_fblabs_liveAgentr.wav": {
+    "filename": "utter_fblabs_liveAgentr.wav",
+    "text": "Please hold for a moment , I will shortly connect you with a live agent"
+  },
+  "utter_fb_labs_confirmdate.wav": {
+    "filename": "utter_fb_labs_confirmdate.wav",
+    "text": "Please tell us the date when you made the payment."
+  },
+  "utter_fb_labs_paymentdone.wav": {
+    "filename": "utter_fb_labs_paymentdone.wav",
+    "text": "what amount have you paid."
+  },
+  "utter_fb_labs_thankYouGreetings.wav": {
+    "filename": "utter_fb_labs_thankYouGreetings.wav",
+    "text": "Thank you and have a nice day."
+  },
+  "utter_fb_labs_callback.wav": {
+    "filename": "utter_thanksandenycallback.wav",
+    "text": "Thanks you for your inputs. We will arrange a call back with our expert shortly ."
+  },
+  "utter_fb_labs_scheduleCallback.wav": {
+    "filename": "utter_fb_labs_scheduleCallback.wav",
+    "text": "Thank you , We will call you back."
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "Hello"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "NoInputMessage2.wav": {
+    "filename": "NoInputMessage2.wav",
+    "text": "Waiting for your response"
+  },
+  "utter_fblabs_liveAgentr": {
+    "filename": "utter_fblabs_liveAgentr.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "utter_fb_labs_reasonBot2": {
+    "filename": "utter_fb_labs_reasonBot2.wav",
+    "text": "May I know the reason of not making the payment."
+  },
+  "utter_fb_labs_CallbackBot1": {
+    "filename": "utter_fb_labs_CallbackBot1.wav",
+    "text": "Please suggest when can we call you back."
+  },
+  "utter_fb_labs_sorryBot3": {
+    "filename": "utter_fb_labs_sorryBot3.wav",
+    "text": "Sorry to  disturb  you."
+  }
+}

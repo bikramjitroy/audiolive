@@ -1,0 +1,90 @@
+{
+  "ogesRecruitment-welcome-en.wav": {
+    "filename": "ogesRecruitment-welcome-en.wav",
+    "text": "Hi, I am calling from Oges Solutions, a recruitment firm based out of Gurgaon. We shared a job opening matching your skill-set a few minutes back via SMS and email. I hope you got a chance to go through it."
+  },
+  "ogesRecruitment-welcome-en-yes.wav": {
+    "filename": "ogesRecruitment-welcome-en-yes.wav",
+    "text": "Please let me know if you would be interested in pursuing the opportunity further"
+  },
+  "ogesRecruitment-welcome-en-yesAgain.wav": {
+    "filename": "ogesRecruitment-welcome-en-yesAgain.wav",
+    "text": "Great, please share a time slot when we can call you for a detailed discussion about this role"
+  },
+  "ogesRecruitment-thanyou.wav": {
+    "filename": "ogesRecruitment-thanyou.wav",
+    "text": "Thank you for your time. The concerned recruiter will call you back as per the time suggested by you. Have a good day!"
+  },
+  "ogesRecruitment-no.wav": {
+    "filename": "ogesRecruitment-no.wav",
+    "text": "I Understand, any particular reason you are not interested"
+  },
+  "thankyou-en.wav": {
+    "filename": "thankyou-en.wav",
+    "text": "Thankyou for the confirmation. Have a great day"
+  },
+  "ogesRecruitment-no-Jd.wav": {
+    "filename": "ogesRecruitment-no-Jd.wav",
+    "text": "Ok, no problem, we will resend the JD on this number and your email. We will call you back again, Thank you."
+  },
+  "ogesRecruitment-resendjd.wav": {
+    "filename": "ogesRecruitment-resendjd.wav",
+    "text": "Sure, I understand. we will resend the JD on this number and your email. Please also let me know a good time to connect with you to discuss the role in detail"
+  },
+  "ogesRecruitment-understand.wav": {
+    "filename": "ogesRecruitment-understand.wav",
+    "text": "Thank you for your time. The concerned recruiter will call you back as per the time suggested by you. Have a good day!"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "text": "hello"
+  },
+  "Didyou.wav": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  },
+  "waitresponse.wav": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  },
+  "ogesRecruitment-resendjd-new.wav": {
+    "filename": "ogesRecruitment-resendjd-new.wav",
+    "text": "Ok, no problem. Please let me know if you are looking for a job change"
+  },
+  "4258db4eeb43c7f71b97252a7c4470ab": {
+    "filename": "4258db4eeb43c7f71b97252a7c4470ab.wav",
+    "text": "Dear Customer, Main Disha Bajaj Finance se, kya main aapse Do minute baat kar sakti hu"
+  },
+  "c156495f260ecc2884aceed672c951b9": {
+    "filename": "c156495f260ecc2884aceed672c951b9.wav",
+    "text": "Bajaj Finance ke saath LAN"
+  },
+  "8320727240fb9b868552c264d8acb290": {
+    "filename": "8320727240fb9b868552c264d8acb290.wav",
+    "text": "ke sabhi EMI ko clear karane ke lie dhanyavaad. Lekin aapka."
+  },
+  "cf7c081381be0ed7e209fb24ddcc16cf": {
+    "filename": "cf7c081381be0ed7e209fb24ddcc16cf.wav",
+    "text": ".ka penal abhi bhi outstanding hai jiske karan hum aapaka loan account close karne mein asamarth hain. krpaya aaj hi"
+  },
+  "9437980662f7df8b730a8753ef2480ac": {
+    "filename": "9437980662f7df8b730a8753ef2480ac.wav",
+    "text": "ka payment karke NOC prapt kare. Aap kis mode se payment karenge ? Online ya Bajaj branch"
+  },
+  "sorry-en.wav": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "ogesRecruitment-resendjd-new2.wav": {
+    "filename": "ogesRecruitment-resendjd-new2.wav",
+    "text": "Sure. We will resend the JD on this number and your email. Please also let me know a good time  to connect with you to discuss the role in detail."
+  },
+  "4e187250563c77db6b31d6eaa3a60a3f": {
+    "filename": "4e187250563c77db6b31d6eaa3a60a3f.wav",
+    "text": "Thankyou for the confirmation. Have a great day"
+  },
+  "52c0ee104b636747fe8e68558c18e05d": {
+    "filename": "callback-en.wav",
+    "text": "User busy"
+  }
+}

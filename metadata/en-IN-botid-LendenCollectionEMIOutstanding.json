@@ -1,0 +1,163 @@
+{
+  "EMICautionPart1": {
+    "filename": "EMICautionPart1.wav",
+    "text": "I would like to inform you that your E M I for the month is due on"
+  },
+  "EMICautionPart2": {
+    "filename": "EMICautionPart2.wav",
+    "text": ". Please confirm if you have sufficient balance in your account for clearance ?"
+  },
+  "AskPaymentDate": {
+    "filename": "AskPaymentDate.wav",
+    "text": "When will you be funding your account? Today? Tomorrow ? else please specify a date?"
+  },
+  "ThankYouPenaltyInfoExit": {
+    "filename": "ThankYouPenaltyInfoExit.wav",
+    "text": "Thankyou for your response. Request you to please update your account at the earliest else delay will lead to an accrual of a bounce charge of Rs 350 and further delay in EMI payment can lead to levy of penalty as well. Hope you understand"
+  },
+  "ThankYouExit": {
+    "filename": "ThankYouExit.wav",
+    "text": "Thank you very much and have a great day."
+  },
+  "CustomerConfirmationPart1": {
+    "filename": "CustomerConfirmationPart1.wav",
+    "text": "Good Morning, I am Riya calling from Ameyo. Am I speaking to"
+  },
+  "WrongCustomer": {
+    "filename": "WrongCustomer.wav",
+    "text": "Sorry, for your inconvenience. Have a great day ahead."
+  },
+  "NoInputMessage2": {
+    "filename": "NoInputMessage1.wav",
+    "text": "Waiting for your response"
+  },
+  "NoInputMessage1": {
+    "filename": "NoInputMessage1.wav",
+    "text": "did you say something ?"
+  },
+  "AskRepeat": {
+    "filename": "AskRepeat.wav",
+    "text": "Can you repeat!"
+  },
+  "EMIMissPart1": {
+    "filename": "EMIMissPart1.wav",
+    "text": "You have missed making a payment towards your E M I for the month of"
+  },
+  "EMIMissPart2": {
+    "filename": "EMIMissPart2.wav",
+    "text": "of an amount of Rs"
+  },
+  "PaymentOnlineOffline": {
+    "filename": "PaymentOnlineOffline.wav",
+    "text": "Thankyou. Please confirm how you shall be making this payment, online? visiting the branch?"
+  },
+  "OnlinePaymentPortal": {
+    "filename": "OnlinePaymentPortal.wav",
+    "text": "What mode will you use to pay, Paytm, U P I, N E F T?"
+  },
+  "ThankYouHeavyPenaltyInfoExit": {
+    "filename": "ThankYouHeavyPenaltyInfoExit.wav",
+    "text": "Thank You very much for the response. I have msged you the link through which you can make an online payment. Request you not to delay the payment as the same will lead to a levy of penalty charge. Thank You very much for your cooperation and have a great day."
+  },
+  "BranchPayment": {
+    "filename": "BranchPayment.wav",
+    "text": "Thank you for confirming you will pay at our branch, and have a great day ahead ."
+  },
+  "FollowupAskPaymentDate": {
+    "filename": "FollowupAskPaymentDate.wav",
+    "text": ". Please confirm when you will be making this payment. Today, tomorrow or else please specify a date."
+  },
+  "9ed6d727dd54ddde3201c43bac26feab": {
+    "filename": "9ed6d727dd54ddde3201c43bac26feab.wav",
+    "text": "Thank you very much and have a great day"
+  },
+  "04aa440fbf0491e4221a18bbc42ab9c2": {
+    "filename": "04aa440fbf0491e4221a18bbc42ab9c2.wav",
+    "text": "Good Morning, I am Riya calling from asterisk. Am I speaking to"
+  },
+  "abe701387a37579ba04dd3a87cf24ecf": {
+    "filename": "abe701387a37579ba04dd3a87cf24ecf.wav",
+    "text": "आपण"
+  },
+  "aa4e52dab73350bf0bbb80371f1cb29f": {
+    "filename": "aa4e52dab73350bf0bbb80371f1cb29f.wav",
+    "text": "कृपया आपण पेमेंट कसे कराल ऑनलाईन कि शाखे मध्ये भेट देऊन ?"
+  },
+  "6f23b621b340027762d197d6f018b37b": {
+    "filename": "6f23b621b340027762d197d6f018b37b.wav",
+    "text": "क्षमस्व.आपण पुन्हा एकदा  सांगू शकता ?"
+  },
+  "13da6d83c46e4adedc7c889b74bef1f7": {
+    "filename": "13da6d83c46e4adedc7c889b74bef1f7.wav",
+    "text": "आपण आमच्या शाखेत पैसे भरल्याची पुष्टी केल्याबद्दल धन्यवाद.  आपला दिवस चांगला जाओ ."
+  },
+  "866aace28bf1f817a7db2a0680475d53": {
+    "filename": "866aace28bf1f817a7db2a0680475d53.wav",
+    "text": "I would like to inform you that your E M I due for the month of 5th September of an amount of Rs"
+  },
+  "d48dc9e5d7c61d32fbcfc90e5a049981": {
+    "filename": "d48dc9e5d7c61d32fbcfc90e5a049981.wav",
+    "text": "I would like to inform you that your E M I due for the month of"
+  },
+  "42f98f4790f4aca48f9ed77798a401a2": {
+    "filename": "42f98f4790f4aca48f9ed77798a401a2.wav",
+    "text": "Today we will speak"
+  },
+  "d06fa245767366159a032e9f5ee73e25": {
+    "filename": "d06fa245767366159a032e9f5ee73e25.wav",
+    "text": "rupees on"
+  },
+  "a1acb6106e4c9e572ae9ed4ab733f7d0": {
+    "filename": "a1acb6106e4c9e572ae9ed4ab733f7d0.wav",
+    "text": "\nThank you for confirming you will pay at our branch, and have a great day ahead .\n"
+  },
+  "c9e66abbaae82a8df662913acdfe3074": {
+    "filename": "c9e66abbaae82a8df662913acdfe3074.wav",
+    "text": "TYou have missed making a payment towards your E M I for the month of"
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech": "hello",
+    "text": "hello"
+  },
+  "LendenCustomerConfirmationPart1": {
+    "filename": "LendenCustomerConfirmationPart1.wav",
+    "text": "Good Morning, I am Riya calling from Lenden. Am I speaking to"
+  },
+  "LendenThankYouExit": {
+    "filename": "LendenThankYouExit.wav",
+    "text": "Thank You very much and have a great day ahead."
+  },
+  "246401746e879eaaa81be54e2264ca50": {
+    "filename": "246401746e879eaaa81be54e2264ca50.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "NewIntroduction": {
+    "filename": "NewIntroduction.wav",
+    "text": "Hi, I am Amaira calling from InstaMoney. Am I speaking to"
+  },
+  "NewIntroduction2": {
+    "filename": "NewIntroduction2.wav",
+    "text": "Hi, I am Amaira calling from InstaMoney"
+  },
+  "c109f7f3aadbd001aed20f95ab6bb84a": {
+    "filename": "c109f7f3aadbd001aed20f95ab6bb84a.wav",
+    "text": "Hi, I am Amaira calling from Ameyo. Am I speaking to"
+  },
+  "IntroductionStatic": {
+    "filename": "IntroductionStatic.wav",
+    "text": "Hi, I am Amaira calling from InstaMoney. Is this right time to talk?"
+  },
+  "MessagePart1": {
+    "filename": "MessagePart1.wav",
+    "text": "Hi, I am Amaira calling from InstaMoney. You have missed making a payment towards your E M I for the month of"
+  },
+  "NewThankYou": {
+    "filename": "NewThankYou.wav",
+    "text": "Please make sure to pay the due amount on time. Thank you!"
+ },
+  "NewIntroduction3":{
+    "filename":"NewIntroduction3.wav",
+    "text":"Hi, I am Amaira calling from Jana Bank. Am I speaking to"
+}
+}

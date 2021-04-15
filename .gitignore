@@ -5,3 +5,6 @@ public/uploads/*
 public/tts_final/concat_final/*
 public/tts_final/concat_date/*
 public/tts_final/concat_number/*
+public/recordings/*
+metadata_bkp7Sept/
+metadata/*.swp

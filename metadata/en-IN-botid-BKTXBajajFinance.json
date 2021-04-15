@@ -1,0 +1,51 @@
+{
+  "Bajaj-Finance-welcome-en.wav": {
+    "filename": "Bajaj-Finance-welcome-en.wav",
+    "text": "Dear Customer, this is Disha from Bajaj Finance, Can you spare two minutes of your time?"
+  },
+  "yes-en.wav": {
+    "filename": "yes-en.wav",
+    "text": "Thank you for being our valued customer; we haven’t received your EMI payment of Rs.1000.Please make the payment Today, how would you make the payment by Online or bajaj branch ?"
+  },
+  "No-en.wav": {
+    "filename": "No-en.wav",
+    "text": "This is an important call. We haven’t received your EMI payment of Rs.1000.Please make the payment Today, how would you make the payment by Online or branch?"
+  },
+  "Bajaj-Finance-paymentMethod-en.wav": {
+    "filename": "Bajaj-Finance-paymentMethod-en.wav",
+    "text": "please confirm through which channel will you pay. PayTM, googlepay, mobikwik, phonepay or NB"
+  },
+  "confirmationThankYou-en.wav": {
+    "filename": "confirmationThankYou-en.wav",
+    "text": "Thank you for the confirmation, you will receive a link shortly on your registered mobile number. Have a great day!"
+  },
+  "thankyou-en.wav": {
+    "filename": "thankyou-en.wav",
+    "text": "thankyou for the confirmation. Have a great day"
+  },
+  "paymentLink-en.wav": {
+    "filename": "paymentLink-en.wav",
+    "text": "It’s very important to make the payment for you to maintain a healthy credit score and avoid further penalty charges. We will send you a link which will help you to make the payment .have a great day."
+  },
+  "sorry-en.wav": {
+    "filename": "sorry-en.wav",
+    "text": "Response repeating again and again. Please wait while we transfer the call to live agent."
+  },
+  "Hello": {
+    "filename": "Hello.wav",
+    "speech": "hello",
+    "text": "hello"
+  },
+  "a37b41e29938f7320c62931e0cc56e0e": {
+    "filename": "a37b41e29938f7320c62931e0cc56e0e.wav",
+    "text": "Dear Customer, this is Disha from Bajaj Finance, Can you spare two minutes of your time?"
+  },
+  "NoInputMessage1": {
+    "filename": "waitresponse.wav",
+    "text": "Waiting for your response"
+  },
+  "NoInputMessage2": {
+    "filename": "Didyou.wav",
+    "text": "did you say something ?"
+  }
+}
