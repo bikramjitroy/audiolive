@@ -1,11 +1,15 @@
 # RecordingAndTrim
 
 Pass this from URL to save recordings
-URL:  http://localhost:8090/?languageCode=en&recorderName=bikram&botID=insurenceSales
+URL:  http://localhost:2403/tts.html?languageCode=en-IN&recorderName=khushboo&botID=LJSpeechP1
 
-languageCode=en
-recorderName=bikram
-botID=insurenceSales
+
+Default value:
+
+languageCode=en-IN
+recorderName=khushboo
+botID=LJSpeechP1
+
 
 Data Stored in :
 metadata/<languageCode>-names.json
