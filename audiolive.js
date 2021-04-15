@@ -12,8 +12,8 @@ const fs = require('fs');
 var path = require("path");
 const ttsFromRecording = require("./tts-recording.js")
 
-const APP_PORT = 2402;
-const APP_HTTP_PORT = 2403;
+const APP_PORT = 2404;
+const APP_HTTP_PORT = 2405;
 var ASTERISK_PATH = "/dacx/var/ameyo/dacxdata/asap/var/lib/asterisk/sounds/en/"
 
 
